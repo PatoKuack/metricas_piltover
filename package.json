@@ -1,5 +1,5 @@
 {
-  "name": "proyect_blank17",
+  "name": "metrica_piltover",
   "version": "1.0.0",
   "description": "proyect_blank17",
   "main": "src/index.js",
@@ -11,39 +11,68 @@
     "start": "webpack serve --config webpack.config.dev.js",
     "report": "webpack --profile --json > stats.json",
     "reed-report": "webpack-bundle-analyzer stats.json",
-    "bundle-report": "webpack-bundle-analyzer --port 4200 dist/stats.json"
+    "bundle-report": "webpack-bundle-analyzer --port 4200 dist/stats.json",
+    "tw:build": "tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --watch"
   },
   "author": "Pato Kuack <nocturno_x_13514@hotmail.com>",
   "license": "MIT",
   "dependencies": {
+    "axios": "^1.2.1",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.4.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.18.10",
-    "@babel/plugin-transform-runtime": "^7.18.10",
-    "@babel/preset-env": "^7.18.10",
+    "@babel/core": "^7.20.2",
+    "@babel/plugin-transform-runtime": "^7.19.6",
+    "@babel/preset-env": "^7.20.2",
     "@babel/preset-react": "^7.18.6",
-    "babel-loader": "^8.2.5",
+    "autoprefixer": "^10.4.13",
+    "babel-loader": "^8.3.0",
     "clean-webpack-plugin": "^4.0.0",
     "copy-webpack-plugin": "^11.0.0",
-    "css-loader": "^6.7.1",
+    "css-loader": "^6.7.2",
     "css-minimizer-webpack-plugin": "^4.0.0",
     "dotenv-webpack": "^8.0.1",
     "file-loader": "^6.2.0",
-    "html-loader": "^4.1.0",
+    "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.0",
-    "mini-css-extract-plugin": "^2.6.1",
-    "sass": "^1.54.4",
-    "sass-loader": "^13.0.2",
+    "mini-css-extract-plugin": "^2.7.0",
+    "postcss": "^8.4.19",
+    "sass": "^1.56.1",
+    "sass-loader": "^13.2.0",
     "style-loader": "^3.3.1",
     "stylus": "^0.59.0",
-    "stylus-loader": "^7.0.0",
+    "stylus-loader": "^7.1.0",
+    "tailwindcss": "^3.2.4",
     "terser-webpack-plugin": "^5.3.5",
     "url-loader": "^4.1.1",
-    "webpack": "^5.74.0",
+    "webpack": "^5.75.0",
     "webpack-bundle-analyzer": "^4.6.1",
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.10.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatoKuack/metricas_piltover.git"
+  },
+  "keywords": [
+    "League",
+    "of",
+    "Legends",
+    "oro",
+    "daño",
+    "mágico",
+    "físico",
+    "verdadero",
+    "curación",
+    "invocador",
+    "invocadora",
+    "campeona",
+    "campeón"
+  ],
+  "bugs": {
+    "url": "https://github.com/PatoKuack/metricas_piltover/issues"
+  },
+  "homepage": "https://github.com/PatoKuack/metricas_piltover#readme"
 }
