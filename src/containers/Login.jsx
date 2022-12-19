@@ -10,7 +10,7 @@ import { ErrorResponse, getStaticContextFromError } from '@remix-run/router';
 const Login = () => {
   const API_KEY = `${process.env.API_KEY}`;
   console.log(`1) ...${process.env.OSO}`);
-  if(API_KEY){
+  if(API_KEY !== undefined){
     console.log(`2) ...${process.env.OSO}`);
   }
 
@@ -181,7 +181,7 @@ const Login = () => {
   }
 
   function clearConsole() {
-    /* if (typeof console._commandLineAPI !== 'undefined') {
+    if (typeof console._commandLineAPI !== 'undefined') {
       console.API = console._commandLineAPI;
     } else if (typeof console._inspectorCommandLineAPI !== 'undefined') {
       console.API = console._inspectorCommandLineAPI;
@@ -191,7 +191,7 @@ const Login = () => {
 
     if (console.API) {
       setTimeout(console.API.clear.bind(console));
-    } */
+    }
   }
 
 
