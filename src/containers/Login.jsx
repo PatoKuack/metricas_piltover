@@ -8,11 +8,9 @@ import axios from 'axios';
 import { ErrorResponse, getStaticContextFromError } from '@remix-run/router';
 
 const Login = () => {
-  const API = `${process.env.API_KEY}`;
-  console.log(`1) ...${process.env.OSO}`);
-
-  const [API_KEY, setAPI_KEY] = useState('');
-  setAPI_KEY('RGAPI-6bb8b84f-5ce8-42ea-a11d-08a907e6b2d9');
+  // const API = `${process.env.API_KEY}`;
+  // console.log(`1) ...${process.env.OSO}`);
+  const API_KEY = 'RGAPI-a4d7cfb4-b941-4d2f-b7ea-77aa937a00ff';
 
   const [lastVersion, setLastVersion] = useState('');
   const [headerToggle, setHeaderToggle] = useState(false);
@@ -73,7 +71,6 @@ const Login = () => {
   }
 
   async function getSummonerInfo( sName, sRegion, sPlatform, sLanguage ) {
-    
     try {
       const summoner_URL =`https://${sPlatform}/lol/summoner/v4/summoners/by-name/${sName}?api_key=${API_KEY}`;
       const resultSummoner = await fetch(summoner_URL);
@@ -181,20 +178,25 @@ const Login = () => {
     } finally{console.log("finally")}
   }
 
+  const handleKeyDown = event => {
+    if (event.key === 'Enter') {
+      getFormInfo(event);
+    }
+  };
+
   function clearConsole() {
-    if (typeof console._commandLineAPI !== 'undefined') {
-      console.API = console._commandLineAPI;
-    } else if (typeof console._inspectorCommandLineAPI !== 'undefined') {
-      console.API = console._inspectorCommandLineAPI;
-    } else if (typeof console.clear !== 'undefined') {
-      console.API = console;
-    }
+    // if (typeof console._commandLineAPI !== 'undefined') {
+    //   console.API = console._commandLineAPI;
+    // } else if (typeof console._inspectorCommandLineAPI !== 'undefined') {
+    //   console.API = console._inspectorCommandLineAPI;
+    // } else if (typeof console.clear !== 'undefined') {
+    //   console.API = console;
+    // }
 
-    if (console.API) {
-      setTimeout(console.API.clear.bind(console));
-    }
+    // if (console.API) {
+    //   setTimeout(console.API.clear.bind(console));
+    // }
   }
-
 
   return (
     <React.Fragment>
@@ -205,7 +207,7 @@ const Login = () => {
         <form className="w-fit h-fit flex flex-col items-start" action="/" ref={loginForm}>
           <label className="w-fit">
             Ingresa tu nombre de jugador:
-            <input name="summonerName" id="summonerName" className="my-2 px-1 bg-teal-100 text-teal-800 rounded-sm sm:my-0 sm:mx-2" />
+            <input name="summonerName" id="summonerName" className="my-2 px-1 bg-teal-100 text-teal-800 rounded-sm sm:my-0 sm:mx-2" onKeyDown={handleKeyDown} />
           </label>
           <i className="text-xs sm:text-sm">No importa si colocas o no espacios, mayúsculas o minúsculas.</i>
           <label className="w-fit mt-4">
