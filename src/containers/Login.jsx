@@ -8,11 +8,11 @@ import axios from 'axios';
 import { ErrorResponse, getStaticContextFromError } from '@remix-run/router';
 
 const Login = () => {
-  const API_KEY = `${process.env.API_KEY}`;
+  const API = `${process.env.API_KEY}`;
   console.log(`1) ...${process.env.OSO}`);
-  if(API_KEY !== undefined){
-    console.log(`2) ...${process.env.OSO}`);
-  }
+
+  const [API_KEY, setAPI_KEY] = useState('');
+  setAPI_KEY('RGAPI-6bb8b84f-5ce8-42ea-a11d-08a907e6b2d9');
 
   const [lastVersion, setLastVersion] = useState('');
   const [headerToggle, setHeaderToggle] = useState(false);
@@ -73,6 +73,7 @@ const Login = () => {
   }
 
   async function getSummonerInfo( sName, sRegion, sPlatform, sLanguage ) {
+    
     try {
       const summoner_URL =`https://${sPlatform}/lol/summoner/v4/summoners/by-name/${sName}?api_key=${API_KEY}`;
       const resultSummoner = await fetch(summoner_URL);
