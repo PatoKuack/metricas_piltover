@@ -9,6 +9,7 @@ import { ErrorResponse, getStaticContextFromError } from '@remix-run/router';
 
 const Login = () => {
   const API_KEY = process.env.API_KEY; 
+  console.log(process.env.OSO);
 
   const [lastVersion, setLastVersion] = useState('');
   const [headerToggle, setHeaderToggle] = useState(false);
