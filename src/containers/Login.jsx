@@ -181,7 +181,7 @@ const Login = () => {
   }
 
   function clearConsole() {
-    if (typeof console._commandLineAPI !== 'undefined') {
+    /* if (typeof console._commandLineAPI !== 'undefined') {
       console.API = console._commandLineAPI;
     } else if (typeof console._inspectorCommandLineAPI !== 'undefined') {
       console.API = console._inspectorCommandLineAPI;
@@ -191,7 +191,7 @@ const Login = () => {
 
     if (console.API) {
       setTimeout(console.API.clear.bind(console));
-    }
+    } */
   }
 
 
