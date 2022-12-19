@@ -8,8 +8,11 @@ import axios from 'axios';
 import { ErrorResponse, getStaticContextFromError } from '@remix-run/router';
 
 const Login = () => {
-  const API_KEY = `${process.env.API_KEY}`; 
-  console.log(`...${process.env.OSO}`);
+  const API_KEY = `${process.env.API_KEY}`;
+  console.log(`1) ...${process.env.OSO}`);
+  if(API_KEY){
+    console.log(`2) ...${process.env.OSO}`);
+  }
 
   const [lastVersion, setLastVersion] = useState('');
   const [headerToggle, setHeaderToggle] = useState(false);
