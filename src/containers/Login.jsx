@@ -10,7 +10,7 @@ import { ErrorResponse, getStaticContextFromError } from '@remix-run/router';
 const Login = () => {
   // const API = `${process.env.API_KEY}`;
   // console.log(`1) ...${process.env.OSO}`);
-  const API_KEY = 'RGAPI-a4d7cfb4-b941-4d2f-b7ea-77aa937a00ff';
+  const API_KEY = 'RGAPI-95a072d1-767e-4de1-b362-3544c179e53b';
 
   const [lastVersion, setLastVersion] = useState('');
   const [headerToggle, setHeaderToggle] = useState(false);
@@ -20,14 +20,14 @@ const Login = () => {
         platform: '',
         language: '',
         puuid: '',
-        name: '',
-        level: null,
+        name: 'Usuario',
+        level: 'Nivel',
         iconURL: `http://ddragon.leagueoflegends.com/cdn/12.22.1/img/profileicon/4368.png`,
         status: 0
   });
   const [matchIdList, setMatchIdList] = useState([]);
   const [matchInfo, setMatchInfo] = useState([]);
-  const [loadingMatchInfo, setLoadingMatchInfo] = useState('');
+  const [loadingMatchInfo, setLoadingMatchInfo] = useState(false);
   
 
   const version_URL = "https://ddragon.leagueoflegends.com/api/versions.json";
@@ -62,6 +62,7 @@ const Login = () => {
   const getmatchesInfo = (event) => {
     event.preventDefault();
     if(summonerInfo.status === 200){
+      setMatchInfo([]);
       matchesinfo();
     }
     
@@ -111,7 +112,10 @@ const Login = () => {
   
   async function matchesinfo() {
     try {
-      setLoadingMatchInfo('loading');
+      setLoadingMatchInfo(true);
+      if(headerToggle === false){
+        setHeaderToggle(true);
+      }
       const matches_URL = `https://${summonerInfo.region}/lol/match/v5/matches/by-puuid/${summonerInfo.puuid}/ids?api_key=${API_KEY}`;
       const resultMatches = await fetch(matches_URL);
       const dataMatches = await resultMatches.json();
@@ -122,9 +126,9 @@ const Login = () => {
         const dataMInfo = await resultMInfo.json();
         dataMInfo.info.participants.forEach(element => { 
           if(element.puuid === summonerInfo.puuid && element.timePlayed > 1000 && dataMInfo.info.gameMode === "CLASSIC"){
-            if(!(matchIdList.includes(individualMatchId))) {
+            if(!(matchIdList.includes(`${individualMatchId}${summonerInfo.name}`))) {
               let addMatchId = matchIdList;
-              addMatchId.push(individualMatchId);
+              addMatchId.push(`${individualMatchId}${summonerInfo.name}`);
               setMatchIdList(addMatchId);
               let addDataMatches = matchInfo;
               addDataMatches.push({
@@ -152,6 +156,7 @@ const Login = () => {
                 vision: element.visionScore
               });
               setMatchInfo(addDataMatches);
+              console.log(matchInfo);
             }
           }
         });
@@ -173,10 +178,8 @@ const Login = () => {
       console.log(err);
       clearConsole();
     } finally{
-      if(headerToggle === false){
-        setHeaderToggle(true);
-        setLoadingMatchInfo('');
-      }
+      setLoadingMatchInfo(false);
+      alert('se cargaron tus datos =D');
     }
   }
 
@@ -203,27 +206,27 @@ const Login = () => {
   return (
     <React.Fragment>
       {headerToggle && <Header />}
-      <h1 className="pt-4 text-2xl text-center sm:pt-6 sm:text-3xl">Login</h1>
-      <div className="flex flex-col space-y-8 justify-center content-center items-center px-4 py-8 md:flex-row md:space-x-16 lg:space-x-32 sm:space-y-0 sm:py-12">
+      <h1 className="pt-6 text-2xl text-center sm:text-3xl">Login</h1>
+      <div className="flex flex-col space-y-8 justify-center content-center items-center w-fit max-w-[100vw] mx-auto px-4 py-8 md:flex-row md:space-x-16 lg:space-x-32 sm:space-y-0 sm:py-12">
 
         <form className="w-fit h-fit flex flex-col items-start" action="/" ref={loginForm}>
-          <label className="w-fit">
-            Ingresa tu nombre de jugador:
-            <input name="summonerName" id="summonerName" className="my-2 px-1 bg-teal-100 text-teal-800 rounded-sm sm:my-0 sm:mx-2" onKeyDown={handleKeyDown} />
-          </label>
+          <div className="flex flex-col sm:flex-row sm:mt-4">
+            <label htmlFor="summonerName" className="w-fit mr-2">Ingresa tu nombre de jugador:</label>
+            <input name="summonerName" id="summonerName" className="min-w-min w-screen max-w-fit my-2 px-1 bg-teal-100 text-teal-800 rounded-sm sm:my-0" onKeyDown={handleKeyDown} />
+          </div>
           <i className="text-xs sm:text-sm">No importa si colocas o no espacios, mayúsculas o minúsculas.</i>
-          <label className="w-fit mt-4">
-            Selecciona tu region:
-            <select defaultValue={"americas.api.riotgames.com"} name="summonerRegion" id="summonerRegion" className="my-2 px-1 bg-teal-100 text-teal-800 rounded-sm sm:my-0 sm:mx-2">
+          <div className="flex flex-col sm:flex-row sm:mt-4">
+            <label htmlFor="summonerRegion" className="w-fit mr-2">Selecciona tu region:</label>
+            <select defaultValue={"americas.api.riotgames.com"} name="summonerRegion" id="summonerRegion" className="w-screen max-w-fit my-2 px-1 bg-teal-100 text-teal-800 rounded-sm sm:my-0">
               <option value="americas.api.riotgames.com">America</option>
               <option value="asia.api.riotgames.com">Asia</option>
               <option value="europe.api.riotgames.com">Europa</option>
               <option value="sea.api.riotgames.com">Sudeste Asiático</option>
             </select>
-          </label>
-          <label className="w-fit mt-4">
-            Selecciona tu plataforma:
-            <select defaultValue={"la1.api.riotgames.com"} name="summonerPlatform" id="summonerPlatform" className="my-2 px-1 bg-teal-100 text-teal-800 rounded-sm sm:my-0 sm:mx-2">
+          </div>
+          <div className="flex flex-col sm:flex-row sm:mt-4">
+            <label htmlFor="summonerPlatform" className="w-fit mr-2">Selecciona tu plataforma:</label>
+            <select defaultValue={"la1.api.riotgames.com"} name="summonerPlatform" id="summonerPlatform" className="min-w-min w-screen max-w-fit my-2 px-1 bg-teal-100 text-teal-800 rounded-sm sm:my-0 sm:mx-2">
               <option value="br1.api.riotgames.com">Brasil</option>
               <option value="eun1.api.riotgames.com">Europa Nórdica y Este</option>
               <option value="euw1.api.riotgames.com">Europa Oeste</option>
@@ -236,10 +239,10 @@ const Login = () => {
               <option value="tr1.api.riotgames.com">Turquía</option>
               <option value="ru.api.riotgames.com">Rusia</option>
             </select>
-          </label>
-          <label className="w-fit mt-4">
-            Selecciona un lenguaje:
-            <select defaultValue={"es_MX"} name="summonerLanguage" id="summonerLanguage" className="my-2 px-1 bg-teal-100 text-teal-800 rounded-sm sm:my-0 sm:mx-2">
+          </div>
+          <div className="flex flex-col sm:flex-row sm:mt-4">
+            <label htmlFor="summonerLanguage" className="w-fit mr-2">Selecciona un lenguaje:</label>
+            <select defaultValue={"es_MX"} name="summonerLanguage" id="summonerLanguage" className="min-w-min w-screen max-w-fit my-2 px-1 bg-teal-100 text-teal-800 text-sm rounded-sm sm:my-0 sm:mx-2 sm:text-base">
               <option value="cs_CZ">čeština (Českoc)</option>
               <option value="el_GR">Ελληνικά (Ελλάδα)</option>
               <option value="pl_PL">Română (România)</option>
@@ -269,13 +272,16 @@ const Login = () => {
               <option value="zh_CN">中文 (中國)</option>
               <option value="zh_TW">ภาษาจีนกลาง (ประเทศไต้หวัน)</option>
             </select>
-          </label>
-          <button type="button" id="verifyLoginButton" className="w-fit self-center mt-8 px-4 py-2 border border-solid border-current rounded-md" onClick={getFormInfo}>Verificar</button>
+          </div>
+          <button type="button" id="verifyLoginButton" className="w-fit self-center mt-8 px-4 py-2 bg-teal-600 border border-solid border-current rounded-md" onClick={getFormInfo}>Verificar</button>
         </form>
 
         <LoginConfirmation 
-          summonerInfo = {summonerInfo}
-          onClick = {getmatchesInfo}
+          status = {summonerInfo.status}
+          iconURL = {summonerInfo.iconURL}
+          name = {summonerInfo.name}
+          level = {summonerInfo.level}
+          onclick = {getmatchesInfo}
           loadingMatchInfo = {loadingMatchInfo}
         />
 

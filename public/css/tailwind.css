@@ -590,6 +590,10 @@ video {
   margin-bottom: 2rem;
 }
 
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
@@ -656,8 +660,17 @@ video {
   width: 4rem;
 }
 
+.w-screen {
+  width: 100vw;
+}
+
 .min-w-\[100vw\] {
   min-width: 100vw;
+}
+
+.min-w-min {
+  min-width: -moz-min-content;
+  min-width: min-content;
 }
 
 .max-w-\[128px\] {
@@ -680,15 +693,21 @@ video {
   max-width: 220px;
 }
 
-@keyframes ping {
-  75%, 100% {
-    transform: scale(2);
-    opacity: 0;
-  }
+.max-w-fit {
+  max-width: -moz-fit-content;
+  max-width: fit-content;
 }
 
-.animate-ping {
-  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+.max-w-\[600px\] {
+  max-width: 600px;
+}
+
+.max-w-\[160px\] {
+  max-width: 160px;
+}
+
+.max-w-\[100vw\] {
+  max-width: 100vw;
 }
 
 @keyframes spin {
@@ -840,6 +859,20 @@ video {
   background-color: rgb(153 246 228 / var(--tw-bg-opacity));
 }
 
+.bg-gradient-to-tr {
+  background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+}
+
+.from-teal-900 {
+  --tw-gradient-from: #134e4a;
+  --tw-gradient-to: rgb(19 78 74 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-teal-700 {
+  --tw-gradient-to: #0f766e;
+}
+
 .fill-none {
   fill: none;
 }
@@ -938,16 +971,8 @@ video {
   padding-top: 1.5rem;
 }
 
-.pb-12 {
-  padding-bottom: 3rem;
-}
-
 .pt-12 {
   padding-top: 3rem;
-}
-
-.pt-4 {
-  padding-top: 1rem;
 }
 
 .text-center {
@@ -1032,6 +1057,10 @@ video {
     margin-top: 4rem;
   }
 
+  .sm\:mt-4 {
+    margin-top: 1rem;
+  }
+
   .sm\:block {
     display: block;
   }
@@ -1055,6 +1084,10 @@ video {
 
   .sm\:w-\[150px\] {
     width: 150px;
+  }
+
+  .sm\:max-w-\[100vw\] {
+    max-width: 100vw;
   }
 
   .sm\:flex-row {
@@ -1103,16 +1136,12 @@ video {
     padding-left: 1.5rem;
   }
 
-  .sm\:pt-8 {
-    padding-top: 2rem;
-  }
-
   .sm\:pt-12 {
     padding-top: 3rem;
   }
 
-  .sm\:pt-6 {
-    padding-top: 1.5rem;
+  .sm\:pt-8 {
+    padding-top: 2rem;
   }
 
   .sm\:text-base {
@@ -1161,6 +1190,10 @@ video {
 
   .md\:mb-10 {
     margin-bottom: 2.5rem;
+  }
+
+  .md\:block {
+    display: block;
   }
 
   .md\:w-40 {
