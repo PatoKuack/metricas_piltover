@@ -27,6 +27,7 @@ const Login = () => {
   });
   const [matchIdList, setMatchIdList] = useState([]);
   const [matchInfo, setMatchInfo] = useState([]);
+  const [loadingMatchInfo, setLoadingMatchInfo] = useState('');
   
 
   const version_URL = "https://ddragon.leagueoflegends.com/api/versions.json";
@@ -62,10 +63,6 @@ const Login = () => {
     event.preventDefault();
     if(summonerInfo.status === 200){
       matchesinfo();
-
-      if(headerToggle === false){
-        setHeaderToggle(true);
-      }
     }
     
   }
@@ -111,10 +108,10 @@ const Login = () => {
       setSummonerInfo(summonerData);
     }
   }
-  console.log(summonerInfo);
   
   async function matchesinfo() {
     try {
+      setLoadingMatchInfo('loading');
       const matches_URL = `https://${summonerInfo.region}/lol/match/v5/matches/by-puuid/${summonerInfo.puuid}/ids?api_key=${API_KEY}`;
       const resultMatches = await fetch(matches_URL);
       const dataMatches = await resultMatches.json();
@@ -175,7 +172,12 @@ const Login = () => {
     } catch(err) { 
       console.log(err);
       clearConsole();
-    } finally{console.log("finally")}
+    } finally{
+      if(headerToggle === false){
+        setHeaderToggle(true);
+        setLoadingMatchInfo('');
+      }
+    }
   }
 
   const handleKeyDown = event => {
@@ -185,23 +187,23 @@ const Login = () => {
   };
 
   function clearConsole() {
-    // if (typeof console._commandLineAPI !== 'undefined') {
-    //   console.API = console._commandLineAPI;
-    // } else if (typeof console._inspectorCommandLineAPI !== 'undefined') {
-    //   console.API = console._inspectorCommandLineAPI;
-    // } else if (typeof console.clear !== 'undefined') {
-    //   console.API = console;
-    // }
+    if (typeof console._commandLineAPI !== 'undefined') {
+      console.API = console._commandLineAPI;
+    } else if (typeof console._inspectorCommandLineAPI !== 'undefined') {
+      console.API = console._inspectorCommandLineAPI;
+    } else if (typeof console.clear !== 'undefined') {
+      console.API = console;
+    }
 
-    // if (console.API) {
-    //   setTimeout(console.API.clear.bind(console));
-    // }
+    if (console.API) {
+      setTimeout(console.API.clear.bind(console));
+    }
   }
 
   return (
     <React.Fragment>
       {headerToggle && <Header />}
-      <h1 className="pt-6 text-2xl text-center sm:pt-8 sm:text-3xl">Login</h1>
+      <h1 className="pt-4 text-2xl text-center sm:pt-6 sm:text-3xl">Login</h1>
       <div className="flex flex-col space-y-8 justify-center content-center items-center px-4 py-8 md:flex-row md:space-x-16 lg:space-x-32 sm:space-y-0 sm:py-12">
 
         <form className="w-fit h-fit flex flex-col items-start" action="/" ref={loginForm}>
@@ -274,6 +276,7 @@ const Login = () => {
         <LoginConfirmation 
           summonerInfo = {summonerInfo}
           onClick = {getmatchesInfo}
+          loadingMatchInfo = {loadingMatchInfo}
         />
 
       </div>
