@@ -23,10 +23,10 @@ const ChampionStats = () => {
             <line className="stroke-teal-400 stroke-1" x1="0" y1="80" x2="300" y2="80" />
             <line className="stroke-teal-400 stroke-1" x1="0" y1="40" x2="300" y2="40" />
             <line className="stroke-teal-400 stroke-1" x1="0" y1="0" x2="300" y2="0" />
-            <polyline id="damageHealChampion" stroke-linejoin="round" stroke-dasharray="2px 2px" className="fill-none stroke-lime-200 stroke-2" />
-            <polyline id="damageMagicChampion" stroke-linejoin="round" className="fill-none stroke-cyan-200 stroke-2" />
-            <polyline id="damagePhysicalChampion" stroke-linejoin="round" className="fill-none stroke-rose-300 stroke-2" />
-            <polyline id="damageTrueChampion" stroke-linejoin="round" className="fill-none stroke-yellow-200 stroke-2" />
+            <polyline id="damageHealChampion" strokeLinejoin='round' strokeDasharray='2px 2px' className="fill-none stroke-lime-200 stroke-2" />
+            <polyline id="damageMagicChampion" strokeLinejoin='round' className="fill-none stroke-cyan-200 stroke-2" />
+            <polyline id="damagePhysicalChampion" strokeLinejoin='round' className="fill-none stroke-rose-300 stroke-2" />
+            <polyline id="damageTrueChampion" strokeLinejoin='round' className="fill-none stroke-yellow-200 stroke-2" />
           </svg>
           <div id="rangeGraphicChampion" className="absolute -top-2 left-0 h-full grid grid-cols-1 grid-rows-5 content-between text-[.6rem] sm:text-sm">
             <p id="damageChampionRangeMax"></p>
@@ -36,25 +36,25 @@ const ChampionStats = () => {
         <div className="flex flex-col w-fit h-fit p-2 my-4 bg-teal-700 text-xs border border-solid border-current sm:p-2 sm:text-sm md:mt-2 md:mr-2 lg:mt-8 md:absolute top-0 right-0">
           <div className="flex flex-row">
             <svg viewBox="0 0 105 16" className="w-20 h-6">
-              <line className="fill-none stroke-cyan-200 stroke-2" x1="0" y1="8" x2="100" y2="8" stroke-linejoin="round" />
+              <line className="fill-none stroke-cyan-200 stroke-2" x1="0" y1="8" x2="100" y2="8" strokeLinejoin='round' />
             </svg>
             <p>Mágico</p>
           </div>
           <div className="flex flex-row">
             <svg viewBox="0 0 105 16" className="w-20 h-6">
-              <line className="fill-none stroke-rose-300 stroke-2" x1="0" y1="8" x2="100" y2="8" stroke-linejoin="round" />
+              <line className="fill-none stroke-rose-300 stroke-2" x1="0" y1="8" x2="100" y2="8" strokeLinejoin='round' />
             </svg>
             <p>Físico</p>
           </div>
           <div className="flex flex-row">
             <svg viewBox="0 0 105 16" className="w-20 h-6">
-              <line className="fill-none stroke-yellow-200 stroke-2" x1="0" y1="8" x2="100" y2="8" stroke-linejoin="round" />
+              <line className="fill-none stroke-yellow-200 stroke-2" x1="0" y1="8" x2="100" y2="8" strokeLinejoin='round' />
             </svg>
             <p>Verdadero</p>
           </div>
           <div className="flex flex-row">
             <svg viewBox="0 0 105 16" className="w-20 h-6">
-              <line className="fill-none stroke-lime-200 stroke-2" x1="0" y1="8" x2="100" y2="8" stroke-linejoin="round" stroke-dasharray="5px 5px" />
+              <line className="fill-none stroke-lime-200 stroke-2" x1="0" y1="8" x2="100" y2="8" strokeLinejoin='round' strokeDasharray='5px 5px' />
             </svg>
             <p>Curado</p>
           </div>
@@ -95,19 +95,19 @@ const ChampionStats = () => {
         </div>
         <div className="flex flex-col md:block">
           <label htmlFor="setTotHoursPlayed" className="w-fit mx-4">Tiempo jugado:</label>
-          <input type="text" value="" readonly id="setTotHoursPlayed" className="w-24 px-1 mx-auto bg-teal-200 text-teal-800 text-center rounded-sm md:w-28 md:mx-2" />
+          <input type="text" value="" readOnly id="setTotHoursPlayed" className="w-24 px-1 mx-auto bg-teal-200 text-teal-800 text-center rounded-sm md:w-28 md:mx-2" />
         </div>
         <div className="flex flex-col md:block">
           <label htmlFor="setTotGamesPlayed" className="w-fit mx-4">Partidas jugadas:</label>
-          <input type="text" value="" readonly id="setTotGamesPlayed" className="w-16 px-1 mx-auto bg-teal-200 text-teal-800 text-center rounded-sm md:w-20 md:mx-2" />
+          <input type="text" value="" readOnly id="setTotGamesPlayed" className="w-16 px-1 mx-auto bg-teal-200 text-teal-800 text-center rounded-sm md:w-20 md:mx-2" />
         </div>
         <div className="flex flex-col md:block">
           <label htmlFor="setTotFirstBlood" className="w-fit mx-4">Primera sangre:</label>
-          <input type="text" value="" readonly id="setTotFirstBlood" className="w-16 px-1 mx-auto bg-teal-200 text-teal-800 text-center rounded-sm md:w-20 md:mx-2" />
+          <input type="text" value="" readOnly id="setTotFirstBlood" className="w-16 px-1 mx-auto bg-teal-200 text-teal-800 text-center rounded-sm md:w-20 md:mx-2" />
         </div>
         <div className="flex flex-col md:block">
           <label htmlFor="setTotVictory" className="w-fit mx-4">Vitorias:</label>
-          <input type="text" value="" readonly id="setTotVictory" className="w-16 px-1 mx-auto bg-teal-200 text-teal-800 text-center rounded-sm md:w-20 md:mx-2" />
+          <input type="text" value="" readOnly id="setTotVictory" className="w-16 px-1 mx-auto bg-teal-200 text-teal-800 text-center rounded-sm md:w-20 md:mx-2" />
         </div>
       </section>
       <section className="relative flex flex-col content-start place-items-center gap-y-4 w-fit mx-auto pb-4 pt-8 sm:px-2 border-2 border-solid border-current">
@@ -116,23 +116,23 @@ const ChampionStats = () => {
         </div>
         <div className="flex flex-col md:block">
           <label htmlFor="setMaxKDA" className="w-fit mx-4">K, D and A: </label>
-          <input type="text" value="" readonly id="setMaxKDA" className="w-24 px-1 mx-auto bg-teal-200 text-teal-800 text-center rounded-sm md:w-28 md:mx-2" />
+          <input type="text" value="" readOnly id="setMaxKDA" className="w-24 px-1 mx-auto bg-teal-200 text-teal-800 text-center rounded-sm md:w-28 md:mx-2" />
         </div>
         <div className="flex flex-col md:block">
           <label htmlFor="setMaxGold" className="w-fit mx-4">Oro ganado: </label>
-          <input type="text" value="" readonly id="setMaxGold" className="w-24 px-1 mx-auto bg-teal-200 text-teal-800 text-center rounded-sm md:w-28 md:mx-2" />
+          <input type="text" value="" readOnly id="setMaxGold" className="w-24 px-1 mx-auto bg-teal-200 text-teal-800 text-center rounded-sm md:w-28 md:mx-2" />
         </div>
         <div className="flex flex-col md:block">
           <label htmlFor="setMaxMinions" className="w-fit mx-4">Súbditos matados: </label>
-          <input type="text" value="" readonly id="setMaxMinions" className="w-16 px-1 mx-auto bg-teal-200 text-teal-800 text-center rounded-sm md:w-20 md:mx-2" />
+          <input type="text" value="" readOnly id="setMaxMinions" className="w-16 px-1 mx-auto bg-teal-200 text-teal-800 text-center rounded-sm md:w-20 md:mx-2" />
         </div>
         <div className="flex flex-col md:block">
           <label htmlFor="setMaxVision" className="w-fit mx-4">Puntos de visión: </label>
-          <input type="text" value="" readonly id="setMaxVision" className="w-16 px-1 mx-auto bg-teal-200 text-teal-800 text-center rounded-sm md:w-20 md:mx-2" />
+          <input type="text" value="" readOnly id="setMaxVision" className="w-16 px-1 mx-auto bg-teal-200 text-teal-800 text-center rounded-sm md:w-20 md:mx-2" />
         </div>
         <div className="flex flex-col md:block">
           <label htmlFor="setMaxControl" className="w-fit mx-4">Control de masa: </label>
-          <input type="text" value="" readonly id="setMaxControl" className="w-16 px-1 mx-auto bg-teal-200 text-teal-800 text-center rounded-sm md:w-20 md:mx-2" />
+          <input type="text" value="" readOnly id="setMaxControl" className="w-16 px-1 mx-auto bg-teal-200 text-teal-800 text-center rounded-sm md:w-20 md:mx-2" />
         </div>
       </section>
       <section className="relative flex flex-col content-start place-items-center gap-y-4 w-fit mx-auto pb-4 pt-8 sm:px-2 border-2 border-solid border-current">
@@ -141,19 +141,19 @@ const ChampionStats = () => {
         </div>
         <div className="flex flex-col md:block">
           <label htmlFor="setAverageGold" className="w-fit mx-4">Oro ganado: </label>
-          <input type="text" value="" readonly id="setAverageGold" className="w-24 px-1 mx-auto bg-teal-200 text-teal-800 text-center rounded-sm md:w-28 md:mx-2" />
+          <input type="text" value="" readOnly id="setAverageGold" className="w-24 px-1 mx-auto bg-teal-200 text-teal-800 text-center rounded-sm md:w-28 md:mx-2" />
         </div>
         <div className="flex flex-col md:block">
           <label htmlFor="setAverageMinions" className="w-fit mx-4">Súbditos matados: </label>
-          <input type="text" value="" readonly id="setAverageMinions" className="w-16 px-1 mx-auto bg-teal-200 text-teal-800 text-center rounded-sm md:w-20 md:mx-2" />
+          <input type="text" value="" readOnly id="setAverageMinions" className="w-16 px-1 mx-auto bg-teal-200 text-teal-800 text-center rounded-sm md:w-20 md:mx-2" />
         </div>
         <div className="flex flex-col md:block">
           <label htmlFor="setAverageVision" className="w-fit mx-4">Puntos de visión: </label>
-          <input type="text" value="" readonly id="setAverageVision" className="w-16 px-1 mx-auto bg-teal-200 text-teal-800 text-center rounded-sm md:w-20 md:mx-2" />
+          <input type="text" value="" readOnly id="setAverageVision" className="w-16 px-1 mx-auto bg-teal-200 text-teal-800 text-center rounded-sm md:w-20 md:mx-2" />
         </div>
         <div className="flex flex-col md:block">
           <label htmlFor="setAverageControl" className="w-fit mx-4">Contol de masas: </label>
-          <input type="text" value="" readonly id="setAverageControl" className="w-16 px-1 mx-auto bg-teal-200 text-teal-800 text-center rounded-sm md:w-20 md:mx-2" />
+          <input type="text" value="" readOnly id="setAverageControl" className="w-16 px-1 mx-auto bg-teal-200 text-teal-800 text-center rounded-sm md:w-20 md:mx-2" />
         </div>
       </section>
     </div>

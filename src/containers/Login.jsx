@@ -10,9 +10,10 @@ import { ErrorResponse, getStaticContextFromError } from '@remix-run/router';
 const Login = () => {
   // const API = `${process.env.API_KEY}`;
   // console.log(`1) ...${process.env.OSO}`);
-  const API_KEY = 'RGAPI-95a072d1-767e-4de1-b362-3544c179e53b';
+  const API_KEY = 'RGAPI-4fa08cff-4372-437d-a1b8-42cc4464ff04';
 
   const [lastVersion, setLastVersion] = useState('');
+  // const [lastVersion, setLastVersion] = React.useState('');
   const [headerToggle, setHeaderToggle] = useState(false);
   const [summonerInfo, setSummonerInfo] = useState({
         version: '',
@@ -210,23 +211,23 @@ const Login = () => {
       <div className="flex flex-col space-y-8 justify-center content-center items-center w-fit max-w-[100vw] mx-auto px-4 py-8 md:flex-row md:space-x-16 lg:space-x-32 sm:space-y-0 sm:py-12">
 
         <form className="w-fit h-fit flex flex-col items-start" action="/" ref={loginForm}>
-          <div className="flex flex-col sm:flex-row sm:mt-4">
+          <div className="flex flex-col w-fit sm:flex-row sm:mt-4">
             <label htmlFor="summonerName" className="w-fit mr-2">Ingresa tu nombre de jugador:</label>
-            <input name="summonerName" id="summonerName" className="min-w-min w-screen max-w-fit my-2 px-1 bg-teal-100 text-teal-800 rounded-sm sm:my-0" onKeyDown={handleKeyDown} />
+            <input name="summonerName" id="summonerName" className="min-w-min max-w-fit my-2 px-1 bg-teal-100 text-teal-800 rounded-sm sm:my-0 sm:mx-2" onKeyDown={handleKeyDown} />
           </div>
           <i className="text-xs sm:text-sm">No importa si colocas o no espacios, mayúsculas o minúsculas.</i>
-          <div className="flex flex-col sm:flex-row sm:mt-4">
+          <div className="flex flex-col w-fit sm:flex-row sm:mt-4">
             <label htmlFor="summonerRegion" className="w-fit mr-2">Selecciona tu region:</label>
-            <select defaultValue={"americas.api.riotgames.com"} name="summonerRegion" id="summonerRegion" className="w-screen max-w-fit my-2 px-1 bg-teal-100 text-teal-800 rounded-sm sm:my-0">
+            <select defaultValue={"americas.api.riotgames.com"} name="summonerRegion" id="summonerRegion" className="min-w-min max-w-fit my-2 px-1 bg-teal-100 text-teal-800 rounded-sm sm:my-0">
               <option value="americas.api.riotgames.com">America</option>
               <option value="asia.api.riotgames.com">Asia</option>
               <option value="europe.api.riotgames.com">Europa</option>
               <option value="sea.api.riotgames.com">Sudeste Asiático</option>
             </select>
           </div>
-          <div className="flex flex-col sm:flex-row sm:mt-4">
+          <div className="flex flex-col w-fit sm:flex-row sm:mt-4">
             <label htmlFor="summonerPlatform" className="w-fit mr-2">Selecciona tu plataforma:</label>
-            <select defaultValue={"la1.api.riotgames.com"} name="summonerPlatform" id="summonerPlatform" className="min-w-min w-screen max-w-fit my-2 px-1 bg-teal-100 text-teal-800 rounded-sm sm:my-0 sm:mx-2">
+            <select defaultValue={"la1.api.riotgames.com"} name="summonerPlatform" id="summonerPlatform" className="min-w-min max-w-fit my-2 px-1 bg-teal-100 text-teal-800 rounded-sm sm:my-0 sm:mx-2">
               <option value="br1.api.riotgames.com">Brasil</option>
               <option value="eun1.api.riotgames.com">Europa Nórdica y Este</option>
               <option value="euw1.api.riotgames.com">Europa Oeste</option>
@@ -240,9 +241,9 @@ const Login = () => {
               <option value="ru.api.riotgames.com">Rusia</option>
             </select>
           </div>
-          <div className="flex flex-col sm:flex-row sm:mt-4">
+          <div className="flex flex-col w-fit sm:flex-row sm:mt-4">
             <label htmlFor="summonerLanguage" className="w-fit mr-2">Selecciona un lenguaje:</label>
-            <select defaultValue={"es_MX"} name="summonerLanguage" id="summonerLanguage" className="min-w-min w-screen max-w-fit my-2 px-1 bg-teal-100 text-teal-800 text-sm rounded-sm sm:my-0 sm:mx-2 sm:text-base">
+            <select defaultValue={"es_MX"} name="summonerLanguage" id="summonerLanguage" className="min-w-min max-w-fit my-2 px-1 bg-teal-100 text-teal-800 text-sm rounded-sm sm:my-0 sm:mx-2 sm:text-base">
               <option value="cs_CZ">čeština (Českoc)</option>
               <option value="el_GR">Ελληνικά (Ελλάδα)</option>
               <option value="pl_PL">Română (România)</option>
