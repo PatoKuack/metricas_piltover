@@ -50,7 +50,6 @@ const ChampionStats = () => {
     getChampionList();
   }, [loadingMatchInfo]);
   useEffect(() => {
-    setCurrentChampionImg('http://ddragon.leagueoflegends.com/cdn/12.23.1/img/profileicon/4368.png');
     setStats({
       damageDealtMagicGPY: '-',
       damageTakenMagicGPY: '-',
@@ -151,19 +150,20 @@ const ChampionStats = () => {
       if(champName !== undefined) {
         for(i=0 ; i<championsList.length ; i++) {
           if((champName === championsList[i][1].id) || (champName === championsList[i][0])) {
-            champId = championsList[i][1].id;
-            setCurrentChampionImg(`http://ddragon.leagueoflegends.com/cdn/${lastVersion}/img/champion/${champId}.png`);
+            champId = `http://ddragon.leagueoflegends.com/cdn/${lastVersion}/img/champion/${championsList[i][1].id}.png`;
             break;
           }
         }
         // specificChampionInfo(champId);
+      } else {
+        champId = 'http://ddragon.leagueoflegends.com/cdn/12.23.1/img/profileicon/4368.png';
       }
 
       if(resultChampions.status !== 200) {
         console.log(resultChampions.status + dataChampions.message);
       } else {
-        // setChampionSelected(`${champName}`);
-        // console.log("selected: " + championSelected);
+        setCurrentChampionImg(champId);
+        console.log(currentChampionImg);
         console.log("no error getting champion-id");
       }
     } catch(err) { console.log(err)}
@@ -440,7 +440,7 @@ const ChampionStats = () => {
         {/* TOTALES */}
         <section className="relative flex flex-col content-start place-items-center gap-y-4 w-fit mx-auto pb-4 pt-8 sm:px-2 border-2 border-solid border-current">
           <div className="absolute -top-4 inset-x-0 flex justify-center">
-            <p className="w-fit text-lg bg-teal-700 px-2 sm:text-xl">Totales</p>
+            <p className="w-fit text-lg bg-gradient-to-b from-transparent via-teal-900 to-transparent px-2 sm:text-xl">Totales</p>
           </div>
           <div className="flex flex-col md:block">
             <label htmlFor="setTotHoursPlayed" className="w-fit mx-4">Tiempo jugado:</label>
@@ -462,7 +462,7 @@ const ChampionStats = () => {
         {/* MAXIMOS */}
         <section className="relative flex flex-col content-start place-items-center gap-y-4 w-fit mx-auto pb-4 pt-8 sm:px-2 border-2 border-solid border-current">
           <div className="absolute -top-4 inset-x-0 flex justify-center">
-            <p className="w-fit text-lg bg-teal-700 px-2 sm:text-xl">Máximos</p>
+            <p className="w-fit text-lg bg-gradient-to-b from-transparent via-teal-900 to-transparent px-2 sm:text-xl">Máximos</p>
           </div>
           <div className="flex flex-col md:block">
             <label htmlFor="setMaxKDA" className="w-fit mx-4">K, D and A: </label>
@@ -488,7 +488,7 @@ const ChampionStats = () => {
         {/* PROMEDIOS */}
         <section className="relative flex flex-col content-start place-items-center gap-y-4 w-fit mx-auto pb-4 pt-8 sm:px-2 border-2 border-solid border-current">
           <div className="absolute -top-4 inset-x-0 flex justify-center">
-            <p className="w-fit text-lg bg-teal-700 px-2 sm:text-xl">Promedios</p>
+            <p className="w-fit text-lg bg-gradient-to-b  from-transparent via-teal-900 to-transparent px-2 sm:text-xl">Promedios</p>
           </div>
           <div className="flex flex-col md:block">
             <label htmlFor="setAverageGold" className="w-fit mx-4">Oro ganado: </label>
