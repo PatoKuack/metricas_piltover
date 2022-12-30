@@ -6,12 +6,12 @@ import ChampionStats from '../containers/ChampionStats.jsx';
 import PositionStats from '../containers/PositionStats.jsx';
 import NotFound from '../pages/NotFound.jsx';
 import AppContext from '../context/AppContext.js';
-import useInitialState from '../hooks/useInitialState.js';
+import useGetValues from '../hooks/useGetValues.js';
 
 const App = () => {
-  const initialState = useInitialState();
+  const initialStates = useGetValues();
   return(
-    <AppContext.Provider value={initialState}>
+    <AppContext.Provider value={initialStates}>
       <BrowserRouter>
         <Layout>
           <Routes>

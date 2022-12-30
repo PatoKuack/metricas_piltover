@@ -1,20 +1,33 @@
 import React, {useState, useEffect, useRef, useContext} from 'react';
 import LoginConfirmation from '../components/LoginConfirmation.jsx';
 import Header from '../components/Header.jsx';
-import useGetVersion from '../hooks/useGetVersion.js';
-import useGetSummonerInfo from '../hooks/useGetSummonerInfo.js';
-import AppContext from '../context/AppContext';
-import axios from 'axios';
+import AppContext from '../context/AppContext.js';
 import { ErrorResponse, getStaticContextFromError } from '@remix-run/router';
 
 const Login = () => {
+
   // const API = `${process.env.API_KEY}`;
   // console.log(`1) ...${process.env.OSO}`);
-  const API_KEY = 'RGAPI-4fa08cff-4372-437d-a1b8-42cc4464ff04';
+  const API_KEY = 'RGAPI-1b18c49a-95d3-4964-bf4a-073e76035556';
 
-  const [lastVersion, setLastVersion] = useState('');
-  // const [lastVersion, setLastVersion] = React.useState('');
+  const {
+    lastVersion,
+    setLastVersion,
+    headerToggle,
+    setHeaderToggle,
+    loadingMatchInfo,
+    setLoadingMatchInfo,
+    summonerInfo,
+    setSummonerInfo,
+    matchIdList,
+    setMatchIdList,
+    matchInfo,
+    setMatchInfo
+  } = useContext(AppContext);
+
+  /* const [lastVersion, setLastVersion] = useState('');
   const [headerToggle, setHeaderToggle] = useState(false);
+  const [loadingMatchInfo, setLoadingMatchInfo] = useState(false);
   const [summonerInfo, setSummonerInfo] = useState({
         version: '',
         region: '',
@@ -27,9 +40,8 @@ const Login = () => {
         status: 0
   });
   const [matchIdList, setMatchIdList] = useState([]);
-  const [matchInfo, setMatchInfo] = useState([]);
-  const [loadingMatchInfo, setLoadingMatchInfo] = useState(false);
-  
+  const [matchInfo, setMatchInfo] = useState({}); */
+
 
   const version_URL = "https://ddragon.leagueoflegends.com/api/versions.json";
   async function versionInfo() {
@@ -45,7 +57,38 @@ const Login = () => {
       }
     } catch(err) { console.log(err) }
   }
-  versionInfo();
+
+  function getLSItem(itemName, itemTypeValue, itemSetState) {
+    try {
+      const localStorageItem = localStorage.getItem(itemName);
+      let parsedItem;
+      if(!localStorageItem) {
+        localStorage.setItem(itemName, JSON.stringify(itemTypeValue));
+        parsedItem = itemTypeValue;
+      } else {
+        parsedItem = JSON.parse(localStorageItem);
+      }
+      itemSetState(parsedItem);
+    } catch(error) {
+      console.log(error);
+    }
+  }
+  
+  const saveLSItem = (itemName, newItem, itemSetState) => {
+    try {
+      const stringifyItem = JSON.stringify(newItem);
+      localStorage.setItem(itemName, stringifyItem);
+      itemSetState(newItem);
+    } catch(error) {
+      console.log(error);
+    }
+  }
+
+  useEffect(() => {
+    versionInfo();
+    getLSItem('LOL_DATA_V1', [], setMatchInfo);
+    getLSItem('LOL_LIST_V1', [], setMatchIdList);
+  }, []);
   
   const loginForm = useRef(null);
   const getFormInfo = (event) => {
@@ -63,10 +106,8 @@ const Login = () => {
   const getmatchesInfo = (event) => {
     event.preventDefault();
     if(summonerInfo.status === 200){
-      setMatchInfo([]);
-      matchesinfo();
+      matchesInfo();
     }
-    
   }
 
   async function getSummonerInfo( sName, sRegion, sPlatform, sLanguage ) {
@@ -85,12 +126,12 @@ const Login = () => {
         iconURL: `http://ddragon.leagueoflegends.com/cdn/${lastVersion}/img/profileicon/${dataSummoner.profileIconId}.png`,
         status: resultSummoner.status
       }
-      setSummonerInfo(summonerData);
 
       if(resultSummoner.status !== 200) {
         console.log(`Error: ${resultSummoner.status}; ${dataSummoner.message}`);
       } else {
         console.log("No error getting summoner's data");
+        setSummonerInfo(summonerData);
       }
     } catch(err) {
       console.log(err);
@@ -111,7 +152,7 @@ const Login = () => {
     }
   }
   
-  async function matchesinfo() {
+  async function matchesInfo() {
     try {
       setLoadingMatchInfo(true);
       if(headerToggle === false){
@@ -120,6 +161,8 @@ const Login = () => {
       const matches_URL = `https://${summonerInfo.region}/lol/match/v5/matches/by-puuid/${summonerInfo.puuid}/ids?api_key=${API_KEY}`;
       const resultMatches = await fetch(matches_URL);
       const dataMatches = await resultMatches.json();
+      let addDataMatches = matchInfo;
+      let addMatchId = matchIdList;
       for(let i=0; i<dataMatches.length; i++){
         let individualMatchId = dataMatches[i];
         const match_URL = `https://${summonerInfo.region}/lol/match/v5/matches/${individualMatchId}?api_key=${API_KEY}`;
@@ -127,11 +170,8 @@ const Login = () => {
         const dataMInfo = await resultMInfo.json();
         dataMInfo.info.participants.forEach(element => { 
           if(element.puuid === summonerInfo.puuid && element.timePlayed > 1000 && dataMInfo.info.gameMode === "CLASSIC"){
-            if(!(matchIdList.includes(`${individualMatchId}${summonerInfo.name}`))) {
-              let addMatchId = matchIdList;
-              addMatchId.push(`${individualMatchId}${summonerInfo.name}`);
-              setMatchIdList(addMatchId);
-              let addDataMatches = matchInfo;
+            if(!(addMatchId.includes(`${individualMatchId}${summonerInfo.name.toLowerCase().replaceAll(' ', '')}`))) {
+              addMatchId.push(`${individualMatchId}${summonerInfo.name.toLowerCase().replaceAll(' ', '')}`);
               addDataMatches.push({
                 matchId: individualMatchId,
                 summonerInfo: summonerInfo,
@@ -156,8 +196,7 @@ const Login = () => {
                 trueDamageTaken: element.trueDamageTaken,
                 vision: element.visionScore
               });
-              setMatchInfo(addDataMatches);
-              console.log(matchInfo);
+              // console.log(addDataMatches);
             }
           }
         });
@@ -173,6 +212,9 @@ const Login = () => {
       if(resultMatches.status !== 200) {
         console.log(resultMatches.status + dataMatches.message);
       } else{
+        saveLSItem('LOL_DATA_V1', addDataMatches, setMatchInfo);
+        saveLSItem('LOL_LIST_V1', addMatchId, setMatchIdList);
+        // console.log(matchInfo);
         console.log("No errors getting the matches' data");
       }
     } catch(err) { 
@@ -213,7 +255,7 @@ const Login = () => {
         <form className="w-fit h-fit flex flex-col items-start" action="/" ref={loginForm}>
           <div className="flex flex-col w-fit sm:flex-row sm:mt-4">
             <label htmlFor="summonerName" className="w-fit mr-2">Ingresa tu nombre de jugador:</label>
-            <input name="summonerName" id="summonerName" className="min-w-min max-w-fit my-2 px-1 bg-teal-100 text-teal-800 rounded-sm sm:my-0 sm:mx-2" onKeyDown={handleKeyDown} />
+            <input name="summonerName" id="summonerName" className="min-w-min max-w-fit my-2 px-1 bg-teal-100 text-teal-800 rounded-sm sm:my-0 sm:mx-2" placeholder='ej: xoxo' onKeyDown={handleKeyDown} />
           </div>
           <i className="text-xs sm:text-sm">No importa si colocas o no espacios, mayúsculas o minúsculas.</i>
           <div className="flex flex-col w-fit sm:flex-row sm:mt-4">
