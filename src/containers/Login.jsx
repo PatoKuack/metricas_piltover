@@ -8,7 +8,7 @@ const Login = () => {
 
   // const API = `${process.env.API_KEY}`;
   // console.log(`1) ...${process.env.OSO}`);
-  const API_KEY = 'RGAPI-4e2f3ce2-b916-444d-a041-1383e998a1a0';
+  const API_KEY = 'RGAPI-7fc4f193-078b-4479-90c3-6afbbe97afbd';
 
   const {
     lastVersion,
@@ -36,7 +36,7 @@ const Login = () => {
         puuid: '',
         name: 'Usuario',
         level: 'Nivel',
-        iconURL: `http://ddragon.leagueoflegends.com/cdn/12.22.1/img/profileicon/4368.png`,
+        iconURL: `https://ddragon.leagueoflegends.com/cdn/12.22.1/img/profileicon/4368.png`,
         status: 0
   });
   const [matchIdList, setMatchIdList] = useState([]);
@@ -123,7 +123,7 @@ const Login = () => {
         puuid: dataSummoner.puuid,
         name: dataSummoner.name,
         level: dataSummoner.summonerLevel,
-        iconURL: `http://ddragon.leagueoflegends.com/cdn/${lastVersion}/img/profileicon/${dataSummoner.profileIconId}.png`,
+        iconURL: `https://ddragon.leagueoflegends.com/cdn/${lastVersion}/img/profileicon/${dataSummoner.profileIconId}.png`,
         status: resultSummoner.status
       }
 
@@ -145,7 +145,7 @@ const Login = () => {
         puuid: '',
         name: '¿?',
         level: '¿?',
-        iconURL: `http://ddragon.leagueoflegends.com/cdn/${lastVersion}/img/profileicon/4368.png`,
+        iconURL: `https://ddragon.leagueoflegends.com/cdn/${lastVersion}/img/profileicon/4368.png`,
         status: 400
       }
       setSummonerInfo(summonerData);

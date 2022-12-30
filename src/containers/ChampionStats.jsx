@@ -141,7 +141,7 @@ const ChampionStats = () => {
   }
   async function championsInfo() {
     try {
-      const champions_URL = `http://ddragon.leagueoflegends.com/cdn/${lastVersion}/data/${summonerInfo.language}/champion.json`;
+      const champions_URL = `https://ddragon.leagueoflegends.com/cdn/${lastVersion}/data/${summonerInfo.language}/champion.json`;
       const resultChampions = await fetch(champions_URL);
       const dataChampions = await resultChampions.json();
       const championsList = Object.entries(dataChampions.data);
@@ -150,13 +150,13 @@ const ChampionStats = () => {
       if(champName !== undefined) {
         for(i=0 ; i<championsList.length ; i++) {
           if((champName === championsList[i][1].id) || (champName === championsList[i][0])) {
-            champId = `http://ddragon.leagueoflegends.com/cdn/${lastVersion}/img/champion/${championsList[i][1].id}.png`;
+            champId = `https://ddragon.leagueoflegends.com/cdn/${lastVersion}/img/champion/${championsList[i][1].id}.png`;
             break;
           }
         }
         // specificChampionInfo(champId);
       } else {
-        champId = 'http://ddragon.leagueoflegends.com/cdn/12.23.1/img/profileicon/4368.png';
+        champId = 'https://ddragon.leagueoflegends.com/cdn/12.23.1/img/profileicon/4368.png';
       }
 
       if(resultChampions.status !== 200) {
@@ -170,7 +170,7 @@ const ChampionStats = () => {
   }
   async function specificChampionInfo(champId) {
     try {
-      const specific_champion_URL = `http://ddragon.leagueoflegends.com/cdn/${lastVersion}/data/${summonerInfo.language}/champion/${champId}.json`;
+      const specific_champion_URL = `https://ddragon.leagueoflegends.com/cdn/${lastVersion}/data/${summonerInfo.language}/champion/${champId}.json`;
       const resultChampion = await fetch(specific_champion_URL);
       const dataChampion = await resultChampion.json();
       console.log(specific_champion_URL);
@@ -183,7 +183,6 @@ const ChampionStats = () => {
       }
     } catch(err) { console.log(err)}
   }
-
   async function getChampionStats() {
     try {
 
