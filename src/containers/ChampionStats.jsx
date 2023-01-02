@@ -353,7 +353,7 @@ const ChampionStats = () => {
         {/* Info de daño */}
         <section className="relative flex flex-col content-start place-items-center w-full max-w-[800px] text-sm sm:px-2 sm:text-base">
           <h2 className="my-4 text-lg text-center sm:my-6 md:my-8 sm:text-xl md:text-2xl">Daño</h2>
-          <div className="relative flex flex-col w-full max-w-3xl pl-4 sm:pl-6 sm:mb-4">
+          <div className="relative flex flex-col w-full max-w-3xl pl-4 pr-1 sm:pl-6 sm:mb-4 sm:pr-0">
             <svg viewBox="0 0 300 200" id="graphicChampion">
               <line className="stroke-teal-400 stroke-1" x1="0" y1="0" x2="0" y2="200" />
               <line className="stroke-teal-400 stroke-1" x1="0" y1="200" x2="300" y2="200" />
@@ -367,14 +367,14 @@ const ChampionStats = () => {
               <polyline id="damagePhysicalChampion" strokeLinejoin='round' className="fill-none stroke-rose-300 stroke-2" points={stats.damageDPGPY} />
               <polyline id="damageTrueChampion" strokeLinejoin='round' className="fill-none stroke-yellow-200 stroke-2" points={stats.damageDTGPY} />
             </svg>
-            <div id="rangeGraphicChampion" className="absolute -top-2 left-0 h-full grid grid-cols-1 grid-rows-5 content-between text-[.6rem] sm:text-sm">
+            <div id="rangeGraphicChampion" className="absolute pl-0.5 -top-2 left-0 h-full grid grid-cols-1 grid-rows-5 content-between text-[.6rem] sm:text-sm">
               <p id="damageChampionRangeMax">{abrebiaturaMaxRange(stats.maxDamage)}</p>
               <p>{abrebiaturaMaxRange(Math.round(((stats.maxDamage / 5) * 4)/100) * 100)}</p>
               <p>{abrebiaturaMaxRange(Math.round(((stats.maxDamage / 5) * 3)/100) * 100)}</p>
               <p>{abrebiaturaMaxRange(Math.round(((stats.maxDamage / 5) * 2)/100) * 100)}</p>
               <p>{abrebiaturaMaxRange(Math.round(((stats.maxDamage / 5) * 1)/100) * 100)}</p>
             </div>
-            <p className="absolute -bottom-2 left-0 text-[.6rem] sm:text-sm">0</p>
+            <p className="absolute -bottom-2 left-0.5 text-[.6rem] sm:text-sm">0</p>
           </div>
           <div className="flex flex-col w-fit h-fit p-2 my-4 bg-teal-700 text-xs border border-solid border-current sm:p-2 sm:text-sm md:mt-2 md:mr-2 lg:mt-8 md:absolute top-0 right-0">
             <div className="flex flex-row">
