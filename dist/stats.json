@@ -1,35 +1,34 @@
 {
-  "hash": "a096b3f2eb2f7d93b080",
+  "hash": "4a0e19266a4ce19634aa",
   "version": "5.75.0",
-  "time": 4895,
-  "builtAt": 1672628598693,
+  "time": 41397,
+  "builtAt": 1672645222047,
   "publicPath": "/",
   "outputPath": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\dist",
   "assetsByChunkName": {
     "main": [
-      "main.b8997f47332cb1730ef1.css",
-      "main.9ebf5b6b245d9f91114e.js",
-      "main.04345479afc4967ae2a2.hot-update.js"
+      "main.eed49ea9a2495decea54.css",
+      "main.26673f9595325ec8fe99.js"
     ]
   },
   "assets": [
     {
       "type": "asset",
-      "name": "main.9ebf5b6b245d9f91114e.js",
-      "size": 515421,
+      "name": "main.26673f9595325ec8fe99.js",
+      "size": 515672,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "9ebf5b6b245d9f91114e",
+        "contenthash": "26673f9595325ec8fe99",
         "javascriptModule": false,
         "minimized": true,
         "related": {
-          "license": "main.9ebf5b6b245d9f91114e.js.LICENSE.txt",
-          "sourceMap": "main.9ebf5b6b245d9f91114e.js.map"
+          "license": "main.26673f9595325ec8fe99.js.LICENSE.txt",
+          "sourceMap": "main.26673f9595325ec8fe99.js.map"
         },
-        "size": 515421
+        "size": 515672
       },
       "chunkNames": [
         "main"
@@ -41,14 +40,14 @@
       "related": [
         {
           "type": "sourceMap",
-          "name": "main.9ebf5b6b245d9f91114e.js.map",
-          "size": 2152496,
+          "name": "main.26673f9595325ec8fe99.js.map",
+          "size": 2152798,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 2152496
+            "size": 2152798
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -65,7 +64,7 @@
         },
         {
           "type": "license",
-          "name": "main.9ebf5b6b245d9f91114e.js.LICENSE.txt",
+          "name": "main.26673f9595325ec8fe99.js.LICENSE.txt",
           "size": 17105,
           "emitted": true,
           "comparedForEmit": false,
@@ -94,9 +93,9 @@
       "type": "asset",
       "name": "assets/fonts/ubuntu-regular.woff",
       "size": 55060,
-      "emitted": false,
+      "emitted": true,
       "comparedForEmit": false,
-      "cached": true,
+      "cached": false,
       "info": {
         "copied": true,
         "sourceFilename": "src/assets/fonts/ubuntu-regular.woff",
@@ -115,9 +114,9 @@
       "type": "asset",
       "name": "assets/fonts/ubuntu-regular.woff2",
       "size": 47812,
-      "emitted": false,
+      "emitted": true,
       "comparedForEmit": false,
-      "cached": true,
+      "cached": false,
       "info": {
         "copied": true,
         "sourceFilename": "src/assets/fonts/ubuntu-regular.woff2",
@@ -134,19 +133,19 @@
     },
     {
       "type": "asset",
-      "name": "main.b8997f47332cb1730ef1.css",
-      "size": 14791,
+      "name": "main.eed49ea9a2495decea54.css",
+      "size": 15488,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "b8997f47332cb1730ef1",
+        "contenthash": "eed49ea9a2495decea54",
         "minimized": true,
         "related": {
-          "sourceMap": "main.b8997f47332cb1730ef1.css.map"
+          "sourceMap": "main.eed49ea9a2495decea54.css.map"
         },
-        "size": 14791
+        "size": 15488
       },
       "chunkNames": [
         "main"
@@ -158,14 +157,14 @@
       "related": [
         {
           "type": "sourceMap",
-          "name": "main.b8997f47332cb1730ef1.css.map",
-          "size": 32465,
+          "name": "main.eed49ea9a2495decea54.css.map",
+          "size": 33837,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 32465
+            "size": 33837
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -178,83 +177,6 @@
           "auxiliaryChunks": [
             "main"
           ],
-          "isOverSizeLimit": false
-        }
-      ],
-      "chunks": [
-        "main"
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "main.04345479afc4967ae2a2.hot-update.js",
-      "size": 2130,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true,
-        "fullhash": "04345479afc4967ae2a2",
-        "minimized": true,
-        "related": {
-          "license": "main.04345479afc4967ae2a2.hot-update.js.LICENSE.txt",
-          "sourceMap": "main.04345479afc4967ae2a2.hot-update.js.map"
-        },
-        "size": 2130
-      },
-      "chunkNames": [
-        "main"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "filteredRelated": 0,
-      "related": [
-        {
-          "type": "sourceMap",
-          "name": "main.04345479afc4967ae2a2.hot-update.js.map",
-          "size": 3544,
-          "emitted": true,
-          "comparedForEmit": false,
-          "cached": false,
-          "info": {
-            "development": true,
-            "size": 3544
-          },
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [
-            "main"
-          ],
-          "auxiliaryChunkIdHints": [],
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [
-            "main"
-          ],
-          "isOverSizeLimit": false
-        },
-        {
-          "type": "license",
-          "name": "main.04345479afc4967ae2a2.hot-update.js.LICENSE.txt",
-          "size": 407,
-          "emitted": true,
-          "comparedForEmit": false,
-          "cached": false,
-          "info": {
-            "extractedComments": true,
-            "size": 407
-          },
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [],
-          "auxiliaryChunkIdHints": [],
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [],
           "isOverSizeLimit": false
         }
       ],
@@ -282,28 +204,6 @@
       "chunks": [],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "main.04345479afc4967ae2a2.hot-update.json",
-      "size": 28,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true,
-        "fullhash": "04345479afc4967ae2a2",
-        "size": 28
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
     }
   ],
   "chunks": [
@@ -312,11 +212,11 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 1501165,
+      "size": 1502575,
       "sizes": {
-        "css/mini-extract": 23102,
+        "css/mini-extract": 24199,
         "runtime": 30989,
-        "javascript": 1447074
+        "javascript": 1447387
       },
       "names": [
         "main"
@@ -326,16 +226,14 @@
         "main"
       ],
       "files": [
-        "main.b8997f47332cb1730ef1.css",
-        "main.9ebf5b6b245d9f91114e.js",
-        "main.04345479afc4967ae2a2.hot-update.js"
+        "main.eed49ea9a2495decea54.css",
+        "main.26673f9595325ec8fe99.js"
       ],
       "auxiliaryFiles": [
-        "main.04345479afc4967ae2a2.hot-update.js.map",
-        "main.9ebf5b6b245d9f91114e.js.map",
-        "main.b8997f47332cb1730ef1.css.map"
+        "main.26673f9595325ec8fe99.js.map",
+        "main.eed49ea9a2495decea54.css.map"
       ],
-      "hash": "4078b69283198744569b",
+      "hash": "8472036a2bae4b4e95fc",
       "childrenByOrder": {},
       "id": "main",
       "siblings": [],
@@ -350,10 +248,10 @@
           "sizes": {
             "javascript": 212
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\arrayLikeToArray.js",
           "name": "./node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\arrayLikeToArray.js",
@@ -365,8 +263,8 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\arrayWithoutHoles.js",
-          "issuerName": "./node_modules/@babel/runtime/helpers/esm/arrayWithoutHoles.js",
+          "issuer": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\unsupportedIterableToArray.js",
+          "issuerName": "./node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js",
           "issuerPath": [
             {
               "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\index.js",
@@ -379,26 +277,26 @@
               "id": "./src/routes/App.jsx"
             },
             {
-              "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\ChampionStats.jsx",
-              "name": "./src/containers/ChampionStats.jsx",
-              "id": "./src/containers/ChampionStats.jsx"
+              "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\hooks\\useGetValues.js",
+              "name": "./src/hooks/useGetValues.js",
+              "id": "./src/hooks/useGetValues.js"
             },
             {
-              "identifier": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\toConsumableArray.js",
-              "name": "./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js",
-              "id": "./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js"
+              "identifier": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\slicedToArray.js",
+              "name": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js",
+              "id": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js"
             },
             {
-              "identifier": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\arrayWithoutHoles.js",
-              "name": "./node_modules/@babel/runtime/helpers/esm/arrayWithoutHoles.js",
-              "id": "./node_modules/@babel/runtime/helpers/esm/arrayWithoutHoles.js"
+              "identifier": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\unsupportedIterableToArray.js",
+              "name": "./node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js",
+              "id": "./node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js"
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": "./node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js",
-          "issuerId": "./node_modules/@babel/runtime/helpers/esm/arrayWithoutHoles.js",
+          "issuerId": "./node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js",
           "chunks": [
             "main"
           ],
@@ -490,10 +388,10 @@
           "sizes": {
             "javascript": 86
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\arrayWithHoles.js",
           "name": "./node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\arrayWithHoles.js",
@@ -583,10 +481,10 @@
           "sizes": {
             "javascript": 161
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\arrayWithoutHoles.js",
           "name": "./node_modules/@babel/runtime/helpers/esm/arrayWithoutHoles.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\arrayWithoutHoles.js",
@@ -676,10 +574,10 @@
           "sizes": {
             "javascript": 787
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\asyncToGenerator.js",
           "name": "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\asyncToGenerator.js",
@@ -848,10 +746,10 @@
           "sizes": {
             "javascript": 175
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\iterableToArray.js",
           "name": "./node_modules/@babel/runtime/helpers/esm/iterableToArray.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\iterableToArray.js",
@@ -941,10 +839,10 @@
           "sizes": {
             "javascript": 607
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\iterableToArrayLimit.js",
           "name": "./node_modules/@babel/runtime/helpers/esm/iterableToArrayLimit.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\iterableToArrayLimit.js",
@@ -1034,10 +932,10 @@
           "sizes": {
             "javascript": 210
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\nonIterableRest.js",
           "name": "./node_modules/@babel/runtime/helpers/esm/nonIterableRest.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\nonIterableRest.js",
@@ -1127,10 +1025,10 @@
           "sizes": {
             "javascript": 207
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\nonIterableSpread.js",
           "name": "./node_modules/@babel/runtime/helpers/esm/nonIterableSpread.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\nonIterableSpread.js",
@@ -1220,10 +1118,10 @@
           "sizes": {
             "javascript": 409
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\slicedToArray.js",
           "name": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\slicedToArray.js",
@@ -1462,10 +1360,10 @@
           "sizes": {
             "javascript": 404
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\toConsumableArray.js",
           "name": "./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\toConsumableArray.js",
@@ -1550,10 +1448,10 @@
           "sizes": {
             "javascript": 495
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\unsupportedIterableToArray.js",
           "name": "./node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\unsupportedIterableToArray.js",
@@ -1565,8 +1463,8 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\toConsumableArray.js",
-          "issuerName": "./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js",
+          "issuer": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\slicedToArray.js",
+          "issuerName": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js",
           "issuerPath": [
             {
               "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\index.js",
@@ -1579,21 +1477,21 @@
               "id": "./src/routes/App.jsx"
             },
             {
-              "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\ChampionStats.jsx",
-              "name": "./src/containers/ChampionStats.jsx",
-              "id": "./src/containers/ChampionStats.jsx"
+              "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\hooks\\useGetValues.js",
+              "name": "./src/hooks/useGetValues.js",
+              "id": "./src/hooks/useGetValues.js"
             },
             {
-              "identifier": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\toConsumableArray.js",
-              "name": "./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js",
-              "id": "./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js"
+              "identifier": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\slicedToArray.js",
+              "name": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js",
+              "id": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js"
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": "./node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js",
-          "issuerId": "./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js",
+          "issuerId": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js",
           "chunks": [
             "main"
           ],
@@ -1671,10 +1569,10 @@
           "sizes": {
             "javascript": 13906
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "javascript/dynamic|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js",
           "name": "./node_modules/@babel/runtime/helpers/regeneratorRuntime.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js",
@@ -1793,7 +1691,12 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 7:2-16",
+            "CommonJS bailout: module.exports is used directly at 9:67-81",
+            "CommonJS bailout: module.exports is used directly at 354:0-14",
+            "CommonJS bailout: module.exports is used directly at 354:100-114"
+          ],
           "depth": 4
         },
         {
@@ -1804,10 +1707,10 @@
           "sizes": {
             "javascript": 555
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "javascript/dynamic|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\typeof.js",
           "name": "./node_modules/@babel/runtime/helpers/typeof.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\typeof.js",
@@ -1931,7 +1834,12 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 4:10-24",
+            "CommonJS bailout: module.exports is used directly at 8:67-81",
+            "CommonJS bailout: module.exports is used directly at 11:0-14",
+            "CommonJS bailout: module.exports is used directly at 11:88-102"
+          ],
           "depth": 5
         },
         {
@@ -1942,10 +1850,10 @@
           "sizes": {
             "javascript": 448
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "javascript/dynamic|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\regenerator\\index.js",
           "name": "./node_modules/@babel/runtime/regenerator/index.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\regenerator\\index.js",
@@ -2255,7 +2163,9 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 4:0-14"
+          ],
           "depth": 3
         },
         {
@@ -2266,10 +2176,10 @@
           "sizes": {
             "javascript": 110784
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@remix-run\\router\\dist\\router.js",
           "name": "./node_modules/@remix-run/router/dist/router.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@remix-run\\router\\dist\\router.js",
@@ -2281,8 +2191,8 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-router-dom\\dist\\index.js",
-          "issuerName": "./node_modules/react-router-dom/dist/index.js",
+          "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+          "issuerName": "./src/containers/Login.jsx",
           "issuerPath": [
             {
               "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\index.js",
@@ -2295,16 +2205,16 @@
               "id": "./src/routes/App.jsx"
             },
             {
-              "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-router-dom\\dist\\index.js",
-              "name": "./node_modules/react-router-dom/dist/index.js",
-              "id": "./node_modules/react-router-dom/dist/index.js"
+              "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+              "name": "./src/containers/Login.jsx",
+              "id": "./src/containers/Login.jsx"
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": "./node_modules/@remix-run/router/dist/router.js",
-          "issuerId": "./node_modules/react-router-dom/dist/index.js",
+          "issuerId": "./src/containers/Login.jsx",
           "chunks": [
             "main"
           ],
@@ -3643,10 +3553,10 @@
           "sizes": {
             "javascript": 4262
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\ansi-html-community\\index.js",
           "name": "./node_modules/ansi-html-community/index.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\ansi-html-community\\index.js",
@@ -3741,7 +3651,9 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 3:0-14"
+          ],
           "depth": 2
         },
         {
@@ -3752,10 +3664,10 @@
           "sizes": {
             "javascript": 14890
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\events\\events.js",
           "name": "./node_modules/events/events.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\events\\events.js",
@@ -3822,7 +3734,9 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 56:0-14"
+          ],
           "depth": 2
         },
         {
@@ -3833,10 +3747,10 @@
           "sizes": {
             "javascript": 7923
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\html-entities\\lib\\index.js",
           "name": "./node_modules/html-entities/lib/index.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\html-entities\\lib\\index.js",
@@ -3931,7 +3845,9 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 2:16-20"
+          ],
           "depth": 2
         },
         {
@@ -3942,10 +3858,10 @@
           "sizes": {
             "javascript": 74412
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\html-entities\\lib\\named-references.js",
           "name": "./node_modules/html-entities/lib/named-references.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\html-entities\\lib\\named-references.js",
@@ -4018,10 +3934,10 @@
           "sizes": {
             "javascript": 339
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\html-entities\\lib\\numeric-unicode-map.js",
           "name": "./node_modules/html-entities/lib/numeric-unicode-map.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\html-entities\\lib\\numeric-unicode-map.js",
@@ -4093,10 +4009,10 @@
           "sizes": {
             "javascript": 537
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\html-entities\\lib\\surrogate-pairs.js",
           "name": "./node_modules/html-entities/lib/surrogate-pairs.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\html-entities\\lib\\surrogate-pairs.js",
@@ -4171,10 +4087,10 @@
           "sizes": {
             "javascript": 5111
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\mini-css-extract-plugin\\dist\\hmr\\hotModuleReplacement.js",
           "name": "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\mini-css-extract-plugin\\dist\\hmr\\hotModuleReplacement.js",
@@ -4241,7 +4157,9 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 213:0-14"
+          ],
           "depth": 2
         },
         {
@@ -4252,10 +4170,10 @@
           "sizes": {
             "javascript": 953
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\mini-css-extract-plugin\\dist\\hmr\\normalize-url.js",
           "name": "./node_modules/mini-css-extract-plugin/dist/hmr/normalize-url.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\mini-css-extract-plugin\\dist\\hmr\\normalize-url.js",
@@ -4327,7 +4245,9 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 28:0-14"
+          ],
           "depth": 3
         },
         {
@@ -4338,10 +4258,10 @@
           "sizes": {
             "javascript": 2108
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\object-assign\\index.js",
           "name": "./node_modules/object-assign/index.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\object-assign\\index.js",
@@ -4353,8 +4273,8 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react\\cjs\\react.development.js",
-          "issuerName": "./node_modules/react/cjs/react.development.js",
+          "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-dom\\cjs\\react-dom.development.js",
+          "issuerName": "./node_modules/react-dom/cjs/react-dom.development.js",
           "issuerPath": [
             {
               "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\index.js",
@@ -4362,21 +4282,21 @@
               "id": "./src/index.js"
             },
             {
-              "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react\\index.js",
-              "name": "./node_modules/react/index.js",
-              "id": "./node_modules/react/index.js"
+              "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-dom\\index.js",
+              "name": "./node_modules/react-dom/index.js",
+              "id": "./node_modules/react-dom/index.js"
             },
             {
-              "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react\\cjs\\react.development.js",
-              "name": "./node_modules/react/cjs/react.development.js",
-              "id": "./node_modules/react/cjs/react.development.js"
+              "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-dom\\cjs\\react-dom.development.js",
+              "name": "./node_modules/react-dom/cjs/react-dom.development.js",
+              "id": "./node_modules/react-dom/cjs/react-dom.development.js"
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": "./node_modules/object-assign/index.js",
-          "issuerId": "./node_modules/react/cjs/react.development.js",
+          "issuerId": "./node_modules/react-dom/cjs/react-dom.development.js",
           "chunks": [
             "main"
           ],
@@ -4427,7 +4347,9 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 65:0-14"
+          ],
           "depth": 3
         },
         {
@@ -4438,10 +4360,10 @@
           "sizes": {
             "javascript": 894563
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-dom\\cjs\\react-dom.development.js",
           "name": "./node_modules/react-dom/cjs/react-dom.development.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-dom\\cjs\\react-dom.development.js",
@@ -4517,10 +4439,10 @@
           "sizes": {
             "javascript": 1363
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-dom\\index.js",
           "name": "./node_modules/react-dom/index.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-dom\\index.js",
@@ -4605,10 +4527,10 @@
           "sizes": {
             "javascript": 30435
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-router-dom\\dist\\index.js",
           "name": "./node_modules/react-router-dom/dist/index.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-router-dom\\dist\\index.js",
@@ -4880,10 +4802,10 @@
           "sizes": {
             "javascript": 49129
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-router\\dist\\index.js",
           "name": "./node_modules/react-router/dist/index.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-router\\dist\\index.js",
@@ -6194,10 +6116,10 @@
           "sizes": {
             "javascript": 72141
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react\\cjs\\react.development.js",
           "name": "./node_modules/react/cjs/react.development.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react\\cjs\\react.development.js",
@@ -6430,10 +6352,10 @@
           "sizes": {
             "javascript": 190
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react\\index.js",
           "name": "./node_modules/react/index.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react\\index.js",
@@ -6684,7 +6606,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "7:158-177",
+              "loc": "7:171-190",
               "moduleId": "./src/components/LoginConfirmation.jsx",
               "resolvedModuleId": "./src/components/LoginConfirmation.jsx"
             },
@@ -9489,6 +9411,20 @@
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
             {
+              "moduleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+              "module": "./src/containers/Login.jsx",
+              "moduleName": "./src/containers/Login.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+              "resolvedModule": "./src/containers/Login.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "506:20-39",
+              "moduleId": "./src/containers/Login.jsx",
+              "resolvedModuleId": "./src/containers/Login.jsx"
+            },
+            {
               "moduleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\PositionStats.jsx",
               "module": "./src/containers/PositionStats.jsx",
               "moduleName": "./src/containers/PositionStats.jsx",
@@ -11827,10 +11763,10 @@
           "sizes": {
             "javascript": 9001
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\scheduler\\cjs\\scheduler-tracing.development.js",
           "name": "./node_modules/scheduler/cjs/scheduler-tracing.development.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\scheduler\\cjs\\scheduler-tracing.development.js",
@@ -12040,10 +11976,10 @@
           "sizes": {
             "javascript": 17563
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\scheduler\\cjs\\scheduler.development.js",
           "name": "./node_modules/scheduler/cjs/scheduler.development.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\scheduler\\cjs\\scheduler.development.js",
@@ -12238,7 +12174,16 @@
             "unstable_shouldYield",
             "unstable_wrapCallback"
           ],
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 52:26-46",
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 125:13-33",
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 149:24-44",
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 193:15-35",
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 381:28-48",
+            "CommonJS bailout: exports.unstable_shouldYield(...) prevents optimization as exports is passed as call context at 405:74-102",
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 418:20-40",
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 517:20-40"
+          ],
           "depth": 4
         },
         {
@@ -12249,10 +12194,10 @@
           "sizes": {
             "javascript": 198
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\scheduler\\index.js",
           "name": "./node_modules/scheduler/index.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\scheduler\\index.js",
@@ -12341,10 +12286,10 @@
           "sizes": {
             "javascript": 214
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\scheduler\\tracing.js",
           "name": "./node_modules/scheduler/tracing.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\scheduler\\tracing.js",
@@ -12423,10 +12368,10 @@
           "sizes": {
             "javascript": 1757
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\clients\\WebSocketClient.js",
           "name": "./node_modules/webpack-dev-server/client/clients/WebSocketClient.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\clients\\WebSocketClient.js",
@@ -12562,10 +12507,10 @@
           "sizes": {
             "javascript": 8798
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
           "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\index.js",
@@ -12617,10 +12562,10 @@
           "sizes": {
             "javascript": 26156
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\modules\\logger\\index.js",
           "name": "./node_modules/webpack-dev-server/client/modules/logger/index.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\modules\\logger\\index.js",
@@ -12715,7 +12660,9 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: exports is used directly at 823:32-39"
+          ],
           "depth": 2
         },
         {
@@ -12726,10 +12673,10 @@
           "sizes": {
             "javascript": 7441
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\overlay.js",
           "name": "./node_modules/webpack-dev-server/client/overlay.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\overlay.js",
@@ -12904,10 +12851,10 @@
           "sizes": {
             "javascript": 2033
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\socket.js",
           "name": "./node_modules/webpack-dev-server/client/socket.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\socket.js",
@@ -12983,10 +12930,10 @@
           "sizes": {
             "javascript": 4379
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\utils\\createSocketURL.js",
           "name": "./node_modules/webpack-dev-server/client/utils/createSocketURL.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\utils\\createSocketURL.js",
@@ -13061,10 +13008,10 @@
           "sizes": {
             "javascript": 868
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\utils\\getCurrentScriptSource.js",
           "name": "./node_modules/webpack-dev-server/client/utils/getCurrentScriptSource.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\utils\\getCurrentScriptSource.js",
@@ -13144,10 +13091,10 @@
           "sizes": {
             "javascript": 2876
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\utils\\log.js",
           "name": "./node_modules/webpack-dev-server/client/utils/log.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\utils\\log.js",
@@ -13504,10 +13451,10 @@
           "sizes": {
             "javascript": 1280
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\utils\\parseURL.js",
           "name": "./node_modules/webpack-dev-server/client/utils/parseURL.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\utils\\parseURL.js",
@@ -13582,10 +13529,10 @@
           "sizes": {
             "javascript": 2094
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\utils\\reloadApp.js",
           "name": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\utils\\reloadApp.js",
@@ -13674,10 +13621,10 @@
           "sizes": {
             "javascript": 436
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\utils\\sendMessage.js",
           "name": "./node_modules/webpack-dev-server/client/utils/sendMessage.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\utils\\sendMessage.js",
@@ -13836,10 +13783,10 @@
           "sizes": {
             "javascript": 692
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\utils\\stripAnsi.js",
           "name": "./node_modules/webpack-dev-server/client/utils/stripAnsi.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\utils\\stripAnsi.js",
@@ -13928,10 +13875,10 @@
           "sizes": {
             "javascript": 1928
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack\\hot\\dev-server.js",
           "name": "./node_modules/webpack/hot/dev-server.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack\\hot\\dev-server.js",
@@ -13983,10 +13930,10 @@
           "sizes": {
             "javascript": 75
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack\\hot\\emitter.js",
           "name": "./node_modules/webpack/hot/emitter.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack\\hot\\emitter.js",
@@ -14076,7 +14023,9 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 2:0-14"
+          ],
           "depth": 1
         },
         {
@@ -14087,10 +14036,10 @@
           "sizes": {
             "javascript": 1320
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack\\hot\\log-apply-result.js",
           "name": "./node_modules/webpack/hot/log-apply-result.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack\\hot\\log-apply-result.js",
@@ -14152,7 +14101,9 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 5:0-14"
+          ],
           "depth": 1
         },
         {
@@ -14163,10 +14114,10 @@
           "sizes": {
             "javascript": 1376
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack\\hot\\log.js",
           "name": "./node_modules/webpack/hot/log.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack\\hot\\log.js",
@@ -14178,20 +14129,20 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
-          "issuerName": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+          "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack\\hot\\dev-server.js",
+          "issuerName": "./node_modules/webpack/hot/dev-server.js",
           "issuerPath": [
             {
-              "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
-              "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
-              "id": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true"
+              "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack\\hot\\dev-server.js",
+              "name": "./node_modules/webpack/hot/dev-server.js",
+              "id": "./node_modules/webpack/hot/dev-server.js"
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": "./node_modules/webpack/hot/log.js",
-          "issuerId": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+          "issuerId": "./node_modules/webpack/hot/dev-server.js",
           "chunks": [
             "main"
           ],
@@ -14270,7 +14221,9 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 21:0-14"
+          ],
           "depth": 1
         },
         {
@@ -14455,14 +14408,14 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 1133,
+          "size": 1146,
           "sizes": {
-            "javascript": 1133
+            "javascript": 1146
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\components\\LoginConfirmation.jsx",
           "name": "./src/components/LoginConfirmation.jsx",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\components\\LoginConfirmation.jsx",
@@ -14547,10 +14500,10 @@
           "sizes": {
             "javascript": 35750
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\ChampionStats.jsx",
           "name": "./src/containers/ChampionStats.jsx",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\ChampionStats.jsx",
@@ -14630,10 +14583,10 @@
           "sizes": {
             "javascript": 322
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Layout.jsx",
           "name": "./src/containers/Layout.jsx",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Layout.jsx",
@@ -14709,14 +14662,14 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 24079,
+          "size": 24379,
           "sizes": {
-            "javascript": 24079
+            "javascript": 24379
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
           "name": "./src/containers/Login.jsx",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
@@ -14810,10 +14763,10 @@
           "sizes": {
             "javascript": 238
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\PositionStats.jsx",
           "name": "./src/containers/PositionStats.jsx",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\PositionStats.jsx",
@@ -14893,10 +14846,10 @@
           "sizes": {
             "javascript": 108
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\context\\AppContext.js",
           "name": "./src/context/AppContext.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\context\\AppContext.js",
@@ -15032,10 +14985,10 @@
           "sizes": {
             "javascript": 2706
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\hooks\\useGetValues.js",
           "name": "./src/hooks/useGetValues.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\hooks\\useGetValues.js",
@@ -15115,10 +15068,10 @@
           "sizes": {
             "javascript": 394
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\index.js",
           "name": "./src/index.js",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\index.js",
@@ -15171,10 +15124,10 @@
           "sizes": {
             "javascript": 159
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\pages\\NotFound.jsx",
           "name": "./src/pages/NotFound.jsx",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\pages\\NotFound.jsx",
@@ -15254,10 +15207,10 @@
           "sizes": {
             "javascript": 1450
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\routes\\App.jsx",
           "name": "./src/routes/App.jsx",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\routes\\App.jsx",
@@ -15327,9 +15280,9 @@
         {
           "type": "module",
           "moduleType": "css/mini-extract",
-          "size": 23102,
+          "size": 24199,
           "sizes": {
-            "css/mini-extract": 23102
+            "css/mini-extract": 24199
           },
           "built": true,
           "codeGenerated": true,
@@ -15928,10 +15881,10 @@
       "sizes": {
         "javascript": 8798
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
       "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\index.js",
@@ -15982,10 +15935,10 @@
       "sizes": {
         "javascript": 1928
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack\\hot\\dev-server.js",
       "name": "./node_modules/webpack/hot/dev-server.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack\\hot\\dev-server.js",
@@ -16036,10 +15989,10 @@
       "sizes": {
         "javascript": 394
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\index.js",
       "name": "./src/index.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\index.js",
@@ -16091,10 +16044,10 @@
       "sizes": {
         "javascript": 1376
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack\\hot\\log.js",
       "name": "./node_modules/webpack/hot/log.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack\\hot\\log.js",
@@ -16105,20 +16058,20 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
-      "issuerName": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+      "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack\\hot\\dev-server.js",
+      "issuerName": "./node_modules/webpack/hot/dev-server.js",
       "issuerPath": [
         {
-          "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
-          "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
-          "id": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true"
+          "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack\\hot\\dev-server.js",
+          "name": "./node_modules/webpack/hot/dev-server.js",
+          "id": "./node_modules/webpack/hot/dev-server.js"
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": "./node_modules/webpack/hot/log.js",
-      "issuerId": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+      "issuerId": "./node_modules/webpack/hot/dev-server.js",
       "chunks": [
         "main"
       ],
@@ -16197,7 +16150,9 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 21:0-14"
+      ],
       "depth": 1
     },
     {
@@ -16208,10 +16163,10 @@
       "sizes": {
         "javascript": 692
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\utils\\stripAnsi.js",
       "name": "./node_modules/webpack-dev-server/client/utils/stripAnsi.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\utils\\stripAnsi.js",
@@ -16299,10 +16254,10 @@
       "sizes": {
         "javascript": 1280
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\utils\\parseURL.js",
       "name": "./node_modules/webpack-dev-server/client/utils/parseURL.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\utils\\parseURL.js",
@@ -16376,10 +16331,10 @@
       "sizes": {
         "javascript": 2033
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\socket.js",
       "name": "./node_modules/webpack-dev-server/client/socket.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\socket.js",
@@ -16454,10 +16409,10 @@
       "sizes": {
         "javascript": 2876
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\utils\\log.js",
       "name": "./node_modules/webpack-dev-server/client/utils/log.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\utils\\log.js",
@@ -16813,10 +16768,10 @@
       "sizes": {
         "javascript": 7441
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\overlay.js",
       "name": "./node_modules/webpack-dev-server/client/overlay.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\overlay.js",
@@ -16990,10 +16945,10 @@
       "sizes": {
         "javascript": 436
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\utils\\sendMessage.js",
       "name": "./node_modules/webpack-dev-server/client/utils/sendMessage.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\utils\\sendMessage.js",
@@ -17151,10 +17106,10 @@
       "sizes": {
         "javascript": 2094
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\utils\\reloadApp.js",
       "name": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\utils\\reloadApp.js",
@@ -17242,10 +17197,10 @@
       "sizes": {
         "javascript": 75
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack\\hot\\emitter.js",
       "name": "./node_modules/webpack/hot/emitter.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack\\hot\\emitter.js",
@@ -17334,7 +17289,9 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 2:0-14"
+      ],
       "depth": 1
     },
     {
@@ -17345,10 +17302,10 @@
       "sizes": {
         "javascript": 4379
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\utils\\createSocketURL.js",
       "name": "./node_modules/webpack-dev-server/client/utils/createSocketURL.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\utils\\createSocketURL.js",
@@ -17422,10 +17379,10 @@
       "sizes": {
         "javascript": 1320
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack\\hot\\log-apply-result.js",
       "name": "./node_modules/webpack/hot/log-apply-result.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack\\hot\\log-apply-result.js",
@@ -17486,7 +17443,9 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 5:0-14"
+      ],
       "depth": 1
     },
     {
@@ -17497,10 +17456,10 @@
       "sizes": {
         "javascript": 190
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react\\index.js",
       "name": "./node_modules/react/index.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react\\index.js",
@@ -17750,7 +17709,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "7:158-177",
+          "loc": "7:171-190",
           "moduleId": "./src/components/LoginConfirmation.jsx",
           "resolvedModuleId": "./src/components/LoginConfirmation.jsx"
         },
@@ -20555,6 +20514,20 @@
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
         {
+          "moduleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+          "module": "./src/containers/Login.jsx",
+          "moduleName": "./src/containers/Login.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+          "resolvedModule": "./src/containers/Login.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "506:20-39",
+          "moduleId": "./src/containers/Login.jsx",
+          "resolvedModuleId": "./src/containers/Login.jsx"
+        },
+        {
           "moduleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\PositionStats.jsx",
           "module": "./src/containers/PositionStats.jsx",
           "moduleName": "./src/containers/PositionStats.jsx",
@@ -22893,10 +22866,10 @@
       "sizes": {
         "javascript": 1363
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-dom\\index.js",
       "name": "./node_modules/react-dom/index.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-dom\\index.js",
@@ -22980,10 +22953,10 @@
       "sizes": {
         "javascript": 1450
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\routes\\App.jsx",
       "name": "./src/routes/App.jsx",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\routes\\App.jsx",
@@ -23118,10 +23091,10 @@
       "sizes": {
         "javascript": 868
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\utils\\getCurrentScriptSource.js",
       "name": "./node_modules/webpack-dev-server/client/utils/getCurrentScriptSource.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\utils\\getCurrentScriptSource.js",
@@ -23200,10 +23173,10 @@
       "sizes": {
         "javascript": 1757
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\clients\\WebSocketClient.js",
       "name": "./node_modules/webpack-dev-server/client/clients/WebSocketClient.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\clients\\WebSocketClient.js",
@@ -23338,10 +23311,10 @@
       "sizes": {
         "javascript": 26156
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\modules\\logger\\index.js",
       "name": "./node_modules/webpack-dev-server/client/modules/logger/index.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\modules\\logger\\index.js",
@@ -23435,7 +23408,9 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: exports is used directly at 823:32-39"
+      ],
       "depth": 2
     },
     {
@@ -23446,10 +23421,10 @@
       "sizes": {
         "javascript": 4262
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\ansi-html-community\\index.js",
       "name": "./node_modules/ansi-html-community/index.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\ansi-html-community\\index.js",
@@ -23543,7 +23518,9 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 3:0-14"
+      ],
       "depth": 2
     },
     {
@@ -23554,10 +23531,10 @@
       "sizes": {
         "javascript": 7923
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\html-entities\\lib\\index.js",
       "name": "./node_modules/html-entities/lib/index.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\html-entities\\lib\\index.js",
@@ -23651,7 +23628,9 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 2:16-20"
+      ],
       "depth": 2
     },
     {
@@ -23662,10 +23641,10 @@
       "sizes": {
         "javascript": 14890
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\events\\events.js",
       "name": "./node_modules/events/events.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\events\\events.js",
@@ -23731,7 +23710,9 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 56:0-14"
+      ],
       "depth": 2
     },
     {
@@ -23742,10 +23723,10 @@
       "sizes": {
         "javascript": 72141
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react\\cjs\\react.development.js",
       "name": "./node_modules/react/cjs/react.development.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react\\cjs\\react.development.js",
@@ -23977,10 +23958,10 @@
       "sizes": {
         "javascript": 894563
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-dom\\cjs\\react-dom.development.js",
       "name": "./node_modules/react-dom/cjs/react-dom.development.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-dom\\cjs\\react-dom.development.js",
@@ -24055,10 +24036,10 @@
       "sizes": {
         "javascript": 322
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Layout.jsx",
       "name": "./src/containers/Layout.jsx",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Layout.jsx",
@@ -24133,14 +24114,14 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 24079,
+      "size": 24379,
       "sizes": {
-        "javascript": 24079
+        "javascript": 24379
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
       "name": "./src/containers/Login.jsx",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
@@ -24233,10 +24214,10 @@
       "sizes": {
         "javascript": 30435
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-router-dom\\dist\\index.js",
       "name": "./node_modules/react-router-dom/dist/index.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-router-dom\\dist\\index.js",
@@ -24507,10 +24488,10 @@
       "sizes": {
         "javascript": 49129
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-router\\dist\\index.js",
       "name": "./node_modules/react-router/dist/index.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-router\\dist\\index.js",
@@ -25820,10 +25801,10 @@
       "sizes": {
         "javascript": 108
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\context\\AppContext.js",
       "name": "./src/context/AppContext.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\context\\AppContext.js",
@@ -25958,10 +25939,10 @@
       "sizes": {
         "javascript": 35750
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\ChampionStats.jsx",
       "name": "./src/containers/ChampionStats.jsx",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\ChampionStats.jsx",
@@ -26040,10 +26021,10 @@
       "sizes": {
         "javascript": 238
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\PositionStats.jsx",
       "name": "./src/containers/PositionStats.jsx",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\PositionStats.jsx",
@@ -26122,10 +26103,10 @@
       "sizes": {
         "javascript": 159
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\pages\\NotFound.jsx",
       "name": "./src/pages/NotFound.jsx",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\pages\\NotFound.jsx",
@@ -26204,10 +26185,10 @@
       "sizes": {
         "javascript": 2706
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\hooks\\useGetValues.js",
       "name": "./src/hooks/useGetValues.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\hooks\\useGetValues.js",
@@ -26286,10 +26267,10 @@
       "sizes": {
         "javascript": 5111
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\mini-css-extract-plugin\\dist\\hmr\\hotModuleReplacement.js",
       "name": "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\mini-css-extract-plugin\\dist\\hmr\\hotModuleReplacement.js",
@@ -26355,15 +26336,17 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 213:0-14"
+      ],
       "depth": 2
     },
     {
       "type": "module",
       "moduleType": "css/mini-extract",
-      "size": 23102,
+      "size": 24199,
       "sizes": {
-        "css/mini-extract": 23102
+        "css/mini-extract": 24199
       },
       "built": true,
       "codeGenerated": true,
@@ -26430,10 +26413,10 @@
       "sizes": {
         "javascript": 74412
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\html-entities\\lib\\named-references.js",
       "name": "./node_modules/html-entities/lib/named-references.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\html-entities\\lib\\named-references.js",
@@ -26505,10 +26488,10 @@
       "sizes": {
         "javascript": 339
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\html-entities\\lib\\numeric-unicode-map.js",
       "name": "./node_modules/html-entities/lib/numeric-unicode-map.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\html-entities\\lib\\numeric-unicode-map.js",
@@ -26579,10 +26562,10 @@
       "sizes": {
         "javascript": 537
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\html-entities\\lib\\surrogate-pairs.js",
       "name": "./node_modules/html-entities/lib/surrogate-pairs.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\html-entities\\lib\\surrogate-pairs.js",
@@ -26656,10 +26639,10 @@
       "sizes": {
         "javascript": 2108
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\object-assign\\index.js",
       "name": "./node_modules/object-assign/index.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\object-assign\\index.js",
@@ -26670,8 +26653,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react\\cjs\\react.development.js",
-      "issuerName": "./node_modules/react/cjs/react.development.js",
+      "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-dom\\cjs\\react-dom.development.js",
+      "issuerName": "./node_modules/react-dom/cjs/react-dom.development.js",
       "issuerPath": [
         {
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\index.js",
@@ -26679,21 +26662,21 @@
           "id": "./src/index.js"
         },
         {
-          "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react\\index.js",
-          "name": "./node_modules/react/index.js",
-          "id": "./node_modules/react/index.js"
+          "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-dom\\index.js",
+          "name": "./node_modules/react-dom/index.js",
+          "id": "./node_modules/react-dom/index.js"
         },
         {
-          "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react\\cjs\\react.development.js",
-          "name": "./node_modules/react/cjs/react.development.js",
-          "id": "./node_modules/react/cjs/react.development.js"
+          "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-dom\\cjs\\react-dom.development.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.development.js",
+          "id": "./node_modules/react-dom/cjs/react-dom.development.js"
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": "./node_modules/object-assign/index.js",
-      "issuerId": "./node_modules/react/cjs/react.development.js",
+      "issuerId": "./node_modules/react-dom/cjs/react-dom.development.js",
       "chunks": [
         "main"
       ],
@@ -26744,7 +26727,9 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 65:0-14"
+      ],
       "depth": 3
     },
     {
@@ -26755,10 +26740,10 @@
       "sizes": {
         "javascript": 198
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\scheduler\\index.js",
       "name": "./node_modules/scheduler/index.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\scheduler\\index.js",
@@ -26846,10 +26831,10 @@
       "sizes": {
         "javascript": 214
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\scheduler\\tracing.js",
       "name": "./node_modules/scheduler/tracing.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\scheduler\\tracing.js",
@@ -26927,10 +26912,10 @@
       "sizes": {
         "javascript": 787
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\asyncToGenerator.js",
       "name": "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\asyncToGenerator.js",
@@ -27098,10 +27083,10 @@
       "sizes": {
         "javascript": 448
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "javascript/dynamic|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\regenerator\\index.js",
       "name": "./node_modules/@babel/runtime/regenerator/index.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\regenerator\\index.js",
@@ -27410,21 +27395,23 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 4:0-14"
+      ],
       "depth": 3
     },
     {
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 1133,
+      "size": 1146,
       "sizes": {
-        "javascript": 1133
+        "javascript": 1146
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\components\\LoginConfirmation.jsx",
       "name": "./src/components/LoginConfirmation.jsx",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\components\\LoginConfirmation.jsx",
@@ -27623,10 +27610,10 @@
       "sizes": {
         "javascript": 409
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\slicedToArray.js",
       "name": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\slicedToArray.js",
@@ -27864,10 +27851,10 @@
       "sizes": {
         "javascript": 110784
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@remix-run\\router\\dist\\router.js",
       "name": "./node_modules/@remix-run/router/dist/router.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@remix-run\\router\\dist\\router.js",
@@ -27878,8 +27865,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-router-dom\\dist\\index.js",
-      "issuerName": "./node_modules/react-router-dom/dist/index.js",
+      "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+      "issuerName": "./src/containers/Login.jsx",
       "issuerPath": [
         {
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\index.js",
@@ -27892,16 +27879,16 @@
           "id": "./src/routes/App.jsx"
         },
         {
-          "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-router-dom\\dist\\index.js",
-          "name": "./node_modules/react-router-dom/dist/index.js",
-          "id": "./node_modules/react-router-dom/dist/index.js"
+          "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+          "name": "./src/containers/Login.jsx",
+          "id": "./src/containers/Login.jsx"
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": "./node_modules/@remix-run/router/dist/router.js",
-      "issuerId": "./node_modules/react-router-dom/dist/index.js",
+      "issuerId": "./src/containers/Login.jsx",
       "chunks": [
         "main"
       ],
@@ -29240,10 +29227,10 @@
       "sizes": {
         "javascript": 404
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\toConsumableArray.js",
       "name": "./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\toConsumableArray.js",
@@ -29327,10 +29314,10 @@
       "sizes": {
         "javascript": 953
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\mini-css-extract-plugin\\dist\\hmr\\normalize-url.js",
       "name": "./node_modules/mini-css-extract-plugin/dist/hmr/normalize-url.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\mini-css-extract-plugin\\dist\\hmr\\normalize-url.js",
@@ -29401,7 +29388,9 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 28:0-14"
+      ],
       "depth": 3
     },
     {
@@ -29412,10 +29401,10 @@
       "sizes": {
         "javascript": 17563
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\scheduler\\cjs\\scheduler.development.js",
       "name": "./node_modules/scheduler/cjs/scheduler.development.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\scheduler\\cjs\\scheduler.development.js",
@@ -29609,7 +29598,16 @@
         "unstable_shouldYield",
         "unstable_wrapCallback"
       ],
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 52:26-46",
+        "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 125:13-33",
+        "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 149:24-44",
+        "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 193:15-35",
+        "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 381:28-48",
+        "CommonJS bailout: exports.unstable_shouldYield(...) prevents optimization as exports is passed as call context at 405:74-102",
+        "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 418:20-40",
+        "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 517:20-40"
+      ],
       "depth": 4
     },
     {
@@ -29620,10 +29618,10 @@
       "sizes": {
         "javascript": 9001
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\scheduler\\cjs\\scheduler-tracing.development.js",
       "name": "./node_modules/scheduler/cjs/scheduler-tracing.development.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\scheduler\\cjs\\scheduler-tracing.development.js",
@@ -29832,10 +29830,10 @@
       "sizes": {
         "javascript": 13906
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "javascript/dynamic|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js",
       "name": "./node_modules/@babel/runtime/helpers/regeneratorRuntime.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js",
@@ -29953,7 +29951,12 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 7:2-16",
+        "CommonJS bailout: module.exports is used directly at 9:67-81",
+        "CommonJS bailout: module.exports is used directly at 354:0-14",
+        "CommonJS bailout: module.exports is used directly at 354:100-114"
+      ],
       "depth": 4
     },
     {
@@ -29964,10 +29967,10 @@
       "sizes": {
         "javascript": 86
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\arrayWithHoles.js",
       "name": "./node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\arrayWithHoles.js",
@@ -30056,10 +30059,10 @@
       "sizes": {
         "javascript": 607
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\iterableToArrayLimit.js",
       "name": "./node_modules/@babel/runtime/helpers/esm/iterableToArrayLimit.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\iterableToArrayLimit.js",
@@ -30148,10 +30151,10 @@
       "sizes": {
         "javascript": 495
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\unsupportedIterableToArray.js",
       "name": "./node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\unsupportedIterableToArray.js",
@@ -30162,8 +30165,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\toConsumableArray.js",
-      "issuerName": "./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js",
+      "issuer": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\slicedToArray.js",
+      "issuerName": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js",
       "issuerPath": [
         {
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\index.js",
@@ -30176,21 +30179,21 @@
           "id": "./src/routes/App.jsx"
         },
         {
-          "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\ChampionStats.jsx",
-          "name": "./src/containers/ChampionStats.jsx",
-          "id": "./src/containers/ChampionStats.jsx"
+          "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\hooks\\useGetValues.js",
+          "name": "./src/hooks/useGetValues.js",
+          "id": "./src/hooks/useGetValues.js"
         },
         {
-          "identifier": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\toConsumableArray.js",
-          "name": "./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js",
-          "id": "./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js"
+          "identifier": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\slicedToArray.js",
+          "name": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js",
+          "id": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js"
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": "./node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js",
-      "issuerId": "./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js",
+      "issuerId": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js",
       "chunks": [
         "main"
       ],
@@ -30268,10 +30271,10 @@
       "sizes": {
         "javascript": 210
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\nonIterableRest.js",
       "name": "./node_modules/@babel/runtime/helpers/esm/nonIterableRest.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\nonIterableRest.js",
@@ -30360,10 +30363,10 @@
       "sizes": {
         "javascript": 161
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\arrayWithoutHoles.js",
       "name": "./node_modules/@babel/runtime/helpers/esm/arrayWithoutHoles.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\arrayWithoutHoles.js",
@@ -30452,10 +30455,10 @@
       "sizes": {
         "javascript": 175
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\iterableToArray.js",
       "name": "./node_modules/@babel/runtime/helpers/esm/iterableToArray.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\iterableToArray.js",
@@ -30544,10 +30547,10 @@
       "sizes": {
         "javascript": 207
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\nonIterableSpread.js",
       "name": "./node_modules/@babel/runtime/helpers/esm/nonIterableSpread.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\nonIterableSpread.js",
@@ -30636,10 +30639,10 @@
       "sizes": {
         "javascript": 555
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "javascript/dynamic|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\typeof.js",
       "name": "./node_modules/@babel/runtime/helpers/typeof.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\typeof.js",
@@ -30762,7 +30765,12 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 4:10-24",
+        "CommonJS bailout: module.exports is used directly at 8:67-81",
+        "CommonJS bailout: module.exports is used directly at 11:0-14",
+        "CommonJS bailout: module.exports is used directly at 11:88-102"
+      ],
       "depth": 5
     },
     {
@@ -30773,10 +30781,10 @@
       "sizes": {
         "javascript": 212
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\arrayLikeToArray.js",
       "name": "./node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\arrayLikeToArray.js",
@@ -30787,8 +30795,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\arrayWithoutHoles.js",
-      "issuerName": "./node_modules/@babel/runtime/helpers/esm/arrayWithoutHoles.js",
+      "issuer": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\unsupportedIterableToArray.js",
+      "issuerName": "./node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js",
       "issuerPath": [
         {
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\index.js",
@@ -30801,26 +30809,26 @@
           "id": "./src/routes/App.jsx"
         },
         {
-          "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\ChampionStats.jsx",
-          "name": "./src/containers/ChampionStats.jsx",
-          "id": "./src/containers/ChampionStats.jsx"
+          "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\hooks\\useGetValues.js",
+          "name": "./src/hooks/useGetValues.js",
+          "id": "./src/hooks/useGetValues.js"
         },
         {
-          "identifier": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\toConsumableArray.js",
-          "name": "./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js",
-          "id": "./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js"
+          "identifier": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\slicedToArray.js",
+          "name": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js",
+          "id": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js"
         },
         {
-          "identifier": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\arrayWithoutHoles.js",
-          "name": "./node_modules/@babel/runtime/helpers/esm/arrayWithoutHoles.js",
-          "id": "./node_modules/@babel/runtime/helpers/esm/arrayWithoutHoles.js"
+          "identifier": "javascript/esm|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\helpers\\esm\\unsupportedIterableToArray.js",
+          "name": "./node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js",
+          "id": "./node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js"
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": "./node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js",
-      "issuerId": "./node_modules/@babel/runtime/helpers/esm/arrayWithoutHoles.js",
+      "issuerId": "./node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js",
       "chunks": [
         "main"
       ],
@@ -30908,9 +30916,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 59942,
+      "size": 62576,
       "sizes": {
-        "javascript": 59942
+        "javascript": 62576
       },
       "built": true,
       "codeGenerated": true,
@@ -30978,10 +30986,10 @@
       "sizes": {
         "javascript": 2303
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": true,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\css-loader\\dist\\runtime\\api.js",
       "name": "./node_modules/css-loader/dist/runtime/api.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\css-loader\\dist\\runtime\\api.js",
@@ -31064,7 +31072,9 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 7:0-14"
+      ],
       "depth": null
     },
     {
@@ -31075,10 +31085,10 @@
       "sizes": {
         "javascript": 685
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": true,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\css-loader\\dist\\runtime\\sourceMaps.js",
       "name": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\css-loader\\dist\\runtime\\sourceMaps.js",
@@ -31161,7 +31171,9 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 3:0-14"
+      ],
       "depth": null
     },
     {
@@ -31173,9 +31185,9 @@
         "runtime": 267
       },
       "built": false,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": true,
-      "cached": true,
+      "cached": false,
       "identifier": "webpack/runtime/compat get default export",
       "name": "webpack/runtime/compat get default export",
       "nameForCondition": null,
@@ -31276,9 +31288,9 @@
         "runtime": 2794
       },
       "built": false,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": true,
-      "cached": true,
+      "cached": false,
       "identifier": "webpack/runtime/css loading",
       "name": "webpack/runtime/css loading",
       "nameForCondition": null,
@@ -31344,9 +31356,9 @@
         "runtime": 308
       },
       "built": false,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": true,
-      "cached": true,
+      "cached": false,
       "identifier": "webpack/runtime/define property getters",
       "name": "webpack/runtime/define property getters",
       "nameForCondition": null,
@@ -31447,9 +31459,9 @@
         "runtime": 163
       },
       "built": false,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": true,
-      "cached": true,
+      "cached": false,
       "identifier": "webpack/runtime/get mini-css chunk filename",
       "name": "webpack/runtime/get mini-css chunk filename",
       "nameForCondition": null,
@@ -31585,9 +31597,9 @@
         "runtime": 88
       },
       "built": false,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": true,
-      "cached": true,
+      "cached": false,
       "identifier": "webpack/runtime/hasOwnProperty shorthand",
       "name": "webpack/runtime/hasOwnProperty shorthand",
       "nameForCondition": null,
@@ -31653,9 +31665,9 @@
         "runtime": 9347
       },
       "built": false,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": true,
-      "cached": true,
+      "cached": false,
       "identifier": "webpack/runtime/hot module replacement",
       "name": "webpack/runtime/hot module replacement",
       "nameForCondition": null,
@@ -31791,9 +31803,9 @@
         "runtime": 274
       },
       "built": false,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": true,
-      "cached": true,
+      "cached": false,
       "identifier": "webpack/runtime/make namespace object",
       "name": "webpack/runtime/make namespace object",
       "nameForCondition": null,
@@ -31859,9 +31871,9 @@
         "runtime": 63
       },
       "built": false,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": true,
-      "cached": true,
+      "cached": false,
       "identifier": "webpack/runtime/publicPath",
       "name": "webpack/runtime/publicPath",
       "nameForCondition": null,
@@ -31927,36 +31939,28 @@
       ],
       "assets": [
         {
-          "name": "main.b8997f47332cb1730ef1.css",
-          "size": 14791
+          "name": "main.eed49ea9a2495decea54.css",
+          "size": 15488
         },
         {
-          "name": "main.9ebf5b6b245d9f91114e.js",
-          "size": 515421
-        },
-        {
-          "name": "main.04345479afc4967ae2a2.hot-update.js",
-          "size": 2130
+          "name": "main.26673f9595325ec8fe99.js",
+          "size": 515672
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 532342,
+      "assetsSize": 531160,
       "auxiliaryAssets": [
         {
-          "name": "main.04345479afc4967ae2a2.hot-update.js.map",
-          "size": 3544
+          "name": "main.26673f9595325ec8fe99.js.map",
+          "size": 2152798
         },
         {
-          "name": "main.9ebf5b6b245d9f91114e.js.map",
-          "size": 2152496
-        },
-        {
-          "name": "main.b8997f47332cb1730ef1.css.map",
-          "size": 32465
+          "name": "main.eed49ea9a2495decea54.css.map",
+          "size": 33837
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 2188505,
+      "auxiliaryAssetsSize": 2186635,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -31970,36 +31974,28 @@
       ],
       "assets": [
         {
-          "name": "main.b8997f47332cb1730ef1.css",
-          "size": 14791
+          "name": "main.eed49ea9a2495decea54.css",
+          "size": 15488
         },
         {
-          "name": "main.9ebf5b6b245d9f91114e.js",
-          "size": 515421
-        },
-        {
-          "name": "main.04345479afc4967ae2a2.hot-update.js",
-          "size": 2130
+          "name": "main.26673f9595325ec8fe99.js",
+          "size": 515672
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 532342,
+      "assetsSize": 531160,
       "auxiliaryAssets": [
         {
-          "name": "main.04345479afc4967ae2a2.hot-update.js.map",
-          "size": 3544
+          "name": "main.26673f9595325ec8fe99.js.map",
+          "size": 2152798
         },
         {
-          "name": "main.9ebf5b6b245d9f91114e.js.map",
-          "size": 2152496
-        },
-        {
-          "name": "main.b8997f47332cb1730ef1.css.map",
-          "size": 32465
+          "name": "main.eed49ea9a2495decea54.css.map",
+          "size": 33837
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 2188505,
+      "auxiliaryAssetsSize": 2186635,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -32009,5 +32005,711 @@
   "errorsCount": 0,
   "warnings": [],
   "warningsCount": 0,
-  "children": []
+  "children": [
+    {
+      "name": "HtmlWebpackCompiler",
+      "hash": "46af117b507575fc9535",
+      "version": "5.75.0",
+      "time": 31753,
+      "builtAt": 1672645213036,
+      "publicPath": "",
+      "outputPath": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\dist",
+      "assetsByChunkName": {},
+      "assets": [],
+      "chunks": [
+        {
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "recorded": false,
+          "size": 1504,
+          "sizes": {
+            "javascript": 462,
+            "runtime": 1042
+          },
+          "names": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "idHints": [],
+          "runtime": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "files": [],
+          "auxiliaryFiles": [],
+          "hash": "f910b04a0b0828a99c6a",
+          "childrenByOrder": {},
+          "id": "HtmlWebpackPlugin_0-0",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 385,
+              "sizes": {
+                "javascript": 385
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\html-loader\\dist\\cjs.js!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\public\\index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
+              "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\public\\index.html",
+              "index": 1,
+              "preOrderIndex": 1,
+              "index2": 1,
+              "postOrderIndex": 1,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
+              "issuerId": null,
+              "chunks": [
+                "HtmlWebpackPlugin_0-0"
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\public\\index.html",
+                  "loc": "HtmlWebpackPlugin_0-0",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": null,
+                  "active": true,
+                  "explanation": "used as library export",
+                  "userRequest": null,
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": null,
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/esm",
+              "layer": null,
+              "size": 77,
+              "sizes": {
+                "javascript": 77
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "javascript/esm|data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+              "name": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+              "nameForCondition": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 0,
+              "postOrderIndex": 0,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+              "issuerId": null,
+              "chunks": [
+                "HtmlWebpackPlugin_0-0"
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+                  "loc": "HtmlWebpackPlugin_0-0",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 308,
+              "sizes": {
+                "runtime": 308
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/define property getters",
+              "name": "webpack/runtime/define property getters",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                "HtmlWebpackPlugin_0-0"
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 88,
+              "sizes": {
+                "runtime": 88
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/hasOwnProperty shorthand",
+              "name": "webpack/runtime/hasOwnProperty shorthand",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                "HtmlWebpackPlugin_0-0"
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 274,
+              "sizes": {
+                "runtime": 274
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/make namespace object",
+              "name": "webpack/runtime/make namespace object",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                "HtmlWebpackPlugin_0-0"
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 27,
+              "sizes": {
+                "runtime": 27
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/publicPath",
+              "name": "webpack/runtime/publicPath",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                "HtmlWebpackPlugin_0-0"
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 345,
+              "sizes": {
+                "runtime": 345
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/require chunk loading",
+              "name": "webpack/runtime/require chunk loading",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                "HtmlWebpackPlugin_0-0"
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            }
+          ],
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "request": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\public\\index.html"
+            },
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "request": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;"
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/esm",
+          "layer": null,
+          "size": 77,
+          "sizes": {
+            "javascript": 77
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "javascript/esm|data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+          "name": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+          "nameForCondition": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+          "issuerId": null,
+          "chunks": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 385,
+          "sizes": {
+            "javascript": 385
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\html-loader\\dist\\cjs.js!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\public\\index.html",
+          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
+          "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\public\\index.html",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
+          "issuerId": null,
+          "chunks": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\public\\index.html",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": null,
+              "active": true,
+              "explanation": "used as library export",
+              "userRequest": null,
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 308,
+          "sizes": {
+            "runtime": 308
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/define property getters",
+          "name": "webpack/runtime/define property getters",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 88,
+          "sizes": {
+            "runtime": 88
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 274,
+          "sizes": {
+            "runtime": 274
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/make namespace object",
+          "name": "webpack/runtime/make namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 27,
+          "sizes": {
+            "runtime": 27
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/publicPath",
+          "name": "webpack/runtime/publicPath",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 345,
+          "sizes": {
+            "runtime": 345
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/require chunk loading",
+          "name": "webpack/runtime/require chunk loading",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "entrypoints": {
+        "HtmlWebpackPlugin_0-0": {
+          "name": "HtmlWebpackPlugin_0-0",
+          "chunks": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "namedChunkGroups": {
+        "HtmlWebpackPlugin_0-0": {
+          "name": "HtmlWebpackPlugin_0-0",
+          "chunks": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "errors": [],
+      "errorsCount": 0,
+      "warnings": [],
+      "warningsCount": 0,
+      "children": []
+    }
+  ]
 }
