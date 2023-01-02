@@ -8,7 +8,7 @@ const Login = () => {
 
   // const API = `${process.env.API_KEY}`;
   // console.log(`1) ...${process.env.OSO}`);
-  const API_KEY = 'RGAPI-7fc4f193-078b-4479-90c3-6afbbe97afbd';
+  const API_KEY = 'RGAPI-5e315068-6712-4be5-87c5-d7b0192565ff';
 
   const {
     lastVersion,
@@ -222,7 +222,7 @@ const Login = () => {
       clearConsole();
     } finally{
       setLoadingMatchInfo(false);
-      alert('se cargaron tus datos =D');
+      alert('Se cargaron tus datos =D\nAhora ve el menú.');
     }
   }
 
