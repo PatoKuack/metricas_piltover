@@ -8,7 +8,7 @@ const Login = () => {
 
   // const API = `${process.env.API_KEY}`;
   // console.log(`1) ...${process.env.OSO}`);
-  const API_KEY = 'RGAPI-5e315068-6712-4be5-87c5-d7b0192565ff';
+  const API_KEY = 'RGAPI-db3a0fdf-f4c3-4c0c-aec5-7032c1f77a44';
 
   const {
     lastVersion,
@@ -235,20 +235,13 @@ const Login = () => {
   };
 
   function displacement() {
-    const displace = document.body.clientHeight - screen.height ;
-    // const displace = screen.height;
+    // const displace = document.body.clientHeight - screen.height ;
+    const displace = screen.height;
     window.scroll({
       top: displace,
       left: 0,
       behavior: 'smooth'
     });
-    setTimeout(() => {
-      window.scroll({
-        top: -displace,
-        left: 0,
-        behavior: 'smooth'
-      });
-    } ,1000);
   }
 
   function clearConsole() {
@@ -276,7 +269,7 @@ const Login = () => {
             <label htmlFor="summonerName" className="w-fit mr-2">Ingresa tu nombre de jugador:</label>
             <input name="summonerName" id="summonerName" className="min-w-min max-w-fit my-2 px-1 bg-teal-100 text-teal-800 rounded-sm sm:my-0 sm:mx-2" placeholder='ej: xoxo' onKeyDown={handleKeyDown} />
           </div>
-          <i className="text-xs max-w-[218px] bg-gradient-to-r m-1 from-gray-800 via-gray-800 rounded-md sm:text-sm sm:max-w-full">No importa si colocas o no espacios, mayúsculas o minúsculas.</i>
+          <i className="text-xs max-w-[218px] bg-gradient-to-r p-1 from-gray-800 via-gray-800 rounded-md sm:text-sm sm:max-w-full">No importa si colocas o no espacios, mayúsculas o minúsculas.</i>
           <div className="flex flex-col w-fit sm:flex-row sm:mt-4">
             <label htmlFor="summonerRegion" className="w-fit mr-2">Selecciona tu región/continente:</label>
             <select defaultValue={"americas.api.riotgames.com"} name="summonerRegion" id="summonerRegion" className="min-w-min max-w-fit my-2 px-1 bg-teal-100 text-teal-800 rounded-sm sm:my-0">
