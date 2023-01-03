@@ -454,7 +454,7 @@ const ChampionStats = () => {
             <input type="text" value={stats.totFirstBlood} readOnly id="setTotFirstBlood" className="w-16 px-1 mx-auto bg-teal-200 text-teal-800 text-center rounded-sm md:w-20 md:mx-2" />
           </div>
           <div className="flex flex-col md:block">
-            <label htmlFor="setTotVictory" className="w-fit mx-4">Vitorias:</label>
+            <label htmlFor="setTotVictory" className="w-fit mx-4">Victorias:</label>
             <input type="text" value={stats.totWin} readOnly id="setTotVictory" className="w-16 px-1 mx-auto bg-teal-200 text-teal-800 text-center rounded-sm md:w-20 md:mx-2" />
           </div>
         </section>
@@ -502,7 +502,7 @@ const ChampionStats = () => {
             <input type="text" value={stats.averageVision} readOnly id="setAverageVision" className="w-16 px-1 mx-auto bg-teal-200 text-teal-800 text-center rounded-sm md:w-20 md:mx-2" />
           </div>
           <div className="flex flex-col md:block">
-            <label htmlFor="setAverageControl" className="w-fit mx-4">Contol de masas: </label>
+            <label htmlFor="setAverageControl" className="w-fit mx-4">Control de masas: </label>
             <input type="text" value={stats.averageCC} readOnly id="setAverageControl" className="w-16 px-1 mx-auto bg-teal-200 text-teal-800 text-center rounded-sm md:w-20 md:mx-2" />
           </div>
         </section>

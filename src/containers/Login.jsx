@@ -261,7 +261,7 @@ const Login = () => {
   return (
     <React.Fragment>
       {headerToggle && <Header />}
-      <h1 className="pt-6 text-2xl text-center sm:text-3xl">Login</h1>
+      <h1 className="pt-6 text-2xl text-center sm:text-3xl">Acceso al perfil</h1>
       <div className="flex flex-col space-y-8 justify-center content-center items-center w-fit max-w-[100vw] mx-auto px-4 py-8 md:flex-row md:space-x-16 lg:space-x-32 md:space-y-0 sm:py-12">
 
         <form className="w-fit h-fit flex flex-col items-start" action="/" ref={loginForm}>
@@ -269,7 +269,7 @@ const Login = () => {
             <label htmlFor="summonerName" className="w-fit mr-2">Ingresa tu nombre de jugador:</label>
             <input name="summonerName" id="summonerName" className="min-w-min max-w-fit my-2 px-1 bg-teal-100 text-teal-800 rounded-sm sm:my-0 sm:mx-2" placeholder='ej: xoxo' onKeyDown={handleKeyDown} />
           </div>
-          <i className="text-xs max-w-[218px] bg-gradient-to-r p-1 from-gray-800 via-gray-800 rounded-md sm:text-sm sm:max-w-full">No importa si colocas o no espacios, mayúsculas o minúsculas.</i>
+          <i className="text-xs max-w-[218px] bg-gradient-to-r p-2 from-gray-800 via-gray-800 rounded-md sm:text-sm sm:max-w-full">No importa si colocas o no espacios, mayúsculas o minúsculas.</i>
           <div className="flex flex-col w-fit sm:flex-row sm:mt-4">
             <label htmlFor="summonerRegion" className="w-fit mr-2">Selecciona tu región/continente:</label>
             <select defaultValue={"americas.api.riotgames.com"} name="summonerRegion" id="summonerRegion" className="min-w-min max-w-fit my-2 px-1 bg-teal-100 text-teal-800 rounded-sm sm:my-0">
@@ -342,7 +342,7 @@ const Login = () => {
 
       </div>
 
-        <p className={`text-center animate-[moveto_1s_cubic-bezier(.56,.85,.85,1.35)_1] md:animate-[moveto_2s_cubic-bezier(.56,.85,.85,1.35)_1] ${headerToggle ? 'block' : 'hidden'}`}><span className='block max-w-fit px-2 py-1 mx-auto bg-gradient-to-l from-gray-800 via-gray-800 rounded-md sm:inline'>Puedes ver tus estadisticas desde el menú. ☝🤓</span></p>
+        <p className={`text-center animate-[moveto_1s_cubic-bezier(.56,.85,.85,1.35)_1] md:animate-[moveto_2s_cubic-bezier(.56,.85,.85,1.35)_1] ${headerToggle ? 'block' : 'hidden'}`}><span className='block max-w-fit px-2 py-1 mx-auto bg-gradient-to-l from-gray-800 via-gray-800 rounded-md sm:inline'>Puedes ver tus estadísticas desde el menú. ☝🤓</span></p>
     </React.Fragment>
   );
 }

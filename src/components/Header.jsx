@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <header className="z-10 fixed top-0 left-0 flex flex-row items-center w-full bg-gray-800 justify-between md:px-2 xl:px-4">
-      <p className="p-2">MetricasPiltover</p>
+      <p className="p-2">Métricas Piltover</p>
       <button id="toggle" className="
         relative w-[1.8rem] h-[1.5rem] mr-2 animate-pulse animate-[pulse_1s_ease-in_alternate_5] hover:bg-gray-500 sm:hidden
         after:content-[''] after:block after:w-full after:h-1/5 after:bg-current after:absolute after:top-0
@@ -22,12 +22,12 @@ const Header = () => {
         <ul className="flex flex-col justify-center sm:flex-row">
           <li className="block hover:bg-gray-500">
             <NavLink to={ '/' } className="block px-4 py-2">
-              Login
+              Acceso al perfil
             </NavLink>
           </li>
           <li className="block hover:bg-gray-500">
             <NavLink to={ '/championstats' } className="block px-4 py-2">
-              Estadisticas por Campeón
+              Estadísticas por Campeón
             </NavLink>
           </li>
           {/* <li className="block hover:bg-gray-500">
