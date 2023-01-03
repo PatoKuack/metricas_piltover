@@ -5,7 +5,6 @@ const Header = () => {
 
   const [toggle, setToggle] = useState(false);
   const handleToggle = () => {
-    console.log("toggle: " + toggle);
     setToggle(!toggle);
   }
 
