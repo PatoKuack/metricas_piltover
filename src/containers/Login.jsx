@@ -8,7 +8,7 @@ const Login = () => {
 
   // const API = `${process.env.API_KEY}`;
   // console.log(`1) ...${process.env.OSO}`);
-  const API_KEY = 'RGAPI-db3a0fdf-f4c3-4c0c-aec5-7032c1f77a44';
+  const API_KEY = 'RGAPI-86f5d689-1931-49ac-addc-531a481e88d8';
 
   const {
     lastVersion,
@@ -262,6 +262,7 @@ const Login = () => {
     <React.Fragment>
       {headerToggle && <Header />}
       <h1 className="pt-6 text-2xl text-center sm:text-3xl">Acceso al perfil</h1>
+      <p className='p-2 mx-auto my-4 text-xs text-center text-amber-200 italic bg-gradient-to-r from-gray-800 via-gray-800 rounded-md rounded-md sm:text-sm sm:max-w-[500px]'><b>Métricas Piltover</b> is <b>not endorsed</b> by <b>Riot Games</b> and does not reflect the views or opinions of <b>Riot Games</b> or anyone officially involved in producing or managing <b>Riot Games</b> properties. <b>Riot Games</b> and all associated properties are trademarks or registered trademarks of <b>Riot Games</b>, Inc.</p>
       <div className="flex flex-col space-y-8 justify-center content-center items-center w-fit max-w-[100vw] mx-auto px-4 py-8 md:flex-row md:space-x-16 lg:space-x-32 md:space-y-0 sm:py-12">
 
         <form className="w-fit h-fit flex flex-col items-start" action="/" ref={loginForm}>
@@ -269,7 +270,7 @@ const Login = () => {
             <label htmlFor="summonerName" className="w-fit mr-2">Ingresa tu nombre de jugador:</label>
             <input name="summonerName" id="summonerName" className="min-w-min max-w-fit my-2 px-1 bg-teal-100 text-teal-800 rounded-sm sm:my-0 sm:mx-2" placeholder='ej: xoxo' onKeyDown={handleKeyDown} />
           </div>
-          <i className="text-xs max-w-[218px] bg-gradient-to-r p-2 from-gray-800 via-gray-800 rounded-md sm:text-sm sm:max-w-full">No importa si colocas o no espacios, mayúsculas o minúsculas.</i>
+          <p className="text-xs max-w-[218px] px-2 py-1 italic bg-gradient-to-r from-gray-800 via-gray-800 rounded-md sm:text-sm sm:max-w-full sm:mt-1">No importa si colocas o no espacios, mayúsculas o minúsculas.</p>
           <div className="flex flex-col w-fit sm:flex-row sm:mt-4">
             <label htmlFor="summonerRegion" className="w-fit mr-2">Selecciona tu región/continente:</label>
             <select defaultValue={"americas.api.riotgames.com"} name="summonerRegion" id="summonerRegion" className="min-w-min max-w-fit my-2 px-1 bg-teal-100 text-teal-800 rounded-sm sm:my-0">
@@ -328,7 +329,7 @@ const Login = () => {
               <option value="zh_TW">ภาษาจีนกลาง (ประเทศไต้หวัน)</option>
             </select>
           </div>
-          <button type="button" id="verifyLoginButton" className="w-fit self-center mt-8 px-4 py-2 bg-teal-600 border border-solid border-current rounded-md" onClick={getFormInfo}>Verificar</button>
+          <button type="button" id="verifyLoginButton" className="w-fit self-center mt-8 px-4 py-2 bg-teal-600 border border-solid border-current rounded-md shadow-md shadow-gray-300 hover:bg-teal-700 hover:shadow-gray-400 active:bg-teal-800 active:shadow-transparent" onClick={getFormInfo}>Verificar</button>
         </form>
 
         <LoginConfirmation 

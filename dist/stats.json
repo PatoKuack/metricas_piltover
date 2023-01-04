@@ -1,35 +1,34 @@
 {
-  "hash": "358de2900ddf98c7c1a3",
+  "hash": "84cbe7efb5054c8770cf",
   "version": "5.75.0",
-  "time": 3960,
-  "builtAt": 1672777611513,
+  "time": 1194,
+  "builtAt": 1672805558904,
   "publicPath": "/",
   "outputPath": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\dist",
   "assetsByChunkName": {
     "main": [
-      "main.6a5e2d8def332cd6b5c3.css",
-      "main.959ee5fa322e0a0f3822.js",
-      "main.a88ca2dd7c720f826107.hot-update.js"
+      "main.294b39606f296211f562.css",
+      "main.7eccd5a47f7630df4d13.js"
     ]
   },
   "assets": [
     {
       "type": "asset",
-      "name": "main.959ee5fa322e0a0f3822.js",
-      "size": 516021,
-      "emitted": true,
+      "name": "main.7eccd5a47f7630df4d13.js",
+      "size": 517018,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "immutable": true,
-        "contenthash": "959ee5fa322e0a0f3822",
+        "contenthash": "7eccd5a47f7630df4d13",
         "javascriptModule": false,
         "minimized": true,
         "related": {
-          "license": "main.959ee5fa322e0a0f3822.js.LICENSE.txt",
-          "sourceMap": "main.959ee5fa322e0a0f3822.js.map"
+          "license": "main.7eccd5a47f7630df4d13.js.LICENSE.txt",
+          "sourceMap": "main.7eccd5a47f7630df4d13.js.map"
         },
-        "size": 516021
+        "size": 517018
       },
       "chunkNames": [
         "main"
@@ -41,14 +40,14 @@
       "related": [
         {
           "type": "sourceMap",
-          "name": "main.959ee5fa322e0a0f3822.js.map",
-          "size": 2153582,
-          "emitted": true,
+          "name": "main.7eccd5a47f7630df4d13.js.map",
+          "size": 2154509,
+          "emitted": false,
           "comparedForEmit": false,
-          "cached": false,
+          "cached": true,
           "info": {
             "development": true,
-            "size": 2153582
+            "size": 2154509
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -65,11 +64,11 @@
         },
         {
           "type": "license",
-          "name": "main.959ee5fa322e0a0f3822.js.LICENSE.txt",
+          "name": "main.7eccd5a47f7630df4d13.js.LICENSE.txt",
           "size": 17105,
-          "emitted": true,
+          "emitted": false,
           "comparedForEmit": false,
-          "cached": false,
+          "cached": true,
           "info": {
             "extractedComments": true,
             "size": 17105
@@ -134,19 +133,19 @@
     },
     {
       "type": "asset",
-      "name": "main.6a5e2d8def332cd6b5c3.css",
-      "size": 16398,
+      "name": "main.294b39606f296211f562.css",
+      "size": 17449,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
         "immutable": true,
-        "contenthash": "6a5e2d8def332cd6b5c3",
+        "contenthash": "294b39606f296211f562",
         "minimized": true,
         "related": {
-          "sourceMap": "main.6a5e2d8def332cd6b5c3.css.map"
+          "sourceMap": "main.294b39606f296211f562.css.map"
         },
-        "size": 16398
+        "size": 17449
       },
       "chunkNames": [
         "main"
@@ -158,14 +157,14 @@
       "related": [
         {
           "type": "sourceMap",
-          "name": "main.6a5e2d8def332cd6b5c3.css.map",
-          "size": 34838,
+          "name": "main.294b39606f296211f562.css.map",
+          "size": 36296,
           "emitted": false,
           "comparedForEmit": false,
           "cached": true,
           "info": {
             "development": true,
-            "size": 34838
+            "size": 36296
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -178,83 +177,6 @@
           "auxiliaryChunks": [
             "main"
           ],
-          "isOverSizeLimit": false
-        }
-      ],
-      "chunks": [
-        "main"
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "main.a88ca2dd7c720f826107.hot-update.js",
-      "size": 12004,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true,
-        "fullhash": "a88ca2dd7c720f826107",
-        "minimized": true,
-        "related": {
-          "license": "main.a88ca2dd7c720f826107.hot-update.js.LICENSE.txt",
-          "sourceMap": "main.a88ca2dd7c720f826107.hot-update.js.map"
-        },
-        "size": 12004
-      },
-      "chunkNames": [
-        "main"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "filteredRelated": 0,
-      "related": [
-        {
-          "type": "sourceMap",
-          "name": "main.a88ca2dd7c720f826107.hot-update.js.map",
-          "size": 24938,
-          "emitted": true,
-          "comparedForEmit": false,
-          "cached": false,
-          "info": {
-            "development": true,
-            "size": 24938
-          },
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [
-            "main"
-          ],
-          "auxiliaryChunkIdHints": [],
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [
-            "main"
-          ],
-          "isOverSizeLimit": false
-        },
-        {
-          "type": "license",
-          "name": "main.a88ca2dd7c720f826107.hot-update.js.LICENSE.txt",
-          "size": 326,
-          "emitted": true,
-          "comparedForEmit": false,
-          "cached": false,
-          "info": {
-            "extractedComments": true,
-            "size": 326
-          },
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [],
-          "auxiliaryChunkIdHints": [],
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [],
           "isOverSizeLimit": false
         }
       ],
@@ -282,41 +204,19 @@
       "chunks": [],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "main.a88ca2dd7c720f826107.hot-update.json",
-      "size": 28,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true,
-        "fullhash": "a88ca2dd7c720f826107",
-        "size": 28
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
     }
   ],
   "chunks": [
     {
-      "rendered": true,
+      "rendered": false,
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 1503626,
+      "size": 1505828,
       "sizes": {
-        "css/mini-extract": 24771,
-        "runtime": 30989,
-        "javascript": 1447866
+        "javascript": 1449040,
+        "css/mini-extract": 25799,
+        "runtime": 30989
       },
       "names": [
         "main"
@@ -326,16 +226,14 @@
         "main"
       ],
       "files": [
-        "main.6a5e2d8def332cd6b5c3.css",
-        "main.959ee5fa322e0a0f3822.js",
-        "main.a88ca2dd7c720f826107.hot-update.js"
+        "main.294b39606f296211f562.css",
+        "main.7eccd5a47f7630df4d13.js"
       ],
       "auxiliaryFiles": [
-        "main.6a5e2d8def332cd6b5c3.css.map",
-        "main.959ee5fa322e0a0f3822.js.map",
-        "main.a88ca2dd7c720f826107.hot-update.js.map"
+        "main.294b39606f296211f562.css.map",
+        "main.7eccd5a47f7630df4d13.js.map"
       ],
-      "hash": "f889101ec67ae3850fdf",
+      "hash": "09e9f858c516232fef74",
       "childrenByOrder": {},
       "id": "main",
       "siblings": [],
@@ -691,8 +589,8 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\ChampionStats.jsx",
-          "issuerName": "./src/containers/ChampionStats.jsx",
+          "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+          "issuerName": "./src/containers/Login.jsx",
           "issuerPath": [
             {
               "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\index.js",
@@ -705,16 +603,16 @@
               "id": "./src/routes/App.jsx"
             },
             {
-              "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\ChampionStats.jsx",
-              "name": "./src/containers/ChampionStats.jsx",
-              "id": "./src/containers/ChampionStats.jsx"
+              "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+              "name": "./src/containers/Login.jsx",
+              "id": "./src/containers/Login.jsx"
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js",
-          "issuerId": "./src/containers/ChampionStats.jsx",
+          "issuerId": "./src/containers/Login.jsx",
           "chunks": [
             "main"
           ],
@@ -1700,9 +1598,9 @@
               "id": "./src/routes/App.jsx"
             },
             {
-              "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\ChampionStats.jsx",
-              "name": "./src/containers/ChampionStats.jsx",
-              "id": "./src/containers/ChampionStats.jsx"
+              "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+              "name": "./src/containers/Login.jsx",
+              "id": "./src/containers/Login.jsx"
             },
             {
               "identifier": "javascript/dynamic|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\regenerator\\index.js",
@@ -1833,9 +1731,9 @@
               "id": "./src/routes/App.jsx"
             },
             {
-              "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\ChampionStats.jsx",
-              "name": "./src/containers/ChampionStats.jsx",
-              "id": "./src/containers/ChampionStats.jsx"
+              "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+              "name": "./src/containers/Login.jsx",
+              "id": "./src/containers/Login.jsx"
             },
             {
               "identifier": "javascript/dynamic|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\regenerator\\index.js",
@@ -1957,8 +1855,8 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\ChampionStats.jsx",
-          "issuerName": "./src/containers/ChampionStats.jsx",
+          "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+          "issuerName": "./src/containers/Login.jsx",
           "issuerPath": [
             {
               "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\index.js",
@@ -1971,16 +1869,16 @@
               "id": "./src/routes/App.jsx"
             },
             {
-              "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\ChampionStats.jsx",
-              "name": "./src/containers/ChampionStats.jsx",
-              "id": "./src/containers/ChampionStats.jsx"
+              "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+              "name": "./src/containers/Login.jsx",
+              "id": "./src/containers/Login.jsx"
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": "./node_modules/@babel/runtime/regenerator/index.js",
-          "issuerId": "./src/containers/ChampionStats.jsx",
+          "issuerId": "./src/containers/Login.jsx",
           "chunks": [
             "main"
           ],
@@ -2281,8 +2179,8 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-router-dom\\dist\\index.js",
-          "issuerName": "./node_modules/react-router-dom/dist/index.js",
+          "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+          "issuerName": "./src/containers/Login.jsx",
           "issuerPath": [
             {
               "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\index.js",
@@ -2295,16 +2193,16 @@
               "id": "./src/routes/App.jsx"
             },
             {
-              "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-router-dom\\dist\\index.js",
-              "name": "./node_modules/react-router-dom/dist/index.js",
-              "id": "./node_modules/react-router-dom/dist/index.js"
+              "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+              "name": "./src/containers/Login.jsx",
+              "id": "./src/containers/Login.jsx"
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": "./node_modules/@remix-run/router/dist/router.js",
-          "issuerId": "./node_modules/react-router-dom/dist/index.js",
+          "issuerId": "./src/containers/Login.jsx",
           "chunks": [
             "main"
           ],
@@ -4353,8 +4251,8 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-dom\\cjs\\react-dom.development.js",
-          "issuerName": "./node_modules/react-dom/cjs/react-dom.development.js",
+          "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react\\cjs\\react.development.js",
+          "issuerName": "./node_modules/react/cjs/react.development.js",
           "issuerPath": [
             {
               "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\index.js",
@@ -4362,21 +4260,21 @@
               "id": "./src/index.js"
             },
             {
-              "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-dom\\index.js",
-              "name": "./node_modules/react-dom/index.js",
-              "id": "./node_modules/react-dom/index.js"
+              "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react\\index.js",
+              "name": "./node_modules/react/index.js",
+              "id": "./node_modules/react/index.js"
             },
             {
-              "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-dom\\cjs\\react-dom.development.js",
-              "name": "./node_modules/react-dom/cjs/react-dom.development.js",
-              "id": "./node_modules/react-dom/cjs/react-dom.development.js"
+              "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react\\cjs\\react.development.js",
+              "name": "./node_modules/react/cjs/react.development.js",
+              "id": "./node_modules/react/cjs/react.development.js"
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": "./node_modules/object-assign/index.js",
-          "issuerId": "./node_modules/react-dom/cjs/react-dom.development.js",
+          "issuerId": "./node_modules/react/cjs/react.development.js",
           "chunks": [
             "main"
           ],
@@ -8686,7 +8584,105 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "376:18-37",
+              "loc": "372:95-114",
+              "moduleId": "./src/containers/Login.jsx",
+              "resolvedModuleId": "./src/containers/Login.jsx"
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+              "module": "./src/containers/Login.jsx",
+              "moduleName": "./src/containers/Login.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+              "resolvedModule": "./src/containers/Login.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "372:164-183",
+              "moduleId": "./src/containers/Login.jsx",
+              "resolvedModuleId": "./src/containers/Login.jsx"
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+              "module": "./src/containers/Login.jsx",
+              "moduleName": "./src/containers/Login.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+              "resolvedModule": "./src/containers/Login.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "372:274-293",
+              "moduleId": "./src/containers/Login.jsx",
+              "resolvedModuleId": "./src/containers/Login.jsx"
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+              "module": "./src/containers/Login.jsx",
+              "moduleName": "./src/containers/Login.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+              "resolvedModule": "./src/containers/Login.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "372:393-412",
+              "moduleId": "./src/containers/Login.jsx",
+              "resolvedModuleId": "./src/containers/Login.jsx"
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+              "module": "./src/containers/Login.jsx",
+              "moduleName": "./src/containers/Login.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+              "resolvedModule": "./src/containers/Login.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "372:469-488",
+              "moduleId": "./src/containers/Login.jsx",
+              "resolvedModuleId": "./src/containers/Login.jsx"
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+              "module": "./src/containers/Login.jsx",
+              "moduleName": "./src/containers/Login.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+              "resolvedModule": "./src/containers/Login.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "372:606-625",
+              "moduleId": "./src/containers/Login.jsx",
+              "resolvedModuleId": "./src/containers/Login.jsx"
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+              "module": "./src/containers/Login.jsx",
+              "moduleName": "./src/containers/Login.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+              "resolvedModule": "./src/containers/Login.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "372:676-695",
+              "moduleId": "./src/containers/Login.jsx",
+              "resolvedModuleId": "./src/containers/Login.jsx"
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+              "module": "./src/containers/Login.jsx",
+              "moduleName": "./src/containers/Login.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+              "resolvedModule": "./src/containers/Login.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "374:18-37",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -8714,7 +8710,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "381:52-71",
+              "loc": "380:18-37",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -8728,7 +8724,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "387:20-39",
+              "loc": "383:52-71",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -8742,7 +8738,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "389:90-109",
+              "loc": "389:20-39",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -8756,7 +8752,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "391:18-37",
+              "loc": "391:90-109",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -8770,7 +8766,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "394:58-77",
+              "loc": "393:18-37",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -8784,7 +8780,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "399:18-37",
+              "loc": "396:58-77",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -8798,7 +8794,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "401:30-49",
+              "loc": "401:18-37",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -8812,7 +8808,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "403:27-46",
+              "loc": "403:30-49",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -8826,7 +8822,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "405:29-48",
+              "loc": "405:27-46",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -8840,7 +8836,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "407:44-63",
+              "loc": "407:29-48",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -8854,7 +8850,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "409:18-37",
+              "loc": "409:44-63",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -8868,7 +8864,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "412:48-67",
+              "loc": "411:18-37",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -8882,7 +8878,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "417:18-37",
+              "loc": "414:48-67",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -8896,7 +8892,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "419:29-48",
+              "loc": "419:18-37",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -8910,7 +8906,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "421:47-66",
+              "loc": "421:29-48",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -8924,7 +8920,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "423:35-54",
+              "loc": "423:47-66",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -8938,7 +8934,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "425:31-50",
+              "loc": "425:35-54",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -8952,7 +8948,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "427:44-63",
+              "loc": "427:31-50",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -8966,7 +8962,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "429:45-64",
+              "loc": "429:44-63",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -8980,7 +8976,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "431:43-62",
+              "loc": "431:45-64",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -8994,7 +8990,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "433:38-57",
+              "loc": "433:43-62",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -9008,7 +9004,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "435:33-52",
+              "loc": "435:38-57",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -9036,7 +9032,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "439:30-49",
+              "loc": "439:33-52",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -9050,7 +9046,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "441:18-37",
+              "loc": "441:30-49",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -9064,7 +9060,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "444:46-65",
+              "loc": "443:18-37",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -9078,7 +9074,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "449:18-37",
+              "loc": "446:46-65",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -9092,7 +9088,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "451:54-73",
+              "loc": "451:18-37",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -9106,7 +9102,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "453:110-129",
+              "loc": "453:54-73",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -9120,7 +9116,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "455:50-69",
+              "loc": "455:110-129",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -9134,7 +9130,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "457:41-60",
+              "loc": "457:50-69",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -9148,7 +9144,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "459:47-66",
+              "loc": "459:41-60",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -9176,7 +9172,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "463:43-62",
+              "loc": "463:47-66",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -9190,7 +9186,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "465:45-64",
+              "loc": "465:43-62",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -9204,7 +9200,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "467:40-59",
+              "loc": "467:45-64",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -9218,7 +9214,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "469:43-62",
+              "loc": "469:40-59",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -9232,7 +9228,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "471:56-75",
+              "loc": "471:43-62",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -9260,7 +9256,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "475:45-64",
+              "loc": "475:56-75",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -9288,7 +9284,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "479:44-63",
+              "loc": "479:45-64",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -9302,7 +9298,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "481:46-65",
+              "loc": "481:44-63",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -9316,7 +9312,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "483:42-61",
+              "loc": "483:46-65",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -9330,7 +9326,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "485:104-123",
+              "loc": "485:42-61",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -9344,7 +9340,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "487:48-67",
+              "loc": "487:104-123",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -9358,7 +9354,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "489:40-59",
+              "loc": "489:48-67",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -9372,7 +9368,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "491:54-73",
+              "loc": "491:40-59",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -9386,7 +9382,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "493:42-61",
+              "loc": "493:54-73",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -9400,7 +9396,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "495:98-117",
+              "loc": "495:42-61",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -9414,7 +9410,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "497:59-78",
+              "loc": "497:98-117",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -9428,7 +9424,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "499:44-63",
+              "loc": "499:59-78",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -9442,7 +9438,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "501:40-59",
+              "loc": "501:44-63",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -9456,7 +9452,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "503:50-69",
+              "loc": "503:40-59",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -9470,7 +9466,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "505:172-191",
+              "loc": "505:50-69",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -9484,7 +9480,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "510:33-52",
+              "loc": "507:172-191",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -9498,7 +9494,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "517:20-39",
+              "loc": "512:33-52",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -9512,7 +9508,21 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "519:18-37",
+              "loc": "519:20-39",
+              "moduleId": "./src/containers/Login.jsx",
+              "resolvedModuleId": "./src/containers/Login.jsx"
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+              "module": "./src/containers/Login.jsx",
+              "moduleName": "./src/containers/Login.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+              "resolvedModule": "./src/containers/Login.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "521:18-37",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             },
@@ -14206,20 +14216,20 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack\\hot\\dev-server.js",
-          "issuerName": "./node_modules/webpack/hot/dev-server.js",
+          "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+          "issuerName": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
           "issuerPath": [
             {
-              "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack\\hot\\dev-server.js",
-              "name": "./node_modules/webpack/hot/dev-server.js",
-              "id": "./node_modules/webpack/hot/dev-server.js"
+              "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+              "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+              "id": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true"
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": "./node_modules/webpack/hot/log.js",
-          "issuerId": "./node_modules/webpack/hot/dev-server.js",
+          "issuerId": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
           "chunks": [
             "main"
           ],
@@ -14386,8 +14396,8 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\ChampionStats.jsx",
-          "issuerName": "./src/containers/ChampionStats.jsx",
+          "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+          "issuerName": "./src/containers/Login.jsx",
           "issuerPath": [
             {
               "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\index.js",
@@ -14400,16 +14410,16 @@
               "id": "./src/routes/App.jsx"
             },
             {
-              "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\ChampionStats.jsx",
-              "name": "./src/containers/ChampionStats.jsx",
-              "id": "./src/containers/ChampionStats.jsx"
+              "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+              "name": "./src/containers/Login.jsx",
+              "id": "./src/containers/Login.jsx"
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": "./src/components/Header.jsx",
-          "issuerId": "./src/containers/ChampionStats.jsx",
+          "issuerId": "./src/containers/Login.jsx",
           "chunks": [
             "main"
           ],
@@ -14483,14 +14493,14 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 1146,
+          "size": 1302,
           "sizes": {
-            "javascript": 1146
+            "javascript": 1302
           },
-          "built": false,
+          "built": true,
           "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\components\\LoginConfirmation.jsx",
           "name": "./src/components/LoginConfirmation.jsx",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\components\\LoginConfirmation.jsx",
@@ -14555,7 +14565,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../components/LoginConfirmation.jsx",
-              "loc": "510:53-70",
+              "loc": "512:53-70",
               "moduleId": "./src/containers/Login.jsx",
               "resolvedModuleId": "./src/containers/Login.jsx"
             }
@@ -14654,9 +14664,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 343,
+          "size": 356,
           "sizes": {
-            "javascript": 343
+            "javascript": 356
           },
           "built": false,
           "codeGenerated": false,
@@ -14737,14 +14747,14 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 24833,
+          "size": 25838,
           "sizes": {
-            "javascript": 24833
+            "javascript": 25838
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
           "name": "./src/containers/Login.jsx",
           "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
@@ -15355,9 +15365,9 @@
         {
           "type": "module",
           "moduleType": "css/mini-extract",
-          "size": 24771,
+          "size": 25799,
           "sizes": {
-            "css/mini-extract": 24771
+            "css/mini-extract": 25799
           },
           "built": false,
           "codeGenerated": false,
@@ -15426,9 +15436,9 @@
             "runtime": 267
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/compat get default export",
           "name": "webpack/runtime/compat get default export",
           "nameForCondition": null,
@@ -15462,9 +15472,9 @@
             "runtime": 1141
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/create fake namespace object",
           "name": "webpack/runtime/create fake namespace object",
           "nameForCondition": null,
@@ -15498,9 +15508,9 @@
             "runtime": 2794
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/css loading",
           "name": "webpack/runtime/css loading",
           "nameForCondition": null,
@@ -15534,9 +15544,9 @@
             "runtime": 308
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/define property getters",
           "name": "webpack/runtime/define property getters",
           "nameForCondition": null,
@@ -15570,9 +15580,9 @@
             "runtime": 209
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/get javascript update chunk filename",
           "name": "webpack/runtime/get javascript update chunk filename",
           "nameForCondition": null,
@@ -15606,9 +15616,9 @@
             "runtime": 163
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/get mini-css chunk filename",
           "name": "webpack/runtime/get mini-css chunk filename",
           "nameForCondition": null,
@@ -15642,9 +15652,9 @@
             "runtime": 90
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/get update manifest filename",
           "name": "webpack/runtime/get update manifest filename",
           "nameForCondition": null,
@@ -15678,9 +15688,9 @@
             "runtime": 54
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/getFullHash",
           "name": "webpack/runtime/getFullHash",
           "nameForCondition": null,
@@ -15714,9 +15724,9 @@
             "runtime": 88
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/hasOwnProperty shorthand",
           "name": "webpack/runtime/hasOwnProperty shorthand",
           "nameForCondition": null,
@@ -15750,9 +15760,9 @@
             "runtime": 9347
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/hot module replacement",
           "name": "webpack/runtime/hot module replacement",
           "nameForCondition": null,
@@ -15786,9 +15796,9 @@
             "runtime": 14715
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/jsonp chunk loading",
           "name": "webpack/runtime/jsonp chunk loading",
           "nameForCondition": null,
@@ -15822,9 +15832,9 @@
             "runtime": 1511
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/load script",
           "name": "webpack/runtime/load script",
           "nameForCondition": null,
@@ -15858,9 +15868,9 @@
             "runtime": 274
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/make namespace object",
           "name": "webpack/runtime/make namespace object",
           "nameForCondition": null,
@@ -15894,9 +15904,9 @@
             "runtime": 28
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/publicPath",
           "name": "webpack/runtime/publicPath",
           "nameForCondition": null,
@@ -16133,20 +16143,20 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack\\hot\\dev-server.js",
-      "issuerName": "./node_modules/webpack/hot/dev-server.js",
+      "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+      "issuerName": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
       "issuerPath": [
         {
-          "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack\\hot\\dev-server.js",
-          "name": "./node_modules/webpack/hot/dev-server.js",
-          "id": "./node_modules/webpack/hot/dev-server.js"
+          "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+          "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+          "id": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true"
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": "./node_modules/webpack/hot/log.js",
-      "issuerId": "./node_modules/webpack/hot/dev-server.js",
+      "issuerId": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
       "chunks": [
         "main"
       ],
@@ -19780,7 +19790,105 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "376:18-37",
+          "loc": "372:95-114",
+          "moduleId": "./src/containers/Login.jsx",
+          "resolvedModuleId": "./src/containers/Login.jsx"
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+          "module": "./src/containers/Login.jsx",
+          "moduleName": "./src/containers/Login.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+          "resolvedModule": "./src/containers/Login.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "372:164-183",
+          "moduleId": "./src/containers/Login.jsx",
+          "resolvedModuleId": "./src/containers/Login.jsx"
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+          "module": "./src/containers/Login.jsx",
+          "moduleName": "./src/containers/Login.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+          "resolvedModule": "./src/containers/Login.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "372:274-293",
+          "moduleId": "./src/containers/Login.jsx",
+          "resolvedModuleId": "./src/containers/Login.jsx"
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+          "module": "./src/containers/Login.jsx",
+          "moduleName": "./src/containers/Login.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+          "resolvedModule": "./src/containers/Login.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "372:393-412",
+          "moduleId": "./src/containers/Login.jsx",
+          "resolvedModuleId": "./src/containers/Login.jsx"
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+          "module": "./src/containers/Login.jsx",
+          "moduleName": "./src/containers/Login.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+          "resolvedModule": "./src/containers/Login.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "372:469-488",
+          "moduleId": "./src/containers/Login.jsx",
+          "resolvedModuleId": "./src/containers/Login.jsx"
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+          "module": "./src/containers/Login.jsx",
+          "moduleName": "./src/containers/Login.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+          "resolvedModule": "./src/containers/Login.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "372:606-625",
+          "moduleId": "./src/containers/Login.jsx",
+          "resolvedModuleId": "./src/containers/Login.jsx"
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+          "module": "./src/containers/Login.jsx",
+          "moduleName": "./src/containers/Login.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+          "resolvedModule": "./src/containers/Login.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "372:676-695",
+          "moduleId": "./src/containers/Login.jsx",
+          "resolvedModuleId": "./src/containers/Login.jsx"
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+          "module": "./src/containers/Login.jsx",
+          "moduleName": "./src/containers/Login.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+          "resolvedModule": "./src/containers/Login.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "374:18-37",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -19808,7 +19916,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "381:52-71",
+          "loc": "380:18-37",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -19822,7 +19930,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "387:20-39",
+          "loc": "383:52-71",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -19836,7 +19944,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "389:90-109",
+          "loc": "389:20-39",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -19850,7 +19958,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "391:18-37",
+          "loc": "391:90-109",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -19864,7 +19972,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "394:58-77",
+          "loc": "393:18-37",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -19878,7 +19986,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "399:18-37",
+          "loc": "396:58-77",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -19892,7 +20000,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "401:30-49",
+          "loc": "401:18-37",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -19906,7 +20014,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "403:27-46",
+          "loc": "403:30-49",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -19920,7 +20028,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "405:29-48",
+          "loc": "405:27-46",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -19934,7 +20042,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "407:44-63",
+          "loc": "407:29-48",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -19948,7 +20056,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "409:18-37",
+          "loc": "409:44-63",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -19962,7 +20070,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "412:48-67",
+          "loc": "411:18-37",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -19976,7 +20084,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "417:18-37",
+          "loc": "414:48-67",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -19990,7 +20098,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "419:29-48",
+          "loc": "419:18-37",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20004,7 +20112,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "421:47-66",
+          "loc": "421:29-48",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20018,7 +20126,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "423:35-54",
+          "loc": "423:47-66",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20032,7 +20140,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "425:31-50",
+          "loc": "425:35-54",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20046,7 +20154,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "427:44-63",
+          "loc": "427:31-50",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20060,7 +20168,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "429:45-64",
+          "loc": "429:44-63",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20074,7 +20182,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "431:43-62",
+          "loc": "431:45-64",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20088,7 +20196,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "433:38-57",
+          "loc": "433:43-62",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20102,7 +20210,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "435:33-52",
+          "loc": "435:38-57",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20130,7 +20238,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "439:30-49",
+          "loc": "439:33-52",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20144,7 +20252,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "441:18-37",
+          "loc": "441:30-49",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20158,7 +20266,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "444:46-65",
+          "loc": "443:18-37",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20172,7 +20280,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "449:18-37",
+          "loc": "446:46-65",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20186,7 +20294,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "451:54-73",
+          "loc": "451:18-37",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20200,7 +20308,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "453:110-129",
+          "loc": "453:54-73",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20214,7 +20322,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "455:50-69",
+          "loc": "455:110-129",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20228,7 +20336,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "457:41-60",
+          "loc": "457:50-69",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20242,7 +20350,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "459:47-66",
+          "loc": "459:41-60",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20270,7 +20378,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "463:43-62",
+          "loc": "463:47-66",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20284,7 +20392,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "465:45-64",
+          "loc": "465:43-62",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20298,7 +20406,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "467:40-59",
+          "loc": "467:45-64",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20312,7 +20420,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "469:43-62",
+          "loc": "469:40-59",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20326,7 +20434,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "471:56-75",
+          "loc": "471:43-62",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20354,7 +20462,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "475:45-64",
+          "loc": "475:56-75",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20382,7 +20490,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "479:44-63",
+          "loc": "479:45-64",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20396,7 +20504,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "481:46-65",
+          "loc": "481:44-63",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20410,7 +20518,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "483:42-61",
+          "loc": "483:46-65",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20424,7 +20532,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "485:104-123",
+          "loc": "485:42-61",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20438,7 +20546,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "487:48-67",
+          "loc": "487:104-123",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20452,7 +20560,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "489:40-59",
+          "loc": "489:48-67",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20466,7 +20574,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "491:54-73",
+          "loc": "491:40-59",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20480,7 +20588,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "493:42-61",
+          "loc": "493:54-73",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20494,7 +20602,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "495:98-117",
+          "loc": "495:42-61",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20508,7 +20616,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "497:59-78",
+          "loc": "497:98-117",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20522,7 +20630,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "499:44-63",
+          "loc": "499:59-78",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20536,7 +20644,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "501:40-59",
+          "loc": "501:44-63",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20550,7 +20658,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "503:50-69",
+          "loc": "503:40-59",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20564,7 +20672,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "505:172-191",
+          "loc": "505:50-69",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20578,7 +20686,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "510:33-52",
+          "loc": "507:172-191",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20592,7 +20700,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "517:20-39",
+          "loc": "512:33-52",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -20606,7 +20714,21 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "519:18-37",
+          "loc": "519:20-39",
+          "moduleId": "./src/containers/Login.jsx",
+          "resolvedModuleId": "./src/containers/Login.jsx"
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+          "module": "./src/containers/Login.jsx",
+          "moduleName": "./src/containers/Login.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+          "resolvedModule": "./src/containers/Login.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "521:18-37",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         },
@@ -24107,9 +24229,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 343,
+      "size": 356,
       "sizes": {
-        "javascript": 343
+        "javascript": 356
       },
       "built": false,
       "codeGenerated": false,
@@ -24189,14 +24311,14 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 24833,
+      "size": 25838,
       "sizes": {
-        "javascript": 24833
+        "javascript": 25838
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
       "name": "./src/containers/Login.jsx",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
@@ -26417,9 +26539,9 @@
     {
       "type": "module",
       "moduleType": "css/mini-extract",
-      "size": 24771,
+      "size": 25799,
       "sizes": {
-        "css/mini-extract": 24771
+        "css/mini-extract": 25799
       },
       "built": false,
       "codeGenerated": false,
@@ -26726,8 +26848,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-dom\\cjs\\react-dom.development.js",
-      "issuerName": "./node_modules/react-dom/cjs/react-dom.development.js",
+      "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react\\cjs\\react.development.js",
+      "issuerName": "./node_modules/react/cjs/react.development.js",
       "issuerPath": [
         {
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\index.js",
@@ -26735,21 +26857,21 @@
           "id": "./src/index.js"
         },
         {
-          "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-dom\\index.js",
-          "name": "./node_modules/react-dom/index.js",
-          "id": "./node_modules/react-dom/index.js"
+          "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react\\index.js",
+          "name": "./node_modules/react/index.js",
+          "id": "./node_modules/react/index.js"
         },
         {
-          "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-dom\\cjs\\react-dom.development.js",
-          "name": "./node_modules/react-dom/cjs/react-dom.development.js",
-          "id": "./node_modules/react-dom/cjs/react-dom.development.js"
+          "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react\\cjs\\react.development.js",
+          "name": "./node_modules/react/cjs/react.development.js",
+          "id": "./node_modules/react/cjs/react.development.js"
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": "./node_modules/object-assign/index.js",
-      "issuerId": "./node_modules/react-dom/cjs/react-dom.development.js",
+      "issuerId": "./node_modules/react/cjs/react.development.js",
       "chunks": [
         "main"
       ],
@@ -26997,8 +27119,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\ChampionStats.jsx",
-      "issuerName": "./src/containers/ChampionStats.jsx",
+      "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+      "issuerName": "./src/containers/Login.jsx",
       "issuerPath": [
         {
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\index.js",
@@ -27011,16 +27133,16 @@
           "id": "./src/routes/App.jsx"
         },
         {
-          "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\ChampionStats.jsx",
-          "name": "./src/containers/ChampionStats.jsx",
-          "id": "./src/containers/ChampionStats.jsx"
+          "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+          "name": "./src/containers/Login.jsx",
+          "id": "./src/containers/Login.jsx"
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js",
-      "issuerId": "./src/containers/ChampionStats.jsx",
+      "issuerId": "./src/containers/Login.jsx",
       "chunks": [
         "main"
       ],
@@ -27168,8 +27290,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\ChampionStats.jsx",
-      "issuerName": "./src/containers/ChampionStats.jsx",
+      "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+      "issuerName": "./src/containers/Login.jsx",
       "issuerPath": [
         {
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\index.js",
@@ -27182,16 +27304,16 @@
           "id": "./src/routes/App.jsx"
         },
         {
-          "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\ChampionStats.jsx",
-          "name": "./src/containers/ChampionStats.jsx",
-          "id": "./src/containers/ChampionStats.jsx"
+          "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+          "name": "./src/containers/Login.jsx",
+          "id": "./src/containers/Login.jsx"
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": "./node_modules/@babel/runtime/regenerator/index.js",
-      "issuerId": "./src/containers/ChampionStats.jsx",
+      "issuerId": "./src/containers/Login.jsx",
       "chunks": [
         "main"
       ],
@@ -27473,14 +27595,14 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 1146,
+      "size": 1302,
       "sizes": {
-        "javascript": 1146
+        "javascript": 1302
       },
-      "built": false,
+      "built": true,
       "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\components\\LoginConfirmation.jsx",
       "name": "./src/components/LoginConfirmation.jsx",
       "nameForCondition": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\components\\LoginConfirmation.jsx",
@@ -27544,7 +27666,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../components/LoginConfirmation.jsx",
-          "loc": "510:53-70",
+          "loc": "512:53-70",
           "moduleId": "./src/containers/Login.jsx",
           "resolvedModuleId": "./src/containers/Login.jsx"
         }
@@ -27578,8 +27700,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\ChampionStats.jsx",
-      "issuerName": "./src/containers/ChampionStats.jsx",
+      "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+      "issuerName": "./src/containers/Login.jsx",
       "issuerPath": [
         {
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\index.js",
@@ -27592,16 +27714,16 @@
           "id": "./src/routes/App.jsx"
         },
         {
-          "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\ChampionStats.jsx",
-          "name": "./src/containers/ChampionStats.jsx",
-          "id": "./src/containers/ChampionStats.jsx"
+          "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+          "name": "./src/containers/Login.jsx",
+          "id": "./src/containers/Login.jsx"
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": "./src/components/Header.jsx",
-      "issuerId": "./src/containers/ChampionStats.jsx",
+      "issuerId": "./src/containers/Login.jsx",
       "chunks": [
         "main"
       ],
@@ -27934,8 +28056,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-router-dom\\dist\\index.js",
-      "issuerName": "./node_modules/react-router-dom/dist/index.js",
+      "issuer": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+      "issuerName": "./src/containers/Login.jsx",
       "issuerPath": [
         {
           "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\index.js",
@@ -27948,16 +28070,16 @@
           "id": "./src/routes/App.jsx"
         },
         {
-          "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\react-router-dom\\dist\\index.js",
-          "name": "./node_modules/react-router-dom/dist/index.js",
-          "id": "./node_modules/react-router-dom/dist/index.js"
+          "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+          "name": "./src/containers/Login.jsx",
+          "id": "./src/containers/Login.jsx"
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": "./node_modules/@remix-run/router/dist/router.js",
-      "issuerId": "./node_modules/react-router-dom/dist/index.js",
+      "issuerId": "./src/containers/Login.jsx",
       "chunks": [
         "main"
       ],
@@ -29916,9 +30038,9 @@
           "id": "./src/routes/App.jsx"
         },
         {
-          "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\ChampionStats.jsx",
-          "name": "./src/containers/ChampionStats.jsx",
-          "id": "./src/containers/ChampionStats.jsx"
+          "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+          "name": "./src/containers/Login.jsx",
+          "id": "./src/containers/Login.jsx"
         },
         {
           "identifier": "javascript/dynamic|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\regenerator\\index.js",
@@ -30720,9 +30842,9 @@
           "id": "./src/routes/App.jsx"
         },
         {
-          "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\ChampionStats.jsx",
-          "name": "./src/containers/ChampionStats.jsx",
-          "id": "./src/containers/ChampionStats.jsx"
+          "identifier": "C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[0].use!C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\src\\containers\\Login.jsx",
+          "name": "./src/containers/Login.jsx",
+          "id": "./src/containers/Login.jsx"
         },
         {
           "identifier": "javascript/dynamic|C:\\Users\\noctu\\OneDrive\\Escritorio\\Proyectos\\Proyectos_web\\metricas_piltover\\node_modules\\@babel\\runtime\\regenerator\\index.js",
@@ -30969,9 +31091,9 @@
         "runtime": 267
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/compat get default export",
       "name": "webpack/runtime/compat get default export",
       "nameForCondition": null,
@@ -31004,9 +31126,9 @@
         "runtime": 1141
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/create fake namespace object",
       "name": "webpack/runtime/create fake namespace object",
       "nameForCondition": null,
@@ -31039,9 +31161,9 @@
         "runtime": 2794
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/css loading",
       "name": "webpack/runtime/css loading",
       "nameForCondition": null,
@@ -31074,9 +31196,9 @@
         "runtime": 308
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/define property getters",
       "name": "webpack/runtime/define property getters",
       "nameForCondition": null,
@@ -31109,9 +31231,9 @@
         "runtime": 209
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/get javascript update chunk filename",
       "name": "webpack/runtime/get javascript update chunk filename",
       "nameForCondition": null,
@@ -31144,9 +31266,9 @@
         "runtime": 163
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/get mini-css chunk filename",
       "name": "webpack/runtime/get mini-css chunk filename",
       "nameForCondition": null,
@@ -31179,9 +31301,9 @@
         "runtime": 90
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/get update manifest filename",
       "name": "webpack/runtime/get update manifest filename",
       "nameForCondition": null,
@@ -31214,9 +31336,9 @@
         "runtime": 54
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/getFullHash",
       "name": "webpack/runtime/getFullHash",
       "nameForCondition": null,
@@ -31249,9 +31371,9 @@
         "runtime": 88
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/hasOwnProperty shorthand",
       "name": "webpack/runtime/hasOwnProperty shorthand",
       "nameForCondition": null,
@@ -31284,9 +31406,9 @@
         "runtime": 9347
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/hot module replacement",
       "name": "webpack/runtime/hot module replacement",
       "nameForCondition": null,
@@ -31319,9 +31441,9 @@
         "runtime": 14715
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/jsonp chunk loading",
       "name": "webpack/runtime/jsonp chunk loading",
       "nameForCondition": null,
@@ -31354,9 +31476,9 @@
         "runtime": 1511
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/load script",
       "name": "webpack/runtime/load script",
       "nameForCondition": null,
@@ -31389,9 +31511,9 @@
         "runtime": 274
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/make namespace object",
       "name": "webpack/runtime/make namespace object",
       "nameForCondition": null,
@@ -31424,9 +31546,9 @@
         "runtime": 28
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/publicPath",
       "name": "webpack/runtime/publicPath",
       "nameForCondition": null,
@@ -31459,36 +31581,28 @@
       ],
       "assets": [
         {
-          "name": "main.6a5e2d8def332cd6b5c3.css",
-          "size": 16398
+          "name": "main.294b39606f296211f562.css",
+          "size": 17449
         },
         {
-          "name": "main.959ee5fa322e0a0f3822.js",
-          "size": 516021
-        },
-        {
-          "name": "main.a88ca2dd7c720f826107.hot-update.js",
-          "size": 12004
+          "name": "main.7eccd5a47f7630df4d13.js",
+          "size": 517018
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 544423,
+      "assetsSize": 534467,
       "auxiliaryAssets": [
         {
-          "name": "main.6a5e2d8def332cd6b5c3.css.map",
-          "size": 34838
+          "name": "main.294b39606f296211f562.css.map",
+          "size": 36296
         },
         {
-          "name": "main.959ee5fa322e0a0f3822.js.map",
-          "size": 2153582
-        },
-        {
-          "name": "main.a88ca2dd7c720f826107.hot-update.js.map",
-          "size": 24938
+          "name": "main.7eccd5a47f7630df4d13.js.map",
+          "size": 2154509
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 2213358,
+      "auxiliaryAssetsSize": 2190805,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -31502,36 +31616,28 @@
       ],
       "assets": [
         {
-          "name": "main.6a5e2d8def332cd6b5c3.css",
-          "size": 16398
+          "name": "main.294b39606f296211f562.css",
+          "size": 17449
         },
         {
-          "name": "main.959ee5fa322e0a0f3822.js",
-          "size": 516021
-        },
-        {
-          "name": "main.a88ca2dd7c720f826107.hot-update.js",
-          "size": 12004
+          "name": "main.7eccd5a47f7630df4d13.js",
+          "size": 517018
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 544423,
+      "assetsSize": 534467,
       "auxiliaryAssets": [
         {
-          "name": "main.6a5e2d8def332cd6b5c3.css.map",
-          "size": 34838
+          "name": "main.294b39606f296211f562.css.map",
+          "size": 36296
         },
         {
-          "name": "main.959ee5fa322e0a0f3822.js.map",
-          "size": 2153582
-        },
-        {
-          "name": "main.a88ca2dd7c720f826107.hot-update.js.map",
-          "size": 24938
+          "name": "main.7eccd5a47f7630df4d13.js.map",
+          "size": 2154509
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 2213358,
+      "auxiliaryAssetsSize": 2190805,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
