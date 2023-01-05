@@ -4,6 +4,7 @@ import Layout from '../containers/Layout.jsx';
 import Login from '../containers/Login.jsx';
 import ChampionStats from '../containers/ChampionStats.jsx';
 import PositionStats from '../containers/PositionStats.jsx';
+import ShowRiotTXT from '../containers/ShowRiotTXT.jsx';
 import NotFound from '../pages/NotFound.jsx';
 import AppContext from '../context/AppContext.js';
 import useGetValues from '../hooks/useGetValues.js';
@@ -19,6 +20,7 @@ const App = () => {
             <Route path="/login" element={ <Login /> } />
             <Route path="/championstats" element={ <ChampionStats /> } />
             <Route path="/positionstats" element={ <PositionStats /> } />
+            <Route path="/riot.txt" element={<ShowRiotTXT />} />
             <Route path="*" element={ <NotFound /> } />
           </Routes>
         </Layout>
