@@ -180,6 +180,8 @@ const Login = () => {
                 summonerInfo: summonerInfo,
                 championName: element.championName,
                 position: element.individualPosition,
+                teamPosition: element.teamPosition,
+                role: element.role,
                 Kills: element.kills,
                 deaths: element.deaths,
                 assists: element.assists,
@@ -194,13 +196,19 @@ const Login = () => {
                 magicDamageDealt: element.magicDamageDealtToChampions,
                 trueDamageDealt: element.trueDamageDealtToChampions,
                 healDamage: element.totalHeal,
+                healDamageOnTeammates: element.totalHealsOnTeammates,
+                shieldDamageOnTeammates: element.totalDamageShieldedOnTeammates,
                 physicalDamageTaken: element.physicalDamageTaken,
                 magicDamageTaken: element.magicDamageTaken,
                 trueDamageTaken: element.trueDamageTaken,
-                vision: element.visionScore
+                vision: element.visionScore,
+                earlySurrender: element.gameEndedInEarlySurrender,
+                selfMitigatedDamage: element.damageSelfMitigated
               });
               // console.log(addDataMatches);
+              // console.log("pos: "+element.individualPosition+" teamPos: "+element.teamPosition+" role: "+element.role);
             }
+            // console.log(dataMInfo.info.gameType);
           }
         });
         if(resultMInfo.status !== 200) {
