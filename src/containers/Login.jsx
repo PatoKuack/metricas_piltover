@@ -9,7 +9,7 @@ const Login = () => {
 
   // const API_KEY = `${process.env.API_KEY}`;
   // console.log(`1) ...${process.env.OSO}`);
-  const API_KEY = 'RGAPI-935796d1-b6c6-445d-9f6e-532c5781da57';
+  const API_KEY = 'RGAPI-78adb7f2-cda8-4b61-b577-871e042f7a23';
 
   const {
     lastVersion,
@@ -172,7 +172,7 @@ const Login = () => {
         const resultMInfo = await fetch(match_URL);
         const dataMInfo = await resultMInfo.json();
         dataMInfo.info.participants.forEach(element => { 
-          if(element.puuid === summonerInfo.puuid && element.timePlayed > 1000 && dataMInfo.info.gameMode === "CLASSIC"){
+          if(element.puuid === summonerInfo.puuid && element.timePlayed > 900 && dataMInfo.info.gameMode === "CLASSIC" && element.gameEndedInEarlySurrender === false){
             if(!(addMatchId.includes(`${individualMatchId}${summonerInfo.name.toLowerCase().replaceAll(' ', '')}`))) {
               addMatchId.push(`${individualMatchId}${summonerInfo.name.toLowerCase().replaceAll(' ', '')}`);
               addDataMatches.push({
@@ -188,6 +188,7 @@ const Login = () => {
                 timeOfGame: element.timePlayed,
                 timePlayed: element.timePlayed - element.totalTimeCCDealt - element.totalTimeSpentDead,
                 gold: element.goldEarned,
+                goldSpent: element.goldSpent,
                 minions: element.totalMinionsKilled,
                 firstBlood: element.firstBloodKill,
                 victory: element.win,
@@ -203,9 +204,21 @@ const Login = () => {
                 trueDamageTaken: element.trueDamageTaken,
                 vision: element.visionScore,
                 earlySurrender: element.gameEndedInEarlySurrender,
-                selfMitigatedDamage: element.damageSelfMitigated
+                selfMitigatedDamage: element.damageSelfMitigated,
+                consumablesPurchased: element.consumablesPurchased,
+                item0: element.item0,
+                item1: element.item1,
+                item2: element.item2,
+                item3: element.item3,
+                item4: element.item4,
+                item5: element.item5,
+                item6: element.item6,
+                pentakills: element.pentakills,
+                spell1Casts: element.summoner1Casts,
+                spell1Id: element.summoner1Id,
+                spell2Casts: element.summoner2Casts,
+                spell2Id: element.summoner2Id
               });
-              // console.log(addDataMatches);
               // console.log("pos: "+element.individualPosition+" teamPos: "+element.teamPosition+" role: "+element.role);
             }
             // console.log(dataMInfo.info.gameType);
@@ -368,3 +381,4 @@ const Login = () => {
 export default Login;
 
 /* https://developer.mozilla.org/en-US/docs/Web/API/FormData */
+// https://ed.team/blog/que-es-y-como-utilizar-localstorage-y-sessionstorage
