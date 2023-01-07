@@ -9,7 +9,7 @@ const Login = () => {
 
   // const API_KEY = `${process.env.API_KEY}`;
   // console.log(`1) ...${process.env.OSO}`);
-  const API_KEY = 'RGAPI-78adb7f2-cda8-4b61-b577-871e042f7a23';
+  const API_KEY = 'RGAPI-c82334b9-225b-452f-9caa-b14205a80962';
 
   const {
     lastVersion,
@@ -380,5 +380,12 @@ const Login = () => {
 
 export default Login;
 
-/* https://developer.mozilla.org/en-US/docs/Web/API/FormData */
-// https://ed.team/blog/que-es-y-como-utilizar-localstorage-y-sessionstorage
+// to get summoner spells name with id:
+// "https://ddragon.leagueoflegends.com/cdn/12.23.1/data/en_US/summoner.json"
+// to get summoner spells image with name:
+// "https://ddragon.leagueoflegends.com/cdn/12.23.1/img/spell/SummonerDot.png"
+// to get items image with id:
+// "https://ddragon.leagueoflegends.com/cdn/12.23.1/img/item/3853.png"
+
+// "https://developer.mozilla.org/en-US/docs/Web/API/FormData
+// "https://ed.team/blog/que-es-y-como-utilizar-localstorage-y-sessionstorage"
