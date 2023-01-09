@@ -4,7 +4,7 @@ const ShowRiotTXT = () => {
 
   return (
     <React.Fragment>
-      9d341b71-8405-4c0c-b0c8-275f83809b26
+      8823c754-1390-43ce-8965-07ecb0cfbcf1
     </React.Fragment>
   );
 }

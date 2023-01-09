@@ -7,9 +7,9 @@ import { NavLink } from 'react-router-dom';
 
 const Login = () => {
 
-  // const API_KEY = `${process.env.API_KEY}`;
+  const API_KEY = `${process.env.API_KEY}`;
   // console.log(`1) ...${process.env.OSO}`);
-  const API_KEY = 'RGAPI-203b2a8c-8489-4a5a-897f-b866c9549e06';
+  // const API_KEY = '';
 
   const {
     lastVersion,
