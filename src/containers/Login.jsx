@@ -9,7 +9,7 @@ const Login = () => {
 
   // const API_KEY = `${process.env.API_KEY}`;
   // console.log(`1) ...${process.env.OSO}`);
-  const API_KEY = 'RGAPI-5e639a36-bf79-4ec2-bf92-7d0506586b21';
+  const API_KEY = 'RGAPI-d96468ab-0880-4bea-baba-bc52b1949d0d';
 
   const {
     lastVersion,
