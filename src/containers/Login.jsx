@@ -286,11 +286,11 @@ const Login = () => {
       <h1 className="pt-6 text-2xl text-center sm:text-3xl">Acceso al perfil</h1>
       {/* <p className='p-2 mx-auto my-4 text-xs text-center text-amber-200 italic bg-gradient-to-r from-gray-800 via-gray-800 rounded-md rounded-md sm:text-sm sm:max-w-[500px]'><b>Métricas Piltover</b> is <b>not endorsed</b> by <b>Riot Games</b> and does not reflect the views or opinions of <b>Riot Games</b> or anyone officially involved in producing or managing Riot Games properties. Riot Games and all associated properties are trademarks or registered trademarks of Riot Games, Inc.</p> */}
       <p className='p-2 mx-auto my-4 text-xs text-center text-amber-200 italic bg-gradient-to-r from-gray-800 via-gray-800 rounded-md rounded-md sm:text-sm sm:max-w-[500px]'><b>Métricas Piltover no cuenta</b> con el respaldo de <b>Riot Games</b> y <b>no refleja</b> los puntos de vista ni las opiniones de <b>Riot Games</b> ni de ninguna persona involucrada oficialmente en la producción o administración de las propiedades de Riot Games. Riot Games y todas las propiedades asociadas son marcas comerciales o marcas comerciales registradas de Riot Games, Inc.<br/>
-        {/* <button className='mt-1 border border-gray-400 border-solid rounded-md bg-teal-600 shadow-md shadow-gray-500 hover:bg-teal-700 hover:shadow-gray-600 active:bg-teal-800 active:shadow-transparent' >
+        <button className='mt-1 border border-gray-400 border-solid rounded-md bg-teal-600 shadow-md shadow-gray-500 hover:bg-teal-700 hover:shadow-gray-600 active:bg-teal-800 active:shadow-transparent' >
           <NavLink to={ '/riot.txt' } className="block px-2 py-1">
             Ver riot.txt
           </NavLink>
-        </button> */}
+        </button>
       </p>
 
       <div className="flex flex-col space-y-8 justify-center content-center items-center w-fit max-w-[100vw] mx-auto px-4 py-8 md:flex-row md:space-x-16 lg:space-x-32 md:space-y-0 sm:py-12">

@@ -4,7 +4,7 @@ import Layout from '../containers/Layout.jsx';
 import Login from '../containers/Login.jsx';
 import ChampionStats from '../containers/ChampionStats.jsx';
 import PositionStats from '../containers/PositionStats.jsx';
-import ShowRiotTXT from '../containers/ShowRiotTXT.jsx';
+import ShowRiotTXT from '../pages/ShowRiotTXT.jsx';
 import NotFound from '../pages/NotFound.jsx';
 import AppContext from '../context/AppContext.js';
 import useGetValues from '../hooks/useGetValues.js';
