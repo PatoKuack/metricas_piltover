@@ -9,7 +9,7 @@ const Header = () => {
   }
 
   return (
-    <header className="z-10 fixed top-0 left-0 flex flex-row items-center w-full bg-gray-800 justify-between md:px-2 xl:px-4">
+    <header className="z-10 fixed top-0 left-0 w-screen flex flex-row items-center justify-between bg-gray-800 md:px-2 xl:px-4">
       <p className="p-2">Métricas Piltover</p>
       <button id="toggle" className="
         relative w-[1.8rem] h-[1.5rem] mr-2 animate-pulse animate-[pulse_1s_ease-in_alternate_5] hover:bg-gray-500 sm:hidden

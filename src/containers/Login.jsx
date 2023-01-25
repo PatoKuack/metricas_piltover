@@ -259,11 +259,13 @@ const Login = () => {
   function displacement() {
     // const displace = document.body.clientHeight - screen.height ;
     const displace = screen.height;
-    window.scroll({
-      top: displace,
-      left: 0,
-      behavior: 'smooth'
-    });
+    setTimeout(() => {
+      window.scroll({
+        top: displace,
+        left: 0,
+        behavior: 'smooth'
+      });
+    }, 500)
   }
 
   function clearConsole() {
@@ -298,12 +300,12 @@ const Login = () => {
         <form className="w-fit h-fit flex flex-col items-start" action="/" ref={loginForm}>
           <div className="flex flex-col w-fit sm:flex-row sm:mt-4">
             <label htmlFor="summonerName" className="w-fit mr-2">Ingresa tu nombre de jugador:</label>
-            <input name="summonerName" id="summonerName" className="min-w-min max-w-fit my-2 px-1 bg-teal-100 text-teal-800 rounded-sm sm:my-0 sm:mx-2" placeholder='ej: xoxo' onKeyDown={handleKeyDown} />
+            <input name="summonerName" id="summonerName" className="min-w-min max-w-fit my-2 px-1 bg-teal-100 text-teal-800 rounded-sm sm:my-0 sm:mx-2" placeholder='ej: xoxo' onKeyDown={handleKeyDown} onChange={getFormInfo} />
           </div>
           <p className="text-xs max-w-[218px] px-2 py-1 italic bg-gradient-to-r from-gray-800 via-gray-800 rounded-md sm:text-sm sm:max-w-full sm:mt-1">No importa si colocas o no espacios, mayúsculas o minúsculas.</p>
           <div className="flex flex-col w-fit sm:flex-row sm:mt-4">
             <label htmlFor="summonerRegion" className="w-fit mr-2">Selecciona tu región/continente:</label>
-            <select defaultValue={"americas.api.riotgames.com"} name="summonerRegion" id="summonerRegion" className="min-w-min max-w-fit my-2 px-1 bg-teal-100 text-teal-800 rounded-sm sm:my-0">
+            <select defaultValue={"americas.api.riotgames.com"} name="summonerRegion" id="summonerRegion" className="min-w-min max-w-fit my-2 px-1 bg-teal-100 text-teal-800 rounded-sm sm:my-0" onChange={getFormInfo}>
               <option value="americas.api.riotgames.com">America</option>
               <option value="asia.api.riotgames.com">Asia</option>
               <option value="europe.api.riotgames.com">Europa</option>
@@ -312,7 +314,7 @@ const Login = () => {
           </div>
           <div className="flex flex-col w-fit sm:flex-row sm:mt-4">
             <label htmlFor="summonerPlatform" className="w-fit mr-2">Selecciona tu plataforma:</label>
-            <select defaultValue={"la1.api.riotgames.com"} name="summonerPlatform" id="summonerPlatform" className="min-w-min max-w-fit my-2 px-1 bg-teal-100 text-teal-800 rounded-sm sm:my-0 sm:mx-2">
+            <select defaultValue={"la1.api.riotgames.com"} name="summonerPlatform" id="summonerPlatform" className="min-w-min max-w-fit my-2 px-1 bg-teal-100 text-teal-800 rounded-sm sm:my-0 sm:mx-2" onChange={getFormInfo}>
               <option value="br1.api.riotgames.com">Brasil</option>
               <option value="eun1.api.riotgames.com">Europa Nórdica y Este</option>
               <option value="euw1.api.riotgames.com">Europa Oeste</option>
@@ -328,7 +330,7 @@ const Login = () => {
           </div>
           <div className="flex flex-col w-fit sm:flex-row sm:mt-4">
             <label htmlFor="summonerLanguage" className="w-fit mr-2">Selecciona un lenguaje:</label>
-            <select defaultValue={"es_MX"} name="summonerLanguage" id="summonerLanguage" className="min-w-min max-w-fit my-2 px-1 bg-teal-100 text-teal-800 text-sm rounded-sm sm:my-0 sm:mx-2 sm:text-base">
+            <select defaultValue={"es_MX"} name="summonerLanguage" id="summonerLanguage" className="min-w-min max-w-fit my-2 px-1 bg-teal-100 text-teal-800 text-sm rounded-sm sm:my-0 sm:mx-2 sm:text-base" onChange={getFormInfo}>
               <option value="cs_CZ">čeština (Českoc)</option>
               <option value="el_GR">Ελληνικά (Ελλάδα)</option>
               <option value="pl_PL">Română (România)</option>
@@ -359,7 +361,7 @@ const Login = () => {
               <option value="zh_TW">ภาษาจีนกลาง (ประเทศไต้หวัน)</option>
             </select>
           </div>
-          <button type="button" id="verifyLoginButton" className="w-fit self-center mt-8 px-4 py-2 bg-teal-600 border border-solid border-current rounded-md shadow-md shadow-gray-300 hover:bg-teal-700 hover:shadow-gray-400 active:bg-teal-800 active:shadow-transparent" onClick={getFormInfo}>Verificar</button>
+          {/* <button type="button" id="verifyLoginButton" className="w-fit self-center mt-8 px-4 py-2 bg-teal-600 border border-solid border-current rounded-md shadow-md shadow-gray-300 hover:bg-teal-700 hover:shadow-gray-400 active:bg-teal-800 active:shadow-transparent" onClick={getFormInfo}>Verificar</button> */}
         </form>
 
         <LoginConfirmation 

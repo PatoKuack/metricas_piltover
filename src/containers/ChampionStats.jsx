@@ -50,6 +50,9 @@ const ChampionStats = () => {
     getChampionList();
   }, [loadingMatchInfo]);
   useEffect(() => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    // window.scrollTo(0, 0);
     setStats({
       damageDealtMagicGPY: '-',
       damageTakenMagicGPY: '-',
@@ -147,7 +150,7 @@ const ChampionStats = () => {
       const championsList = Object.entries(dataChampions.data);
       const champName = getChampSelected();
       let champId;
-      if(champName !== undefined) {
+      if(champName !== "No champs") {
         for(i=0 ; i<championsList.length ; i++) {
           if((champName === championsList[i][1].id) || (champName === championsList[i][0])) {
             champId = `https://ddragon.leagueoflegends.com/cdn/${lastVersion}/img/champion/${championsList[i][1].id}.png`;
@@ -163,7 +166,7 @@ const ChampionStats = () => {
         console.log(resultChampions.status + dataChampions.message);
       } else {
         setCurrentChampionImg(champId);
-        console.log(currentChampionImg);
+        // console.log(currentChampionImg);
         console.log("no error getting champion-id");
       }
     } catch(err) { console.log(err)}
