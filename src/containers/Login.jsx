@@ -7,7 +7,8 @@ import { NavLink } from 'react-router-dom';
 
 const Login = () => {
 
-  const API_KEY = `${process.env.API_KEY}`;
+  const [API_KEY, setAPI_KEY] = useState(`${process.env.API_KEY}`);
+  // const API_KEY = `${process.env.API_KEY}`;
   console.log(`variable de ambiente: ...${process.env.OSO}`);
   // const API_KEY = '';
 
@@ -43,6 +44,11 @@ const Login = () => {
   const [matchIdList, setMatchIdList] = useState([]);
   const [matchInfo, setMatchInfo] = useState({}); */
 
+  const getApiKey = useRef(`${process.env.API_KEY}`);
+  function getKey() {
+    let key = getApiKey.current.value;
+    setAPI_KEY(key);
+  }
 
   const version_URL = "https://ddragon.leagueoflegends.com/api/versions.json";
   async function versionInfo() {
@@ -287,12 +293,17 @@ const Login = () => {
       {headerToggle && <Header />}
       <h1 className="pt-6 text-2xl text-center sm:text-3xl">Acceso al perfil</h1>
       {/* <p className='p-2 mx-auto my-4 text-xs text-center text-amber-200 italic bg-gradient-to-r from-gray-800 via-gray-800 rounded-md rounded-md sm:text-sm sm:max-w-[500px]'><b>Métricas Piltover</b> is <b>not endorsed</b> by <b>Riot Games</b> and does not reflect the views or opinions of <b>Riot Games</b> or anyone officially involved in producing or managing Riot Games properties. Riot Games and all associated properties are trademarks or registered trademarks of Riot Games, Inc.</p> */}
-      <p className='p-2 mx-auto my-4 text-xs text-center text-amber-200 italic bg-gradient-to-r from-gray-800 via-gray-800 rounded-md rounded-md sm:text-sm sm:max-w-[500px]'><b>Métricas Piltover no cuenta</b> con el respaldo de <b>Riot Games</b> y <b>no refleja</b> los puntos de vista ni las opiniones de <b>Riot Games</b> ni de ninguna persona involucrada oficialmente en la producción o administración de las propiedades de Riot Games. Riot Games y todas las propiedades asociadas son marcas comerciales o marcas comerciales registradas de Riot Games, Inc.<br/>
+      <p className='p-2 mx-auto my-4 text-xs text-center text-amber-200 italic bg-gradient-to-r from-gray-800 via-gray-800 rounded-md rounded-md sm:text-sm sm:max-w-[500px]'>
+        <b>Métricas Piltover no cuenta</b> con el respaldo de <b>Riot Games</b> y <b>no refleja</b> los puntos de vista ni las opiniones de <b>Riot Games</b> ni de ninguna persona involucrada oficialmente en la producción o administración de las propiedades de Riot Games. Riot Games y todas las propiedades asociadas son marcas comerciales o marcas comerciales registradas de Riot Games, Inc.<br/>
         <button className='mt-1 border border-gray-400 border-solid rounded-md bg-teal-600 shadow-md shadow-gray-500 hover:bg-teal-700 hover:shadow-gray-600 active:bg-teal-800 active:shadow-transparent' >
           <NavLink to={ '/riot.txt' } className="block px-2 py-1">
             Ver riot.txt
           </NavLink>
         </button>
+      </p>
+      <p className='p-2 mx-auto my-4 text-xs text-center text-amber-200 italic bg-gradient-to-r from-gray-800 via-gray-800 rounded-md rounded-md sm:text-sm sm:max-w-[500px]'>
+        <label htmlFor="apikey" className="w-fit mr-2">Ingresa tu API key:</label>
+        <input type="text" name="apikey" id="apikey" className="min-w-min max-w-fit my-2 px-1 bg-teal-100 text-teal-800 rounded-sm sm:my-0 sm:mx-2" placeholder="ej: RGAPI-########-####..." onChange={getKey} ref={getApiKey} />
       </p>
 
       <div className="flex flex-col space-y-8 justify-center content-center items-center w-fit max-w-[100vw] mx-auto px-4 py-8 md:flex-row md:space-x-16 lg:space-x-32 md:space-y-0 sm:py-12">
@@ -300,7 +311,7 @@ const Login = () => {
         <form className="w-fit h-fit flex flex-col items-start" action="/" ref={loginForm}>
           <div className="flex flex-col w-fit sm:flex-row sm:mt-4">
             <label htmlFor="summonerName" className="w-fit mr-2">Ingresa tu nombre de jugador:</label>
-            <input name="summonerName" id="summonerName" className="min-w-min max-w-fit my-2 px-1 bg-teal-100 text-teal-800 rounded-sm sm:my-0 sm:mx-2" placeholder='ej: xoxo' onKeyDown={handleKeyDown} onChange={getFormInfo} />
+            <input name="summonerName" id="summonerName" className="min-w-min max-w-fit my-2 px-1 bg-teal-100 text-teal-800 rounded-sm sm:my-0 sm:mx-2" placeholder="ej: xoxo" onKeyDown={handleKeyDown} onChange={getFormInfo} />
           </div>
           <p className="text-xs max-w-[218px] px-2 py-1 italic bg-gradient-to-r from-gray-800 via-gray-800 rounded-md sm:text-sm sm:max-w-full sm:mt-1">No importa si colocas o no espacios, mayúsculas o minúsculas.</p>
           <div className="flex flex-col w-fit sm:flex-row sm:mt-4">
