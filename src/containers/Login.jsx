@@ -172,7 +172,7 @@ const Login = () => {
       const dataMatches = await resultMatches.json();
       let addDataMatches = matchInfo;
       let addMatchId = matchIdList;
-      for(let i=0; i<dataMatches.length; i++){
+      for(let i=dataMatches.length; i>0; i--){
         let individualMatchId = dataMatches[i];
         const match_URL = `https://${summonerInfo.region}/lol/match/v5/matches/${individualMatchId}?api_key=${API_KEY}`;
         const resultMInfo = await fetch(match_URL);
@@ -252,7 +252,7 @@ const Login = () => {
       clearConsole();
     } finally{
       setLoadingMatchInfo(false);
-      alert('Se cargaron tus datos. 😉');
+      alert('Se cargaron los datos de tus partidas 5v5 que duraron más de 15 minutos. 😉');
     }
   }
 
