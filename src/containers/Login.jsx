@@ -177,13 +177,15 @@ const Login = () => {
         const match_URL = `https://${summonerInfo.region}/lol/match/v5/matches/${individualMatchId}?api_key=${API_KEY}`;
         const resultMInfo = await fetch(match_URL);
         const dataMInfo = await resultMInfo.json();
+        const gameVersion = dataMInfo.info.gameVersion;
         dataMInfo.info.participants.forEach(element => { 
-          if(element.puuid === summonerInfo.puuid && element.timePlayed > 900 && dataMInfo.info.gameMode === "CLASSIC" && element.gameEndedInEarlySurrender === false){
+          if((element.puuid === summonerInfo.puuid) && (element.timePlayed > 900) && (dataMInfo.info.gameMode === "CLASSIC") && (element.gameEndedInEarlySurrender === false)){
             if(!(addMatchId.includes(`${individualMatchId}${summonerInfo.name.toLowerCase().replaceAll(' ', '')}`))) {
               addMatchId.push(`${individualMatchId}${summonerInfo.name.toLowerCase().replaceAll(' ', '')}`);
               addDataMatches.push({
                 matchId: individualMatchId,
                 summonerInfo: summonerInfo,
+                gameVersion: gameVersion,
                 championName: element.championName,
                 position: element.individualPosition,
                 teamPosition: element.teamPosition,
@@ -402,3 +404,19 @@ export default Login;
 
 // "https://developer.mozilla.org/en-US/docs/Web/API/FormData
 // "https://ed.team/blog/que-es-y-como-utilizar-localstorage-y-sessionstorage"
+
+
+/* 
+version
+https://ddragon.leagueoflegends.com/api/versions.json
+
+puuid
+https://la1.api.riotgames.com/lol/summoner/v4/summoners/by-name/patokuack?api_key=
+
+matchesId
+https://americas.api.riotgames.com/lol/match/v5/matches/by-puuid/BVX2rvI9w7Q4e_L6wR8rj_FF46hUzyKJYd6_qYsSYQEjSaCshX_8S1Ccvs-fFvaH2KfjA15B5ZyYCQ/ids?api_key=
+
+matchInfo
+https://americas.api.riotgames.com/lol/match/v5/matches/LA1_1350783110?api_key=
+
+ */

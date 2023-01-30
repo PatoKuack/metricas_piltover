@@ -229,9 +229,10 @@ const ChampionStats = () => {
       let pointHGAAssistance = "";
   
       const champName = getChampSelected();
+      const versionString = `${lastVersion}`;
   
       for( i=0 ; i<matchInfo.length ; i++ ) {
-        if((matchInfo[i].championName === champName) && (matchInfo[i].summonerInfo.version === lastVersion) && (matchInfo[i].summonerInfo.name === summonerInfo.name)){
+        if((matchInfo[i].championName === champName) && (matchInfo[i].gameVersion.startsWith(versionString.split(".")[0])) && (matchInfo[i].summonerInfo.name === summonerInfo.name)){
           damageDealtMagicGPY.push(matchInfo[i].magicDamageDealt);
           damageDealtPhysicalGPY.push(matchInfo[i].physicalDamageDealt);
           damageDealtTrueGPY.push(matchInfo[i].trueDamageDealt);
