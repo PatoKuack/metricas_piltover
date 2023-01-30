@@ -172,7 +172,7 @@ const Login = () => {
       const dataMatches = await resultMatches.json();
       let addDataMatches = matchInfo;
       let addMatchId = matchIdList;
-      for(let i=dataMatches.length; i>0; i--){
+      for(let i=(dataMatches.length - 1); i>=0; i--){
         let individualMatchId = dataMatches[i];
         const match_URL = `https://${summonerInfo.region}/lol/match/v5/matches/${individualMatchId}?api_key=${API_KEY}`;
         const resultMInfo = await fetch(match_URL);
