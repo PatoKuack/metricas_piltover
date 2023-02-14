@@ -18,7 +18,7 @@ const useGetValues = () => {
         status: 0
   });
   const [matchIdList, setMatchIdList] = useState([]);
-  const [matchInfo, setMatchInfo] = useState({});
+  const [matchInfo, setMatchInfo] = useState([]);
   const [confirmationSaveData, setConfirmationSaveData] = useState(false);
   
   
