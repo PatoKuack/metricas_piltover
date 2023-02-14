@@ -7,10 +7,9 @@ import { NavLink } from 'react-router-dom';
 
 const Login = () => {
 
-  const [API_KEY, setAPI_KEY] = useState(`${process.env.API_KEY}`);
   // const API_KEY = `${process.env.API_KEY}`;
-  console.log(`variable de ambiente: ...${process.env.OSO}`);
-  // const API_KEY = '';
+  // console.log(`variable de ambiente: ...${process.env.OSO}`);
+  const API_KEY = 'RGAPI-8cdbae73-3306-4926-8210-eaf1b7577be1';
 
   const {
     lastVersion,
@@ -24,31 +23,19 @@ const Login = () => {
     matchIdList,
     setMatchIdList,
     matchInfo,
-    setMatchInfo
+    setMatchInfo,
+    confirmationSaveData,
+    setConfirmationSaveData
   } = useContext(AppContext);
 
-  /* const [lastVersion, setLastVersion] = useState('');
-  const [headerToggle, setHeaderToggle] = useState(false);
-  const [loadingMatchInfo, setLoadingMatchInfo] = useState(false);
-  const [summonerInfo, setSummonerInfo] = useState({
-        version: '',
-        region: '',
-        platform: '',
-        language: '',
-        puuid: '',
-        name: 'Usuario',
-        level: 'Nivel',
-        iconURL: `https://ddragon.leagueoflegends.com/cdn/12.22.1/img/profileicon/4368.png`,
-        status: 0
-  });
-  const [matchIdList, setMatchIdList] = useState([]);
-  const [matchInfo, setMatchInfo] = useState({}); */
-
+  /*
+  const [API_KEY, setAPI_KEY] = useState(`${process.env.API_KEY}`);
   const getApiKey = useRef(`${process.env.API_KEY}`);
   function getKey() {
     let key = getApiKey.current.value;
     setAPI_KEY(key);
   }
+  */
 
   const version_URL = "https://ddragon.leagueoflegends.com/api/versions.json";
   async function versionInfo() {
@@ -81,11 +68,21 @@ const Login = () => {
     }
   }
   
+  const confirmSaveData = useRef(false);
+  function changeConfirmationSaveData() {
+    if(!localStorage.LOL_DATA_V1) {
+      getLSItem('LOL_LIST_V1', [], setMatchIdList);
+      getLSItem('LOL_DATA_V1', [], setMatchInfo);
+    }
+    setConfirmationSaveData(confirmSaveData.current.checked);
+  }
   const saveLSItem = (itemName, newItem, itemSetState) => {
     try {
-      const stringifyItem = JSON.stringify(newItem);
-      localStorage.setItem(itemName, stringifyItem);
-      itemSetState(newItem);
+      if(confirmationSaveData) {
+        const stringifyItem = JSON.stringify(newItem);
+        localStorage.setItem(itemName, stringifyItem);
+        itemSetState(newItem);
+      }
     } catch(error) {
       console.log(error);
     }
@@ -93,8 +90,6 @@ const Login = () => {
 
   useEffect(() => {
     versionInfo();
-    getLSItem('LOL_DATA_V1', [], setMatchInfo);
-    getLSItem('LOL_LIST_V1', [], setMatchIdList);
   }, []);
   
   const loginForm = useRef(null);
@@ -295,18 +290,14 @@ const Login = () => {
       {headerToggle && <Header />}
       <h1 className="pt-6 text-2xl text-center sm:text-3xl">Acceso al perfil</h1>
       {/* <p className='p-2 mx-auto my-4 text-xs text-center text-amber-200 italic bg-gradient-to-r from-gray-800 via-gray-800 rounded-md rounded-md sm:text-sm sm:max-w-[500px]'><b>Métricas Piltover</b> is <b>not endorsed</b> by <b>Riot Games</b> and does not reflect the views or opinions of <b>Riot Games</b> or anyone officially involved in producing or managing Riot Games properties. Riot Games and all associated properties are trademarks or registered trademarks of Riot Games, Inc.</p> */}
-      <p className='p-2 mx-auto my-4 text-xs text-center text-amber-200 italic bg-gradient-to-r from-gray-800 via-gray-800 rounded-md rounded-md sm:text-sm sm:max-w-[500px]'>
+      {/* <p className='p-2 mx-auto my-4 text-xs text-center text-amber-200 italic bg-gradient-to-r from-gray-800 via-gray-800 rounded-md rounded-md sm:text-sm sm:max-w-[500px]'>
         <b>Métricas Piltover no cuenta</b> con el respaldo de <b>Riot Games</b> y <b>no refleja</b> los puntos de vista ni las opiniones de <b>Riot Games</b> ni de ninguna persona involucrada oficialmente en la producción o administración de las propiedades de Riot Games. Riot Games y todas las propiedades asociadas son marcas comerciales o marcas comerciales registradas de Riot Games, Inc.<br/>
         <button className='mt-1 border border-gray-400 border-solid rounded-md bg-teal-600 shadow-md shadow-gray-500 hover:bg-teal-700 hover:shadow-gray-600 active:bg-teal-800 active:shadow-transparent' >
           <NavLink to={ '/riot.txt' } className="block px-2 py-1">
             Ver riot.txt
           </NavLink>
         </button>
-      </p>
-      <p className='p-2 mx-auto my-4 text-xs text-center text-amber-200 italic bg-gradient-to-r from-gray-800 via-gray-800 rounded-md rounded-md sm:text-sm sm:max-w-[500px]'>
-        <label htmlFor="apikey" className="w-fit mr-2">Ingresa tu API key:</label>
-        <input type="text" name="apikey" id="apikey" className="min-w-min max-w-fit my-2 px-1 bg-teal-100 text-teal-800 rounded-sm sm:my-0 sm:mx-2" placeholder="ej: RGAPI-########-####..." onChange={getKey} ref={getApiKey} />
-      </p>
+      </p> */}
 
       <div className="flex flex-col space-y-8 justify-center content-center items-center w-fit max-w-[100vw] mx-auto px-4 py-8 md:flex-row md:space-x-16 lg:space-x-32 md:space-y-0 sm:py-12">
 
@@ -374,7 +365,13 @@ const Login = () => {
               <option value="zh_TW">ภาษาจีนกลาง (ประเทศไต้หวัน)</option>
             </select>
           </div>
-          {/* <button type="button" id="verifyLoginButton" className="w-fit self-center mt-8 px-4 py-2 bg-teal-600 border border-solid border-current rounded-md shadow-md shadow-gray-300 hover:bg-teal-700 hover:shadow-gray-400 active:bg-teal-800 active:shadow-transparent" onClick={getFormInfo}>Verificar</button> */}
+          <div className="flex flex-col w-fit sm:flex-row sm:mt-4">
+            <label htmlFor="saveData" className="w-fit mr-2">Salvar datos al cargarlos: </label>
+            <div className="relative w-6 h-6 px-1 py-0 mx-0 my-2 bg-teal-200 rounded-sm sm:my-0">
+              <input type="checkbox" name="saveData" id="saveData" className="absolute right-0 top-0 w-6 h-6 cursor-pointer opacity-40" ref={confirmSaveData} onChange={changeConfirmationSaveData} />
+            </div>
+          </div>
+          {/* className="w-fit self-center mt-8 px-4 py-2 bg-teal-600 border border-solid border-current rounded-md shadow-md shadow-gray-300 hover:bg-teal-700 hover:shadow-gray-400 active:bg-teal-800 active:shadow-transparent" */}
         </form>
 
         <LoginConfirmation 
@@ -419,4 +416,6 @@ https://americas.api.riotgames.com/lol/match/v5/matches/by-puuid/BVX2rvI9w7Q4e_L
 matchInfo
 https://americas.api.riotgames.com/lol/match/v5/matches/LA1_1350783110?api_key=
 
+useRef, ref (hooks)
+https://reactjs.org/docs/hooks-reference.html#useref
  */

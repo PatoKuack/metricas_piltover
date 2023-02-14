@@ -19,6 +19,7 @@ const useGetValues = () => {
   });
   const [matchIdList, setMatchIdList] = useState([]);
   const [matchInfo, setMatchInfo] = useState({});
+  const [confirmationSaveData, setConfirmationSaveData] = useState(false);
   
   
   const [championList, setChampionList] = useState([]);
@@ -39,6 +40,8 @@ const useGetValues = () => {
     setMatchIdList,
     matchInfo,
     setMatchInfo,
+    confirmationSaveData,
+    setConfirmationSaveData,
 
     championList,
     setChampionList,
