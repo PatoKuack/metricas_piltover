@@ -70,9 +70,9 @@ const Login = () => {
   
   const confirmSaveData = useRef(false);
   function changeConfirmationSaveData() {
-    if(!localStorage.LOL_DATA_V1) {
-      getLSItem('LOL_LIST_V1', [], setMatchIdList);
-      getLSItem('LOL_DATA_V1', [], setMatchInfo);
+    if(!localStorage.LOL_DATA_V2) {
+      getLSItem('LOL_LIST_V2', [], setMatchIdList);
+      getLSItem('LOL_DATA_V2', [], setMatchInfo);
     }
     setConfirmationSaveData(confirmSaveData.current.checked);
   }
@@ -96,9 +96,17 @@ const Login = () => {
   const getFormInfo = (event) => {
     event.preventDefault();
     const formData = new FormData(loginForm.current);
+    /* Si no carga todo el nombre del campo, es decir, si carga "xox" y no "xoxo", se utilizará el useRef : */
+    let currentSummonerName;
+    if (inputSummonerName.current.value !== formData.get('summonerName')) {
+      currentSummonerName = inputSummonerName.current.value;
+    } else {
+      currentSummonerName = formData.get('summonerName');
+    }
+    /* ----------------------------- */
     const loginData = {
       version: lastVersion,
-      summonerName: formData.get('summonerName').toLowerCase().replaceAll(' ', ''),
+      summonerName: currentSummonerName.toLowerCase().replaceAll(' ', ''),
       summonerRegion: formData.get('summonerRegion'),
       summonerPlatform: formData.get('summonerPlatform'),
       summonerLanguage: formData.get('summonerLanguage')
@@ -118,6 +126,7 @@ const Login = () => {
     }
   }
 
+  const inputSummonerName = useRef("");
   async function getSummonerInfo( sName, sRegion, sPlatform, sLanguage ) {
     try {
       const summoner_URL =`https://${sPlatform}/lol/summoner/v4/summoners/by-name/${sName}?api_key=${API_KEY}`;
@@ -239,8 +248,8 @@ const Login = () => {
       if(resultMatches.status !== 200) {
         console.log(resultMatches.status + dataMatches.message);
       } else{
-        saveLSItem('LOL_DATA_V1', addDataMatches, setMatchInfo);
-        saveLSItem('LOL_LIST_V1', addMatchId, setMatchIdList);
+        saveLSItem('LOL_DATA_V2', addDataMatches, setMatchInfo);
+        saveLSItem('LOL_LIST_V2', addMatchId, setMatchIdList);
         // console.log(matchInfo);
         console.log("No errors getting the matches' data");
       }
@@ -272,7 +281,7 @@ const Login = () => {
   }
 
   function clearConsole() {
-    /* if (typeof console._commandLineAPI !== 'undefined') {
+    if (typeof console._commandLineAPI !== 'undefined') {
       console.API = console._commandLineAPI;
     } else if (typeof console._inspectorCommandLineAPI !== 'undefined') {
       console.API = console._inspectorCommandLineAPI;
@@ -282,13 +291,16 @@ const Login = () => {
 
     if (console.API) {
       setTimeout(console.API.clear.bind(console));
-    } */
+    }
   }
 
   return (
     <React.Fragment>
       {headerToggle && <Header />}
       <h1 className="pt-6 text-2xl text-center sm:text-3xl">Acceso al perfil</h1>
+      <p className='p-2 mx-auto my-4 text-xs text-center text-amber-200 italic bg-gradient-to-r from-gray-800 via-gray-800 rounded-md rounded-md sm:text-sm sm:max-w-[500px]'>
+        Solo se cargan los datos de las últimas 20 partidas que durarón más de 15:00 minutos y que hayan sido clasicas 5v5 o clasificatorias.
+      </p>
       {/* <p className='p-2 mx-auto my-4 text-xs text-center text-amber-200 italic bg-gradient-to-r from-gray-800 via-gray-800 rounded-md rounded-md sm:text-sm sm:max-w-[500px]'><b>Métricas Piltover</b> is <b>not endorsed</b> by <b>Riot Games</b> and does not reflect the views or opinions of <b>Riot Games</b> or anyone officially involved in producing or managing Riot Games properties. Riot Games and all associated properties are trademarks or registered trademarks of Riot Games, Inc.</p> */}
       {/* <p className='p-2 mx-auto my-4 text-xs text-center text-amber-200 italic bg-gradient-to-r from-gray-800 via-gray-800 rounded-md rounded-md sm:text-sm sm:max-w-[500px]'>
         <b>Métricas Piltover no cuenta</b> con el respaldo de <b>Riot Games</b> y <b>no refleja</b> los puntos de vista ni las opiniones de <b>Riot Games</b> ni de ninguna persona involucrada oficialmente en la producción o administración de las propiedades de Riot Games. Riot Games y todas las propiedades asociadas son marcas comerciales o marcas comerciales registradas de Riot Games, Inc.<br/>
@@ -304,7 +316,7 @@ const Login = () => {
         <form className="w-fit h-fit flex flex-col items-start" action="/" ref={loginForm}>
           <div className="flex flex-col w-fit sm:flex-row sm:mt-4">
             <label htmlFor="summonerName" className="w-fit mr-2">Ingresa tu nombre de jugador:</label>
-            <input name="summonerName" id="summonerName" className="min-w-min max-w-fit my-2 px-1 bg-teal-100 text-teal-800 rounded-sm sm:my-0 sm:mx-2" placeholder="ej: xoxo" onKeyDown={handleKeyDown} onChange={getFormInfo} />
+            <input name="summonerName" id="summonerName" className="min-w-min max-w-fit my-2 px-1 bg-teal-100 text-teal-800 rounded-sm sm:my-0 sm:mx-2" placeholder="ej: xoxo" ref={inputSummonerName} onKeyDown={handleKeyDown} onChange={getFormInfo} />
           </div>
           <p className="text-xs max-w-[218px] px-2 py-1 italic bg-gradient-to-r from-gray-800 via-gray-800 rounded-md sm:text-sm sm:max-w-full sm:mt-1">No importa si colocas o no espacios, mayúsculas o minúsculas.</p>
           <div className="flex flex-col w-fit sm:flex-row sm:mt-4">
@@ -366,11 +378,15 @@ const Login = () => {
             </select>
           </div>
           <div className="flex flex-col w-fit sm:flex-row sm:mt-4">
-            <label htmlFor="saveData" className="w-fit mr-2">Salvar datos al cargarlos: </label>
+            <label htmlFor="saveData" className="w-fit mr-2">Guardar datos al cargarlos: </label>
             <div className="relative w-6 h-6 px-1 py-0 mx-0 my-2 bg-teal-200 rounded-sm sm:my-0">
               <input type="checkbox" name="saveData" id="saveData" className="absolute right-0 top-0 w-6 h-6 cursor-pointer opacity-40" ref={confirmSaveData} onChange={changeConfirmationSaveData} />
             </div>
           </div>
+          <p className="text-xs max-w-[218px] px-2 py-1 italic bg-gradient-to-r from-gray-800 via-gray-800 rounded-md sm:text-sm sm:max-w-full sm:mt-1">
+            Esta última opción guarda los datos en tu navegador para que puedas <br/>
+            visualizarlos en el futuro junto con los datos de nuevas partidas. 👀
+          </p>
           {/* className="w-fit self-center mt-8 px-4 py-2 bg-teal-600 border border-solid border-current rounded-md shadow-md shadow-gray-300 hover:bg-teal-700 hover:shadow-gray-400 active:bg-teal-800 active:shadow-transparent" */}
         </form>
 
