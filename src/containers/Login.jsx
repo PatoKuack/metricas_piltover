@@ -9,7 +9,7 @@ const Login = () => {
 
   // const API_KEY = `${process.env.API_KEY}`;
   // console.log(`variable de ambiente: ...${process.env.OSO}`);
-  const API_KEY = 'RGAPI-7568e6b4-d0ce-4a51-8659-77f864e73a7e';
+  const API_KEY = 'RGAPI-8c7fe74c-4603-4fea-9f03-c8208eb8b33a';
 
   const {
     lastVersion,
@@ -431,7 +431,4 @@ https://americas.api.riotgames.com/lol/match/v5/matches/by-puuid/BVX2rvI9w7Q4e_L
 
 matchInfo
 https://americas.api.riotgames.com/lol/match/v5/matches/LA1_1350783110?api_key=
-
-useRef, ref (hooks)
-https://reactjs.org/docs/hooks-reference.html#useref
- */
+*/
