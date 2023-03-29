@@ -9,7 +9,7 @@ const Login = () => {
 
   // const API_KEY = `${process.env.API_KEY}`;
   // console.log(`variable de ambiente: ...${process.env.OSO}`);
-  const API_KEY = 'RGAPI-02fb06b4-3e9a-4c60-80a6-4317423ee01c';
+  const API_KEY = 'RGAPI-acfdcfc3-fb9e-4f38-9f0b-07118add5e6c';
 
   const {
     lastVersion,
@@ -298,7 +298,7 @@ const Login = () => {
     <React.Fragment>
       {headerToggle && <Header />}
       <h1 className="pt-6 text-2xl text-center sm:text-3xl">Acceso al perfil</h1>
-      <p className='p-2 mx-auto my-4 text-xs text-center text-amber-200 italic bg-gradient-to-r from-gray-800 via-gray-800 rounded-md rounded-md sm:text-sm sm:max-w-[500px]'>
+      <p className='p-2 mx-auto my-4 text-xs text-center text-amber-200 italic bg-gradient-to-r from-gray-800 via-gray-800 rounded-md sm:text-sm sm:max-w-[500px]'>
         Solo se cargan los datos de las últimas 20 partidas que durarón más de 15:00 minutos y que hayan sido clasicas 5v5 o clasificatorias.
       </p>
       {/* <p className='p-2 mx-auto my-4 text-xs text-center text-amber-200 italic bg-gradient-to-r from-gray-800 via-gray-800 rounded-md rounded-md sm:text-sm sm:max-w-[500px]'><b>Métricas Piltover</b> is <b>not endorsed</b> by <b>Riot Games</b> and does not reflect the views or opinions of <b>Riot Games</b> or anyone officially involved in producing or managing Riot Games properties. Riot Games and all associated properties are trademarks or registered trademarks of Riot Games, Inc.</p> */}
